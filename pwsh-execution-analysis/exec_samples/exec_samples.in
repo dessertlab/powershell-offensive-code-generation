@@ -1,0 +1,35 @@
+8 Invoke a credential phishing attack.
+12 Invoke PowerShell expression to download and execute a script from a specified URL.
+17 Invoke Expression to download and execute an obfuscated PowerShell script from a GitHub repository.
+21 Download and execute a script using Invoke-Command with a defined script block.
+23 Execute Invoke-Mimikatz cmdlet with bypass execution policy.
+24 Retrieve information using Get-WmiObject and export the results to a CSV file.
+25 Download and execute a PowerShell script from a GitHub repository with hidden window style.
+30 Perform RID Hijacking with a specified user (alice) and RID (500).
+34 Invoke-Mimikatz cmdlet with bypassed execution policy.
+35 Invoke Expression to download and execute an obfuscated PowerShell script from a GitHub repository.
+43 Execute a PowerShell command with bypassed execution policy and download a script from a specified URL.
+44 Retrieve browser information, including history, for a specified user and search term.
+47 Execute a hidden PowerShell command with bypassed execution policy and download a script from a specified URL.
+54 Retrieve information about Win32 groups using WMI.
+55 Get the current date in a specific format.
+59 Create a payload with Unicode-encoded Mimikatz command.
+63 Invoke-Mimikatz cmdlet with bypassed execution policy.
+68 Download PowerShell script and execute it using Invoke-Expression.
+69 Retrieve information about Win32_UserAccount using WMI.
+77 Execute PowerShell with specific options and download script from a URL using Invoke-WebRequest.
+79 Set a property in the Windows registry related to Winlogon with the specified values.
+81 List the contents of the current directory.
+88 Perform password spraying attack (assuming that passwords might be re-used elsewhere), Search for string pattern in registry, The following PowerShell command will sift through the selected registry hives (HKCR, HKCU, HKLM, HKU, and HKCC) and recursively search for any chosen pattern within the registry key names or data values. In this case we are searching for the 'password' pattern:
+91 Here's an example of dumping local password hashes (hashdump) using nishang Get-PassHashes module:
+95 Get GPO of an OU
+97 PortForwarding Since we have Local Administrator on the intermediate target bizintel: 10.35.8.17, you can add a port forwarding rule to send your requests to the final/third server secdev: 10.35.8.23.  Can quickly use netsh to rip out a one-liner and add the rule.
+98 Find configuration files containing 'password' string, With this command we can locate files containing a certain pattern, e.g. here were are looking for a 'password' pattern in various textual configuration files:
+100 Host discovery using mass DNS reverse lookup, Using this command we can perform quick reverse DNS lookup on the 10.10.1.0/24 subnet and see if there are any resolvable (potentially alive) hosts.The results will be then saved in the ip_hostname.txt file in the current working directory.
+102 Create a guest SMB shared drive, Here's a cool trick to quickly start a SMB (CIFS) network shared drive accessible by anyone:
+103 Using Alternate Data Streams for Evasion, Hides malicious commands or data in alternate data streams of files, which is a method often used to evade detection.
+104 Get SID of the current user, The following command will return SID value of the current user, Check if we are running with elevated (admin) privileges:
+105 File Path Obfuscation, Obfuscates a file path using Base64 encoding, making it harder to detect malicious file paths or commands.
+108 Get info of current forest (no external)
+110 Utilizing PowerShell Add-Type for Code Execution, Defines and executes code within a custom .NET class using PowerShell, which can be used to hide malicious activities within seemingly benign code.
+112 Allow Remote Desktop connections, Allow RDP on the firewall

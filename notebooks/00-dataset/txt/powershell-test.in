@@ -1,0 +1,113 @@
+Perform RID Hijacking using the guest account with RID 1001 and specified password.
+Import a PowerShell module and use it to exfiltrate data via DNS.
+Execute a PowerShell script with specific execution policy and hidden window style.
+Invoke compiled HTML Help (CHM) file with specific storage handler, HH file path, and CHM file path.
+Invoke a backdoor through a shortcut (LNK) file and perform cleanup.
+Clear event logs on the system.
+Execute a command using PsExec, updating a trace session with specified parameters.
+Invoke a credential phishing attack.
+Download a file and save it to the temporary directory.
+Create and execute a PowerShell process with a malicious payload encoded in Base64.
+Invoke a PowerShell command on a remote system.
+Invoke PowerShell expression to download and execute a script from a specified URL.
+Start recording webcam for a specified duration and save the video to a specified path.
+Execute a malicious PowerShell command to download and execute a script from a specified URL.
+Import a module, export ADFS certificates, filter files, and display success message.
+Execute a hidden PowerShell command with a Base64-encoded payload.
+Invoke Expression to download and execute an obfuscated PowerShell script from a GitHub repository.
+List files recursively using different aliases of the Get-ChildItem cmdlet.
+Execute a hidden PowerShell command with a script downloaded from a specified website.
+Exploit Jenkins server with specified host and port, running a command to display network statistics.
+Download and execute a script using Invoke-Command with a defined script block.
+Invoke a web request to download a potentially unwanted application (PUA) and execute it.
+Execute Invoke-Mimikatz cmdlet with bypass execution policy.
+Retrieve information using Get-WmiObject and export the results to a CSV file.
+Download and execute a PowerShell script from a GitHub repository with hidden window style.
+Invoke a PowerShell command on a remote system with a specified hostname.
+Invoke PowerShell expression to download and execute a script from a specified URL.
+Invoke an HTML Application (HTA) with specified file path, script engine, and simulate a user double-click.
+Download a file from a specified URL and save it to a local path.
+Perform RID Hijacking with a specified user (alice) and RID (500).
+Create a PSBypass object and use it to execute Invoke-Mimikatz to dump credentials.
+Download and execute a PowerShell script with hidden window style.
+Execute a PowerShell script with bypassed execution policy from a specified file path.
+Invoke-Mimikatz cmdlet with bypassed execution policy.
+Invoke Expression to download and execute an obfuscated PowerShell script from a GitHub repository.
+Change directory to the temporary folder and execute Kerbrute for Kerberos brute force against a specified domain controller and domain.
+Execute a PowerShell script with bypassed execution policy from a specified file path.
+Use NinjaCopy to copy a file from a source path to a local destination.
+Invoke Mimikatz to dump credentials and execute a Meterpreter payload with specified host and port.
+Start a process with nsudo, wait for 5 seconds, and forcefully stop the CMD process.
+Download and execute a script using Invoke-Command with Invoke-Expression.
+Invoke PowerShell expression to download and execute a script from a specified URL.
+Execute a PowerShell command with bypassed execution policy and download a script from a specified URL.
+Retrieve browser information, including history, for a specified user and search term.
+Execute a PowerShell script to turn off Wi-Fi.
+Execute a PowerShell command with bypassed execution policy and download a script from a specified URL.
+Execute a hidden PowerShell command with bypassed execution policy and download a script from a specified URL.
+Create a compressed tar archive of a specified Git directory and write the archive path to the console.
+Retrieve content from a file, get Windows updates, format the table, and display information.
+Execute a hidden PowerShell command with bypassed execution policy and download a script from a GitHub repository.
+Use netsh to set up port forwarding from a specified listen port to a specified connect port and address.
+Set environment variables and sleep for 1 second using PowerShell.
+Perform RID Hijacking with specified user, RID, password, and enable the attack.
+Retrieve information about Win32 groups using WMI.
+Get the current date in a specific format.
+Execute a Python script with specified filename and IP address as arguments.
+Execute a PowerShell script with bypassed execution policy from a specified file path.
+Bypass WScript execution policy and execute a PowerShell payload with specified parameters.
+Create a payload with Unicode-encoded Mimikatz command.
+Invoke token manipulation to create a new process (cmd.exe) with a specified thread ID.
+Execute Inveigh PowerShell script to perform network analysis and attacks on the local network.
+Execute a Python script with specified filename and host IP address as arguments.
+Invoke-Mimikatz cmdlet with bypassed execution policy.
+Start a process with DirLister, wait for 4 seconds, and stop the DirLister process.
+Start a process with WebBrowserPassView, wait for 4 seconds, and stop the WebBrowserPassView process.
+Invoke compiled help with specified parameters.
+Create elevated persistence option with WMI, daily execution at 3 PM.
+Download PowerShell script and execute it using Invoke-Expression.
+Retrieve information about Win32_UserAccount using WMI.
+Invoke Mimikatz to dump credentials and execute shellcode with specified parameters.
+Retrieve indexed items that contain 'Stingray' in the filter, are of kind 'picture', and have keywords 'portfolio'.
+Set preferences for script block logging, error action, and verbose preferences, then invoke an unspecified command.
+Invoke shellcode with specified shellcode bytes.
+Execute PowerShell with specific options and download script from a URL.
+Invoke HTML application with specified script engine, inline protocol handler, use of Rundll32, and Rundll32 file path.
+Invoke an unspecified command with specified file paths and an XML payload.
+Execute PowerShell with specific options and download script from a URL using Invoke-WebRequest.
+View network resources on a remote host with the specified fully qualified domain name.
+Set a property in the Windows registry related to Winlogon with the specified values.
+Invoke command on a specified target computer to download and execute a PowerShell script from a URL.
+List the contents of the current directory.
+Import a certificate from a specified path, move it to the Cert:\LocalMachine\Root store, and assign it to the $cert variable.
+Invoke a method on the Win32_Product class with specified action and arguments.
+Invoke the execution of MSBuild.
+Get the wininit process and perform token manipulation to create a new process for 'cmd.exe'.
+Get info about the current domain
+Generate golden ticket using the krbtgt hash of the child domain, the child domain SID and the root domain SID
+Perform password spraying attack (assuming that passwords might be re-used elsewhere), Search for string pattern in registry, The following PowerShell command will sift through the selected registry hives (HKCR, HKCU, HKLM, HKU, and HKCC) and recursively search for any chosen pattern within the registry key names or data values. In this case we are searching for the 'password' pattern:
+Get a PSSession
+String Obfuscation, Obfuscates a string (e.g., a command) using Base64 encoding to evade detection by security tools.
+Here's an example of dumping local password hashes (hashdump) using nishang Get-PassHashes module:
+Function Renaming for Evasion, Renames a PowerShell function to something less conspicuous, which can help in evading script analysis and monitoring tools.
+Full way impersonating the user, Use this inter-realm TGT to request a TGS in the target domain to access the CIFS service of the DC
+Try to escalate privileges on an instance
+Get GPO of an OU
+Capturing Keystrokes, Captures and logs keystrokes to a file, which can be used for gathering sensitive information like passwords.
+PortForwarding Since we have Local Administrator on the intermediate target bizintel: 10.35.8.17, you can add a port forwarding rule to send your requests to the final/third server secdev: 10.35.8.23.  Can quickly use netsh to rip out a one-liner and add the rule.
+Find configuration files containing 'password' string, With this command we can locate files containing a certain pattern, e.g. here were are looking for a 'password' pattern in various textual configuration files:
+Search readable shares
+Host discovery using mass DNS reverse lookup, Using this command we can perform quick reverse DNS lookup on the 10.10.1.0/24 subnet and see if there are any resolvable (potentially alive) hosts.The results will be then saved in the ip_hostname.txt file in the current working directory.
+Automatic using raiseChild.py This is an Impacket script which will automate escalating from child to parent domain. The script needs:   Target domain controller  Creds for an admin user in the child domain  The flow is:   Obtains the SID for the Enterprise Admins group of the parent domain  Retrieves the hash for the KRBTGT account in the child domain  Creates a Golden Ticket  Logs into the parent domain  Retrieves credentials for the Administrator account in the parent domain  If the `target-exec` switch is specified, it authenticates to the parent domain's Domain Controller via Psexec.
+Create a guest SMB shared drive, Here's a cool trick to quickly start a SMB (CIFS) network shared drive accessible by anyone:
+Using Alternate Data Streams for Evasion, Hides malicious commands or data in alternate data streams of files, which is a method often used to evade detection.
+Get SID of the current user, The following command will return SID value of the current user, Check if we are running with elevated (admin) privileges:
+File Path Obfuscation, Obfuscates a file path using Base64 encoding, making it harder to detect malicious file paths or commands.
+In-Memory Script Execution, Executes a PowerShell script entirely in memory without writing to disk, helping to evade file-based detection mechanisms.
+Allow Remote Desktop connections, Disable NLA
+Get info of current forest (no external)
+Invoke Windows API for Keylogging, This script uses a Windows API call to check the state of each key on the keyboard, effectively logging keystrokes. It can be used to capture user input.
+Utilizing PowerShell Add-Type for Code Execution, Defines and executes code within a custom .NET class using PowerShell, which can be used to hide malicious activities within seemingly benign code.
+This PowerShell command downloads and executes a script from the specified URL (http://10.9.122.8:8080/AZPLhG9txdFhS9n), configuring a web client with system proxy settings and default credentials.
+Allow Remote Desktop connections, Allow RDP on the firewall
+Get DBs, test connections and get info in oneliner

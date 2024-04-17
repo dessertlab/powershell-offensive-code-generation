@@ -1,0 +1,113 @@
+Execute PowerShell code retrieved from a remote URL.
+Download and execute a PowerShell script from a malicious URL.
+Retrieve local group information and its members for the "Administrators" group.
+Execute Mimikatz tool in PowerShell to extract credentials.
+Download and execute a PowerShell script from a remote URL with bypassing script execution policy.
+Download and execute a PowerShell script from a potentially malicious GitHub repository.
+Download and execute a PowerShell script from a potentially malicious Git repository.
+Download and execute a PowerShell script from a potentially dangerous website.
+Retrieve browser history information for the user "Charlie" with the specified search term.
+Retrieve LAPS (Local Administrator Password Solution) passwords from a specified domain controller for the administrator account and format the output as a table.
+Perform RID (Relative Identifier) hijacking with the Guest account and RID value 1001.
+Download and execute a PowerShell script from a remote URL.
+Execute a PowerShell script located at ${file_path}\Get-Inbox.ps1 with specified parameters.
+Ping a specified IP address by sending data read from a file.
+Execute a command involving the IME (Input Method Editor) component on a remote system.
+Import the PowerView module and retrieve information about the domain, converting the output to JSON format.
+Add a certificate to the "Personal" certificate store using certutil.
+Import a module and perform Office 365 credential spraying using MSOLSpray.
+Download and execute a PowerShell script from a remote URL using Invoke-Expression.
+Retrieve Active Directory objects based on a specified LDAP filter and server.
+Dump the memory of the lsass process using Out-Minidump.
+Copy a file from a remote system to a local temporary directory.
+Append the output of the "tasklist /m" command to a log file and then display the content of the log file.
+Download and execute the PowerUp.ps1 script from the PowerSploit GitHub repository with hidden window and bypassing execution policy.
+Retrieve the names of groups using Windows Management Instrumentation (WMI).
+Download and execute a PowerShell script from a remote URL with bypassing execution policy.
+Search for files containing the string "pass" in specified file types and recursively list files containing the string "password."
+Start a new PowerShell process with the specified command.
+Connect to a remote system using evil-winrm with specified destination address, username, and password.
+Connect to a remote system using evil-winrm with specified destination address, username, and password.
+Download and execute a PowerShell script from a remote URL using a dynamically constructed code block.
+Start a new PowerShell process to download and execute a script from a remote URL.
+Execute a PowerShell script file (template.ps1) with bypassing execution policy and without loading a user profile.
+Download and execute a PowerShell script from a remote URL with hidden window and bypassing execution policy.
+Create a new directory named "staged" in the current location and retrieve its full path.
+Attempt to elevate privileges to SYSTEM using a technique related to tokens.
+Dump the memory of a specified process (ID 4293) using Out-Minidump.
+Download and execute a PowerShell script from a remote URL using Invoke-WebRequest and Invoke-Expression.
+Execute shellcode using the Invoke-Shellcode command.
+Start a process with specific parameters under a specified parent process.
+Retrieve the current date and time.
+Create a new elevated persistence option for a scheduled task to run when the system is idle.
+Send an email with specified sender, recipient, subject, attachments, and SMTP server.
+Invoke Inveigh with specified IP, spoofer IP, and HTTP options.
+Modify the PowerShell profile to include a command to start a process, then exit PowerShell.
+Download content from a remote URL and save it to a local file, then open the file using Invoke-Item.
+Execute a command to open WordPad and print a specified file multiple times.
+Import the Inveigh module and invoke it.
+Execute a legitimate-looking executable with specified parameters.
+Execute a command to open the Windows Calculator using cmd.exe.
+Invoke a command on a remote system to download and execute a malicious script from a specified URL.
+Perform a domain password spray attack using a list of usernames and passwords, and save the results to a file.
+Write a message to the console, import a module, and invoke a command related to PowerDump.
+Enable script block logging and command health event logging in PowerShell.
+Import the PowerView module and retrieve local group members on a specified remote host.
+Execute a VBScript using cscript and redirect the output to a text file.
+Start Notepad and another process (InjectView.exe) in the Atomics folder.
+Send an HTTP POST request to a specified IP address with the content of a file as the body.
+Change to the temporary directory, execute Kerbrute to perform user enumeration on a domain controller, and save the results to a file.
+Bypass User Account Control (UAC) and execute commands to create a new user and add it to the administrators group.
+Source and execute a script stored in a Group Policy Preferences (GPP) script path, then retrieve passwords using Get-GPPPassword.
+Execute a PowerShell command encoded in base64.
+Invoke a command on a remote system to download and execute a script from a specified URL.
+Pause execution for 100 seconds.
+Download and execute a PowerShell script from a remote URL with hidden window.
+Start a new CMD process that executes a PowerShell command to download and execute a script from a remote URL.
+Execute a script named "wifi.ps1" with the "-Pref" parameter.
+Retrieve information about the current user and privileges.
+Retrieve browser history information for the user "user1" with the specified search term.
+Download and execute a PowerShell script from a remote server
+Retrieve and sort passwords using PowerShell
+Download and execute a PowerShell script with hidden window style
+Execute GPG (GNU Privacy Guard) command to encrypt a file
+Change directory to temp and run Kerbrute to enumerate domain users
+Register a DLL using odbcconf.exe
+Create a shadow copy using Windows Management Instrumentation (WMI)
+Import PowerView module and retrieve information about network computers
+Compile a MOF file using MOF compiler
+Retrieve information about services, environment variables, and processes
+Perform NetBIOS over TCP/IP (NBT) stat to get information about a remote host
+Create a new registry item for Command Processor AutoRun
+Invoke a PowerShell script block on a remote computer with specific settings
+Download and execute RemoteCertTrust.ps1 script from Atomic Red Team repository
+Invoke Resource SID Hijacking for the specified user, RID, and password
+Invoke a PowerShell script block on a remote computer with malicious code
+Check AdminSDHolder users (users that are protected from ACL changes)
+Extracting Credentials from Windows Credential Manager, This command utilizes the PSCredentialManager module to extract stored credentials from the Windows Credential Manager, focusing on generic credentials.
+Enable SeBackupPrivilege
+Get basic forest info
+Enumerating System Information, This command retrieves detailed information about the operating system, including version, build, and system architecture.
+Knowing the users password Group Managed Service Accounts, So, if gMSA is being used, find if it has special privileges and also check if you have permissions to read the password of the services. You can read this password with GMSAPasswordReader:
+using DAMP, abuses the ACL backdoor set by Add-RemoteRegBackdoor to remotely retrieve the local machine account hash for the specified machine.
+Search computer objects where the ms-Mcs-AdmPwdExpirationTime property is not null (any Domain User can read this property)
+BloodHound tool to perform reconnaissance on the specified Active Directory environment, using the provided credentials for authentication.
+Crawl trusted links, starting from the given one (the user being used by the MSSQL instance is also specified)
+Check you have enough privileges to execute WMI in the victim system
+Disable PowerShell command logging, With the following command(s) we can disable the PowerShell command logging functionality in the current shell session, no command will be recorded in the PowerShell history file:
+Monitoring File System Changes, Sets up a monitor on the file system to track and log any changes, such as file creation, which can be useful for detecting suspicious activity.
+use the SQL Server xp_dirtree extended stored procedure to retrieve a directory listing from the network path '\10.10.17.231\pwn'.
+Enable xp_cmdshell and check it
+Look for MSSQL links of an accessible instance
+Dumping Credentials from Scheduled Tasks, Lists scheduled tasks that are configured to run under specific user accounts, potentially revealing credentials used for task execution.
+Disabling Windows Defender, Disables Windows Defender's real-time monitoring feature, which can help in evading detection.
+Extracting Browser Saved Passwords, Extracts passwords saved in web browsers and saves them to a file, useful for credential harvesting.
+List all namespaces (you may need administrator to list all of them) with WMI
+Retrieving Browser Cookies for Credential Theft, Accesses the Chrome browser's Cookies file, which can contain session cookies that might be exploited for session hijacking.
+WebSocket-Based PowerShell Reverse Shell, Establishes a reverse shell using WebSockets, which can be more stealthy and bypass some network monitoring tools.
+Get stored passwords from Windows Credential Manager, With the following one-liner, we can retrieve all stored credentials from the Credential Manager using the CredentialManager PowerShell module:
+Execute a query in all linked instances (try to execute commands), output should be in CustomQuery field
+Use PSPKI module to approve the request
+Restart WinRM
+Extracting Wi-Fi Profiles and Passwords, Extracts Wi-Fi network profiles and their associated passwords stored on the system.
+Using Windows API for Screen Capturing, This script demonstrates how to use Windows API calls to capture the screen. It can be used for surveillance or information gathering.

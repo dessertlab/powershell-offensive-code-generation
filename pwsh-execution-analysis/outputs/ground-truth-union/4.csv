@@ -1,0 +1,68 @@
+Task,Image,CommandLine,TargetFilename,ImageLoaded,PipeName,QueryName,EventType,TargetObject,DestinationIp,DestinationPort
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Data.Common.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.ComponentModel.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\wintrust.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\crypt32.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\msasn1.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\cryptsp.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\rsaenh.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\cryptbase.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\msisip.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\wshext.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\AppxSip.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\OpcServices.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\WindowsPowerShell\v1.0\pwrshsip.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Console.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Security.Principal.Windows.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Security.Claims.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\Microsoft.ApplicationInsights.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Diagnostics.DiagnosticSource.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.IO.MemoryMappedFiles.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Private.Xml.Linq.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.IO.Pipes.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Threading.Tasks.Parallel.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.IO.FileSystem.AccessControl.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.IO.FileSystem.DriveInfo.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Security.Permissions.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Text.Encoding.CodePages.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\Microsoft.PowerShell.Commands.Utility.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\Microsoft.PowerShell.MarkdownRender.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Net.Http.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\secur32.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\sspicli.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Collections.NonGeneric.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\mpr.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Diagnostics.StackTrace.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpClient.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\gpapi.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\Microsoft.PowerShell.Commands.Management.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Net.WebClient.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.ComponentModel.EventBasedAsync.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Net.WebHeaderCollection.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Net.Requests.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Net.ServicePoint.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Net.Security.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Net.Quic.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Net.Sockets.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Net.NameResolution.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\winhttp.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\IPHLPAPI.DLL,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\nsi.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\dhcpcsvc6.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\dhcpcsvc.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\ws2_32.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\OnDemandConnRouteHelper.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\msquic.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\winmm.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\mswsock.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\wshunix.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\dnsapi.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\rasadhlp.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\FWPUCLNT.DLL,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\schannel.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\mskeyprotect.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\ntasn1.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\ncrypt.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\ncryptsslp.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Reflection.Metadata.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Collections.Immutable.dll,-,-,-,-,-,-

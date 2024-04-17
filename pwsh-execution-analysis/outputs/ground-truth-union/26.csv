@@ -1,0 +1,137 @@
+Task,Image,CommandLine,TargetFilename,ImageLoaded,PipeName,QueryName,EventType,TargetObject,DestinationIp,DestinationPort
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Data.Common.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.ComponentModel.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\wintrust.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\crypt32.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\msasn1.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\cryptsp.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\rsaenh.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\cryptbase.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\msisip.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\wshext.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\AppxSip.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\OpcServices.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\WindowsPowerShell\v1.0\pwrshsip.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Console.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Security.Principal.Windows.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Security.Claims.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\Microsoft.ApplicationInsights.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Diagnostics.DiagnosticSource.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.IO.MemoryMappedFiles.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Private.Xml.Linq.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.IO.Pipes.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Threading.Tasks.Parallel.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.IO.FileSystem.AccessControl.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.IO.FileSystem.DriveInfo.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Security.Permissions.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Text.Encoding.CodePages.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\Microsoft.PowerShell.Commands.Utility.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\Microsoft.PowerShell.MarkdownRender.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Net.Http.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Collections.NonGeneric.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Diagnostics.StackTrace.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\Microsoft.PowerShell.Commands.Management.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Net.WebClient.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.ComponentModel.EventBasedAsync.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Net.WebHeaderCollection.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Net.Requests.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Net.ServicePoint.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Net.Security.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Net.Quic.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Net.Sockets.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Net.NameResolution.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\secur32.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\sspicli.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\Microsoft.Management.Infrastructure.CimCmdlets.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\Microsoft.Management.Infrastructure.Native.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Runtime.CompilerServices.VisualC.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\Microsoft.PowerShell.Security.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\getfilesiginforedistwrapper.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\mpr.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpClient.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Windows\System32\gpapi.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.IO.Compression.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Reflection.Metadata.dll,-,-,-,-,-,-
+7,C:\Program Files\PowerShell\7\pwsh.exe,-,-,C:\Program Files\PowerShell\7\System.Collections.Immutable.dll,-,-,-,-,-,-
+1,C:\Windows\System32\netsh.exe,"""C:\Windows\system32\netsh.exe"" interface portproxy add v4tov4 listenport=5446 listenaddress=10.35.8.17 connectport=5985 connectaddress=10.35.8.23",-,-,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\netsh.exe,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\ws2_32.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\cfgmgr32.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\IPHLPAPI.DLL,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\ifmon.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\mprapi.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\FWPUCLNT.DLL,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\rasapi32.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\rasman.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\rasmontr.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\mfc42u.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\fwpolicyiomgr.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\FirewallAPI.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\dnsapi.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\authfwcfg.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\nsi.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\fwbase.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\dhcpcmonitor.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\ncrypt.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\dot3cfg.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\ntasn1.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\dot3api.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\onex.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\eappprxy.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\NetSetupApi.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\nlaapi.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\eappcfg.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\dhcpcsvc.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\winnsi.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\fwcfg.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\hnetmon.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\netshell.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\sspicli.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\netiohlp.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\nettrace.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\crypt32.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\Wldap32.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\nshhttp.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\httpapi.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\nshipsec.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\activeds.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\adsldpc.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\winipsec.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\polstore.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\nshwfp.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\cabinet.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\cryptbase.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\p2pnetsh.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\P2P.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\rpcnsh.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\WcnNetsh.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\wlanapi.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\whhelper.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\winhttp.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\cryptsp.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\wlancfg.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\wcmapi.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\wshelper.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\rmclient.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\mobilenetworking.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\wevtapi.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\mswsock.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\gpapi.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\wwancfg.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\wwapi.dll,-,-,-,-,-,-
+11,C:\Windows\system32\netsh.exe,-,C:\Users\unina\AppData\Local\PeerDistRepub,-,-,-,-,-,-,-
+13,C:\Windows\system32\netsh.exe,-,-,-,-,-,SetValue,HKLM\SOFTWARE\Microsoft\Tracing\MPRAPI\EnableFileTracing,-,-
+13,C:\Windows\system32\netsh.exe,-,-,-,-,-,SetValue,HKLM\SOFTWARE\Microsoft\Tracing\MPRAPI\EnableAutoFileTracing,-,-
+13,C:\Windows\system32\netsh.exe,-,-,-,-,-,SetValue,HKLM\SOFTWARE\Microsoft\Tracing\MPRAPI\EnableConsoleTracing,-,-
+13,C:\Windows\system32\netsh.exe,-,-,-,-,-,SetValue,HKLM\SOFTWARE\Microsoft\Tracing\MPRAPI\FileTracingMask,-,-
+13,C:\Windows\system32\netsh.exe,-,-,-,-,-,SetValue,HKLM\SOFTWARE\Microsoft\Tracing\MPRAPI\ConsoleTracingMask,-,-
+13,C:\Windows\system32\netsh.exe,-,-,-,-,-,SetValue,HKLM\SOFTWARE\Microsoft\Tracing\MPRAPI\MaxFileSize,-,-
+13,C:\Windows\system32\netsh.exe,-,-,-,-,-,SetValue,HKLM\SOFTWARE\Microsoft\Tracing\MPRAPI\FileDirectory,-,-
+13,C:\Windows\system32\netsh.exe,-,-,-,-,-,SetValue,HKLM\System\CurrentControlSet\Services\PortProxy\v4tov4\tcp\10.35.8.17/5446,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\PeerDistSh.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\slc.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\sppc.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\msasn1.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\ktmw32.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\mprmsg.dll,-,-,-,-,-,-
+7,C:\Windows\System32\netsh.exe,-,-,C:\Windows\System32\rtutils.dll,-,-,-,-,-,-

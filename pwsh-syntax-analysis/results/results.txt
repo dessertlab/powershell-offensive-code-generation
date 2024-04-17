@@ -1,0 +1,127 @@
+codegen nopretrain 95.58 95.58 5 5
+codegen pretrained 97.35 97.35 3 3
+codegpt nopretrain 97.35 98.23 3 2
+codegpt pretrained 98.23 98.23 2 2 
+codet5  nopretrain 93.81 93.81 7 7
+codet5  pretrained 91.15 92.04 10 9
+
+
+
+Count valid ParseError: 2/113
+Count valid Error: 2/111
+Count valid Warning: 35/111
+PSAvoidUsingInvokeExpression            14
+PSAvoidUsingCmdletAliases               14
+PSAvoidUsingWMICmdlet                    5
+PSUseDeclaredVarsMoreThanAssignments     2
+dtype: int64
+codegen_pretrained.csv
+Percentage ParseError: 1.77
+Percentage Error: 1.8
+Percentage Warning: 31.53
+
+Percentage Double: 98.23
+
+Count valid ParseError: 2/113
+Count valid Error: 3/111
+Count valid Warning: 33/111
+PSAvoidUsingInvokeExpression            17
+PSAvoidUsingCmdletAliases                7
+PSAvoidUsingWMICmdlet                    5
+PSUseDeclaredVarsMoreThanAssignments     4
+dtype: int64
+codegpt_nopretrain.csv
+Percentage ParseError: 1.77
+Percentage Error: 2.7
+Percentage Warning: 29.73
+
+Percentage Double: 98.23
+
+Count valid ParseError: 10/113
+Count valid Error: 2/103
+Count valid Warning: 37/103
+PSAvoidUsingInvokeExpression            16
+PSAvoidUsingCmdletAliases               10
+PSUseDeclaredVarsMoreThanAssignments     6
+PSAvoidUsingWMICmdlet                    5
+dtype: int64
+Answer: ('UnexpectedCharactersAfterHereStringHeader', 'ParseError') 108
+codet5_pretrained.csv
+Percentage ParseError: 8.85
+Percentage Error: 1.94
+Percentage Warning: 35.92
+
+Percentage Double: 92.04
+
+Count valid ParseError: 3/113
+Count valid Error: 0/110
+Count valid Warning: 43/110
+PSAvoidUsingCmdletAliases               22
+PSAvoidUsingInvokeExpression            14
+PSUseDeclaredVarsMoreThanAssignments     4
+PSAvoidUsingWMICmdlet                    3
+dtype: int64
+groundtruth.csv
+Percentage ParseError: 2.65
+Percentage Error: 0.0
+Percentage Warning: 39.09
+
+Percentage Double: 92.04
+
+
+
+############## chatgpt
+
+
+01-Feb-24 22:59:05 - Answer: Answer             $psbypass = New-Object PSBypass; $psbypass.Inv...
+Answer             $psbypass = New-Object PSBypass; $psbypass.Inv...
+Ground Truth       $Bypass = New-Object System.Management.Automat...
+ANSWER Rulename            ['UnexpectedToken ', ' UnexpectedToken ']
+ANSWER Message     ["Unexpected token '-Mimikatz' in expression o...
+ANSWER Severity                       ['ParseError ', ' ParseError']
+TRUTH Rulename                                                  ['']
+TRUTH Message                                                   ['']
+TRUTH Severity                                                  ['']
+Name: 30, dtype: object 30
+01-Feb-24 22:59:05 - Answer: Answer             Invoke-Mimikatz -Command '\kerberos::golden /d...
+Answer             Invoke-Mimikatz -Command '\kerberos::golden /d...
+Ground Truth       ticketer.py -nthash < krbtgt_hash> -domain < c...
+ANSWER Rulename                 ['TerminatorExpectedAtEndOfString ']
+ANSWER Message         ['The string is missing the terminator: ". ']
+ANSWER Severity                                       ['ParseError']
+TRUTH Rulename     ['RedirectionNotSupported ', ' RedirectionNotS...
+TRUTH Message      ["The '<' operator is reserved for future use....
+TRUTH Severity     ['ParseError ', ' ParseError ', ' ParseError '...
+Name: 86, dtype: object 86
+01-Feb-24 22:59:05 - Answer: Answer             Invoke-Mimikatz -Command '\kerberos::tgt /user...
+Answer             Invoke-Mimikatz -Command '\kerberos::tgt /user...
+Ground Truth       Rubeus.exe asktgs /service:cifs/dc.doamin.exte...
+ANSWER Rulename                 ['TerminatorExpectedAtEndOfString ']
+ANSWER Message         ['The string is missing the terminator: ". ']
+ANSWER Severity                                       ['ParseError']
+TRUTH Rulename                                                  ['']
+TRUTH Message                                                   ['']
+TRUTH Severity                                                  ['']
+Name: 92, dtype: object 92
+01-Feb-24 22:59:05 - Answer: Answer             Add-Type @" using System; using System.Runtime...
+Answer             Add-Type @" using System; using System.Runtime...
+Ground Truth       Add-Type -TypeDefinition @" using System; usin...
+ANSWER Rulename       ['UnexpectedCharactersAfterHereStringHeader ']
+ANSWER Message     ['No characters are allowed after a here-strin...
+ANSWER Severity                                       ['ParseError']
+TRUTH Rulename     ['UnexpectedCharactersAfterHereStringHeader ',...
+TRUTH Message      ['No characters are allowed after a here-strin...
+TRUTH Severity     ['ParseError ', ' ParseError ', ' ParseError '...
+Name: 108, dtype: object 108
+01-Feb-24 22:59:05 - Answer: Answer             Add-Type @" public class MaliciousCode { publi...
+Answer             Add-Type @" public class MaliciousCode { publi...
+Ground Truth       Add-Type -TypeDefinition 'using System; public...
+ANSWER Rulename       ['UnexpectedCharactersAfterHereStringHeader ']
+ANSWER Message     ['No characters are allowed after a here-strin...
+ANSWER Severity                                       ['ParseError']
+TRUTH Rulename                                                  ['']
+TRUTH Message                                                   ['']
+TRUTH Severity                                                  ['']
+Name: 109, dtype: object 109
+01-Feb-24 22:59:05 - Count valid ParseErrors: 5/113
+Syntax metric single:  95.58
