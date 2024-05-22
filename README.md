@@ -64,6 +64,8 @@ In which:
 - The `pwsh-syntax-analysis` contains all the script needed for the Static analysis of the generated code
 - `Text-to-code` forked from [CodeXGLUE](https://github.com/microsoft/CodeXGLUE) is a framework used for the fine-tuning operation
 
+> We also provided a repository with scripts to help with inference and training. Find it at https://github.com/dessertlab/powershell-offensive-code-generation-Artifact.
+
 ## Installation Steps
 
 ### Install the dependencies
